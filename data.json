@@ -3330,14 +3330,14 @@
     "imgUrl": "/assets/images/rookie_2018.png"
   },
   {
-    "id": "LPL_2018_Worlds_IG_BOT_JackeyLoce",
-    "playerName": "JackeyLoce",
+    "id": "LPL_2018_Worlds_IG_BOT_JackeyLove",
+    "playerName": "JackeyLove",
     "position": "BOT",
     "team": "IG",
     "league": "LPL",
     "season": "2018 Worlds",
     "baseTier": 5,
-    "imgUrl": "/assets/images/jackeyloce_2018.png"
+    "imgUrl": "/assets/images/jackeylove_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_IG_SUP_Baolan",
@@ -5290,9 +5290,19 @@
     "imgUrl": "/assets/images/targamas_2022.png"
   },
   {
-    "id": "LCS_2022_MSI_EG_TOP_Inspired",
-    "playerName": "Inspired",
+    "id": "LCS_2022_MSI_EG_TOP_Impact",
+    "playerName": "Impact",
     "position": "TOP",
+    "team": "EG",
+    "league": "LCS",
+    "season": "2022 MSI",
+    "baseTier": 3,
+    "imgUrl": "/assets/images/impact_2022.png"
+  },
+  {
+    "id": "LCS_2022_MSI_EG_JGL_Inspired",
+    "playerName": "Inspired",
+    "position": "JGL",
     "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
@@ -5302,7 +5312,7 @@
   {
     "id": "LCS_2022_MSI_EG_JGL_Jojopyun",
     "playerName": "Jojopyun",
-    "position": "JGL",
+    "position": "MID",
     "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
@@ -5312,7 +5322,7 @@
   {
     "id": "LCS_2022_MSI_EG_MID_Danny",
     "playerName": "Danny",
-    "position": "MID",
+    "position": "BOT",
     "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
@@ -5322,7 +5332,7 @@
   {
     "id": "LCS_2022_MSI_EG_BOT_Vulcan",
     "playerName": "Vulcan",
-    "position": "BOT",
+    "position": "SUP",
     "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
@@ -7711,13 +7721,13 @@
   },
   {
     "id": "_2026_MSI_HLE_JGL_Peanut",
-    "playerName": "Peanut",
+    "playerName": "Kanavi",
     "position": "JGL",
     "team": "HLE",
     "league": "",
     "season": "2026 MSI",
     "baseTier": 5,
-    "imgUrl": "/assets/images/peanut_2026.png"
+    "imgUrl": "/assets/images/kanavi_2026.png"
   },
   {
     "id": "_2026_MSI_HLE_MID_Zeka",
