@@ -36,13 +36,18 @@ export function drawCard(position: Position, phase: DrawPhase, rng: Rng = Math.r
 }
 
 /**
- * 누적 앵커 보정: 리롤 n회차마다 각 슬롯이 HOLD 카드와 같은 팀·시즌 선수로 나올 확률.
+ * 누적 앵커 보정: 리롤 n회차마다 각 슬롯이 앵커와 같은 팀·시즌 선수로 나올 확률.
+ * 같은 팀·시즌 선수가 3명 이상 등장하면 추가 가산(+15%p)되어 레전더리 완성 확률이 더 올라간다.
  * 실패하면 기존 리롤 확률표(TIER_WEIGHTS.reroll)로 드로우.
  */
 export const ANCHOR_CHANCE_BY_REROLL: readonly number[] = [0.1, 0.2, 0.3];
+export const ANCHOR_BOOST_MIN_COUNT = 3;
+export const ANCHOR_BOOST_BONUS = 0.15;
 
-export function anchorChance(rerollIndex: number): number {
-  return ANCHOR_CHANCE_BY_REROLL[Math.min(rerollIndex, ANCHOR_CHANCE_BY_REROLL.length - 1)] ?? 0;
+export function anchorChance(rerollIndex: number, matchCount = 1): number {
+  const base = ANCHOR_CHANCE_BY_REROLL[Math.min(rerollIndex, ANCHOR_CHANCE_BY_REROLL.length - 1)] ?? 0;
+  const boost = matchCount >= ANCHOR_BOOST_MIN_COUNT ? ANCHOR_BOOST_BONUS : 0;
+  return Math.min(1, base + boost);
 }
 
 export function drawRerollCard(
@@ -51,7 +56,7 @@ export function drawRerollCard(
   rerollIndex: number,
   rng: Rng = Math.random,
 ): Card {
-  if (anchor && rng() < anchorChance(rerollIndex)) {
+  if (anchor && rng() < anchorChance(rerollIndex, anchor.count)) {
     const roster = ROSTER_INDEX.get(rosterKey(anchor.team, anchor.season, position));
     if (roster && roster.length > 0) return pick(roster, rng);
   }

@@ -1,6 +1,6 @@
 import { ALL_CARDS } from '../data/cards';
 import { MAX_REROLLS, canReroll, cardsOf, findAnchor, rerollsLeft } from '../game/draft';
-import { ANCHOR_CHANCE_BY_REROLL, TIER_WEIGHTS, anchorChance } from '../game/probability';
+import { ANCHOR_BOOST_BONUS, ANCHOR_BOOST_MIN_COUNT, ANCHOR_CHANCE_BY_REROLL, TIER_WEIGHTS, anchorChance } from '../game/probability';
 import { evaluateSynergy, finalTier, teamScore, topMatch } from '../game/synergy';
 import { POSITIONS, type Card, type GameState, type Position, type Slot, type SynergyResult } from '../types';
 
@@ -197,7 +197,7 @@ export function renderHome(ownedCount: number): string {
 
     <section class="grid w-full gap-3 text-left text-sm text-slate-300 sm:grid-cols-3">
       <div class="panel"><b class="text-slate-100">1. 드래프트</b><br/>5개 포지션에 카드가 1장씩 배치됩니다.<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.initial)}</span></div>
-      <div class="panel"><b class="text-slate-100">2. 홀드 &amp; 리롤</b><br/>카드를 클릭해 고정하고, 나머지를 최대 ${MAX_REROLLS}회 다시 뽑습니다. 리롤할수록 HOLD한 카드의 팀원이 나올 확률 ↑ (${ANCHOR_CHANCE_BY_REROLL.map((p) => `${p * 100}%`).join('→')})<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.reroll)}</span></div>
+      <div class="panel"><b class="text-slate-100">2. 홀드 &amp; 리롤</b><br/>카드를 클릭해 고정하고, 나머지를 최대 ${MAX_REROLLS}회 다시 뽑습니다. 리롤할수록 같은 팀·시즌 확률 ↑ (${ANCHOR_CHANCE_BY_REROLL.map((p) => `${p * 100}%`).join('→')}, ${ANCHOR_BOOST_MIN_COUNT}명 모이면 +${Math.round(ANCHOR_BOOST_BONUS * 100)}%p)<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.reroll)}</span></div>
       <div class="panel"><b class="text-slate-100">3. 시너지</b><br/>같은 팀 <span class="text-emerald-300">3~4장</span> 해당 카드 +1, 같은 리그/시즌 +1, 같은 팀 <span class="text-amber-300">프레스티지</span> +1, 같은 팀+시즌 <span class="text-fuchsia-300">레전더리</span> +2</div>
     </section>
   </main>`;
@@ -231,9 +231,13 @@ function synergyPanel(state: GameState, synergy: SynergyResult): string {
        </div>`
     : '';
   const anchor = state.phase === 'drafting' ? findAnchor(state) : null;
+  const boostBadge =
+    anchor && anchor.count >= ANCHOR_BOOST_MIN_COUNT
+      ? ` <span class="font-bold text-amber-300">(${anchor.count}명 집결 확률 UP!)</span>`
+      : '';
   const anchorHint =
     anchor && canReroll(state)
-      ? `<div class="mt-1 text-xs text-cyan-300/80">다음 리롤: 슬롯마다 ${Math.round(anchorChance(state.rerollsUsed) * 100)}% 확률로 ${esc(anchor.season)} ${esc(anchor.team)} 선수 등장</div>`
+      ? `<div class="mt-1 text-xs text-cyan-300/80">다음 리롤: 슬롯마다 ${Math.round(anchorChance(state.rerollsUsed, anchor.count) * 100)}% 확률로 ${esc(anchor.season)} ${esc(anchor.team)} 선수 등장${boostBadge}</div>`
       : '';
 
   return `

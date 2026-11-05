@@ -1,5 +1,5 @@
 import { POSITIONS, type Anchor, type Card, type GameState } from '../types';
-import { drawCard, drawRerollCard, type Rng } from './probability';
+import { ANCHOR_BOOST_MIN_COUNT, drawCard, drawRerollCard, type Rng } from './probability';
 
 export const MAX_REROLLS = 3;
 
@@ -34,23 +34,43 @@ export function toggleLock(state: GameState, index: number): GameState {
 }
 
 /**
- * 앵커 = HOLD한 카드 중 가장 많이 겹치는 팀·시즌 (동률이면 높은 티어 → 앞 슬롯 우선).
- * HOLD한 카드가 없으면 앵커 없음 → 일반 리롤.
+ * 앵커 선정:
+ * 1) 보드 전체에서 같은 팀·시즌 선수가 3명 이상 등장해 있거나,
+ * 2) 유저가 HOLD한 카드가 있는 팀·시즌 중
+ * 보드 등장 장수(boardCount) → HOLD 장수(lockedCount) → 기본 티어 순으로 가장 유리한 팀·시즌을 선택.
  */
 export function findAnchor(state: GameState): Anchor | null {
-  const groups = new Map<string, { anchor: Anchor; count: number; tier: number }>();
+  const groups = new Map<
+    string,
+    { team: string; season: string; boardCount: number; lockedCount: number; tier: number }
+  >();
   for (const { card, isLocked } of state.slots) {
-    if (!isLocked) continue;
     const key = `${card.team}|${card.season}`;
-    const g = groups.get(key) ?? { anchor: { team: card.team, season: card.season }, count: 0, tier: card.baseTier };
-    g.count += 1;
+    const g = groups.get(key) ?? {
+      team: card.team,
+      season: card.season,
+      boardCount: 0,
+      lockedCount: 0,
+      tier: card.baseTier,
+    };
+    g.boardCount += 1;
+    if (isLocked) g.lockedCount += 1;
     groups.set(key, g);
   }
-  let best: { anchor: Anchor; count: number; tier: number } | null = null;
+
+  let best: { team: string; season: string; boardCount: number; lockedCount: number; tier: number } | null = null;
   for (const g of groups.values()) {
-    if (!best || g.count > best.count || (g.count === best.count && g.tier > best.tier)) best = g;
+    if (g.lockedCount === 0 && g.boardCount < ANCHOR_BOOST_MIN_COUNT) continue;
+    if (
+      !best ||
+      g.boardCount > best.boardCount ||
+      (g.boardCount === best.boardCount && g.lockedCount > best.lockedCount) ||
+      (g.boardCount === best.boardCount && g.lockedCount === best.lockedCount && g.tier > best.tier)
+    ) {
+      best = g;
+    }
   }
-  return best?.anchor ?? null;
+  return best ? { team: best.team, season: best.season, count: best.boardCount } : null;
 }
 
 /** Re-roll: 고정되지 않은 슬롯만 다시 뽑기 (리롤 확률표 + 누적 앵커 보정). 마지막 리롤 후 자동 확정(HOLD 해제). */

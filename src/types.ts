@@ -65,9 +65,11 @@ export interface SynergyResult {
   partial: PartialSynergy | null;
 }
 
-/** 리롤 앵커: HOLD한 카드의 팀·시즌 */
+/** 리롤 앵커: HOLD한 카드(또는 보드에 3장 이상 모인 동일 팀·시즌) */
 export interface Anchor {
   team: string;
   season: string;
+  /** 현재 보드에 등장한 해당 팀·시즌 카드 수 */
+  count: number;
 }
 
