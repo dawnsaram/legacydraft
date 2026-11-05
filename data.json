@@ -1,0 +1,7103 @@
+[
+  {
+    "id": "LEC_2011_Worlds_FNC_TOP_xPeke",
+    "playerName": "xPeke",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2011_Worlds_FNC_JGL_Cyanide",
+    "playerName": "Cyanide",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2011_Worlds_FNC_MID_Shushei",
+    "playerName": "Shushei",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2011_Worlds_FNC_BOT_LaMiaZealot",
+    "playerName": "LaMiaZealot",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2011_Worlds_FNC_SUP_Mellisan",
+    "playerName": "Mellisan",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2011_Worlds_AAA_TOP_sOAZ",
+    "playerName": "sOAZ",
+    "position": "TOP",
+    "team": "AAA",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2011_Worlds_AAA_JGL_Linak",
+    "playerName": "Linak",
+    "position": "JGL",
+    "team": "AAA",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2011_Worlds_AAA_MID_MoMa",
+    "playerName": "MoMa",
+    "position": "MID",
+    "team": "AAA",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2011_Worlds_AAA_BOT_YellOwStaR",
+    "playerName": "YellOwStaR",
+    "position": "BOT",
+    "team": "AAA",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2011_Worlds_AAA_SUP_kujaa",
+    "playerName": "kujaa",
+    "position": "SUP",
+    "team": "AAA",
+    "league": "LEC",
+    "season": "2011 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2012_Worlds_AZF_TOP_Shy",
+    "playerName": "Shy",
+    "position": "TOP",
+    "team": "AZF",
+    "league": "LCK",
+    "season": "2012 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2012_Worlds_AZF_JGL_CloudTemplar",
+    "playerName": "CloudTemplar",
+    "position": "JGL",
+    "team": "AZF",
+    "league": "LCK",
+    "season": "2012 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2012_Worlds_AZF_MID_RapidStar",
+    "playerName": "RapidStar",
+    "position": "MID",
+    "team": "AZF",
+    "league": "LCK",
+    "season": "2012 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2012_Worlds_AZF_BOT_Woong",
+    "playerName": "Woong",
+    "position": "BOT",
+    "team": "AZF",
+    "league": "LCK",
+    "season": "2012 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2012_Worlds_AZF_SUP_MadLife",
+    "playerName": "MadLife",
+    "position": "SUP",
+    "team": "AZF",
+    "league": "LCK",
+    "season": "2012 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCP_2012_Worlds_TPA_TOP_Stanley",
+    "playerName": "Stanley",
+    "position": "TOP",
+    "team": "TPA",
+    "league": "LCP",
+    "season": "2012 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCP_2012_Worlds_TPA_JGL_Lilballz",
+    "playerName": "Lilballz",
+    "position": "JGL",
+    "team": "TPA",
+    "league": "LCP",
+    "season": "2012 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCP_2012_Worlds_TPA_MID_Toyz",
+    "playerName": "Toyz",
+    "position": "MID",
+    "team": "TPA",
+    "league": "LCP",
+    "season": "2012 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCP_2012_Worlds_TPA_BOT_BeBe",
+    "playerName": "BeBe",
+    "position": "BOT",
+    "team": "TPA",
+    "league": "LCP",
+    "season": "2012 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCP_2012_Worlds_TPA_SUP_MiSTakE",
+    "playerName": "MiSTakE",
+    "position": "SUP",
+    "team": "TPA",
+    "league": "LCP",
+    "season": "2012 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2013_Worlds_SKT_TOP_Impact",
+    "playerName": "Impact",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2013_Worlds_SKT_JGL_Bengi",
+    "playerName": "Bengi",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2013_Worlds_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2013_Worlds_SKT_BOT_Piglet",
+    "playerName": "Piglet",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2013_Worlds_SKT_SUP_PoohManDu",
+    "playerName": "PoohManDu",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2013_Worlds_NBS_TOP_Expression",
+    "playerName": "Expression",
+    "position": "TOP",
+    "team": "NBS",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2013_Worlds_NBS_JGL_Watch",
+    "playerName": "Watch",
+    "position": "JGL",
+    "team": "NBS",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2013_Worlds_NBS_MID_Nagne",
+    "playerName": "Nagne",
+    "position": "MID",
+    "team": "NBS",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2013_Worlds_NBS_BOT_PraY",
+    "playerName": "PraY",
+    "position": "BOT",
+    "team": "NBS",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2013_Worlds_NBS_SUP_Cain",
+    "playerName": "Cain",
+    "position": "SUP",
+    "team": "NBS",
+    "league": "LCK",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2013_Worlds_RYL_TOP_GoDlike",
+    "playerName": "GoDlike",
+    "position": "TOP",
+    "team": "RYL",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2013_Worlds_RYL_JGL_Lucky",
+    "playerName": "Lucky",
+    "position": "JGL",
+    "team": "RYL",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2013_Worlds_RYL_MID_Wh1t3zZ",
+    "playerName": "Wh1t3zZ",
+    "position": "MID",
+    "team": "RYL",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2013_Worlds_RYL_BOT_Uzi",
+    "playerName": "Uzi",
+    "position": "BOT",
+    "team": "RYL",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2013_Worlds_RYL_SUP_Tabe",
+    "playerName": "Tabe",
+    "position": "SUP",
+    "team": "RYL",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2013_Worlds_OMG_TOP_Gogoing",
+    "playerName": "Gogoing",
+    "position": "TOP",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2013_Worlds_OMG_JGL_LoveLing",
+    "playerName": "LoveLing",
+    "position": "JGL",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2013_Worlds_OMG_MID_Cool",
+    "playerName": "Cool",
+    "position": "MID",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2013_Worlds_OMG_BOT_san",
+    "playerName": "san",
+    "position": "BOT",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2013_Worlds_OMG_SUP_Pomelo",
+    "playerName": "Pomelo",
+    "position": "SUP",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2013_Worlds_FNC_TOP_sOAZ",
+    "playerName": "sOAZ",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2013_Worlds_FNC_JGL_Cynanide",
+    "playerName": "Cynanide",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2013_Worlds_FNC_MID_xPeke",
+    "playerName": "xPeke",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2013_Worlds_FNC_BOT_puszu",
+    "playerName": "puszu",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2013_Worlds_FNC_SUP_YellOwStaR",
+    "playerName": "YellOwStaR",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2013_Worlds_GMB_TOP_Darien",
+    "playerName": "Darien",
+    "position": "TOP",
+    "team": "GMB",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2013_Worlds_GMB_JGL_Diamondprox",
+    "playerName": "Diamondprox",
+    "position": "JGL",
+    "team": "GMB",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2013_Worlds_GMB_MID_AlexIch",
+    "playerName": "Alex Ich",
+    "position": "MID",
+    "team": "GMB",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2013_Worlds_GMB_BOT_Genja",
+    "playerName": "Genja",
+    "position": "BOT",
+    "team": "GMB",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2013_Worlds_GMB_SUP_Voidle",
+    "playerName": "Voidle",
+    "position": "SUP",
+    "team": "GMB",
+    "league": "LEC",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2013_Worlds_C9_TOP_Balls",
+    "playerName": "Balls",
+    "position": "TOP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2013_Worlds_C9_JGL_Meteos",
+    "playerName": "Meteos",
+    "position": "JGL",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2013_Worlds_C9_MID_Hai",
+    "playerName": "Hai",
+    "position": "MID",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2013_Worlds_C9_BOT_Sneaky",
+    "playerName": "Sneaky",
+    "position": "BOT",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2013_Worlds_C9_SUP_LemonNation",
+    "playerName": "LemonNation",
+    "position": "SUP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2013_Worlds_GAB_TOP_Steak",
+    "playerName": "Steak",
+    "position": "TOP",
+    "team": "GAB",
+    "league": "LCP",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2013_Worlds_GAB_JGL_Winds",
+    "playerName": "Winds",
+    "position": "JGL",
+    "team": "GAB",
+    "league": "LCP",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2013_Worlds_GAB_MID_Maple",
+    "playerName": "Maple",
+    "position": "MID",
+    "team": "GAB",
+    "league": "LCP",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2013_Worlds_GAB_BOT_NL",
+    "playerName": "NL",
+    "position": "BOT",
+    "team": "GAB",
+    "league": "LCP",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2013_Worlds_GAB_SUP_SwordArt",
+    "playerName": "SwordArt",
+    "position": "SUP",
+    "team": "GAB",
+    "league": "LCP",
+    "season": "2013 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2014_Worlds_SSW_TOP_Looper",
+    "playerName": "Looper",
+    "position": "TOP",
+    "team": "SSW",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2014_Worlds_SSW_JGL_DanDy",
+    "playerName": "DanDy",
+    "position": "JGL",
+    "team": "SSW",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2014_Worlds_SSW_MID_PawN",
+    "playerName": "PawN",
+    "position": "MID",
+    "team": "SSW",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2014_Worlds_SSW_BOT_imp",
+    "playerName": "imp",
+    "position": "BOT",
+    "team": "SSW",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2014_Worlds_SSW_SUP_Mata",
+    "playerName": "Mata",
+    "position": "SUP",
+    "team": "SSW",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2014_Worlds_SSB_TOP_Acorn",
+    "playerName": "Acorn",
+    "position": "TOP",
+    "team": "SSB",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2014_Worlds_SSB_JGL_Spirit",
+    "playerName": "Spirit",
+    "position": "JGL",
+    "team": "SSB",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2014_Worlds_SSB_MID_Dade",
+    "playerName": "Dade",
+    "position": "MID",
+    "team": "SSB",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2014_Worlds_SSB_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "SSB",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2014_Worlds_SSB_SUP_Heart",
+    "playerName": "Heart",
+    "position": "SUP",
+    "team": "SSB",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2014_Worlds_NWS_TOP_Save",
+    "playerName": "Save",
+    "position": "TOP",
+    "team": "NWS",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2014_Worlds_NWS_JGL_Watch",
+    "playerName": "Watch",
+    "position": "JGL",
+    "team": "NWS",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2014_Worlds_NWS_MID_Ggoong",
+    "playerName": "Ggoong",
+    "position": "MID",
+    "team": "NWS",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2014_Worlds_NWS_BOT_Zefa",
+    "playerName": "Zefa",
+    "position": "BOT",
+    "team": "NWS",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2014_Worlds_NWS_SUP_GorillA",
+    "playerName": "GorillA",
+    "position": "SUP",
+    "team": "NWS",
+    "league": "LCK",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2014_Worlds_SHR_TOP_Cola",
+    "playerName": "Cola",
+    "position": "TOP",
+    "team": "SHR",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_SHR_JGL_inSec",
+    "playerName": "inSec",
+    "position": "JGL",
+    "team": "SHR",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_SHR_MID_Corn",
+    "playerName": "Corn",
+    "position": "MID",
+    "team": "SHR",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_SHR_BOT_Uzi",
+    "playerName": "Uzi",
+    "position": "BOT",
+    "team": "SHR",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_SHR_SUP_Zero",
+    "playerName": "Zero",
+    "position": "SUP",
+    "team": "SHR",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_EDG_TOP_Korol",
+    "playerName": "Korol",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2014_Worlds_EDG_JGL_Clearlove",
+    "playerName": "Clearlove",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2014_Worlds_EDG_MID_U",
+    "playerName": "U",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2014_Worlds_EDG_BOT_NaMei",
+    "playerName": "NaMei",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2014_Worlds_EDG_SUP_FZZF",
+    "playerName": "FZZF",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2014_Worlds_OMG_TOP_Gogoing",
+    "playerName": "Gogoing",
+    "position": "TOP",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_OMG_JGL_LoveLing",
+    "playerName": "LoveLing",
+    "position": "JGL",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_OMG_MID_Cool",
+    "playerName": "Cool",
+    "position": "MID",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_OMG_BOT_san",
+    "playerName": "san",
+    "position": "BOT",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2014_Worlds_OMG_SUP_Cloud",
+    "playerName": "Cloud",
+    "position": "SUP",
+    "team": "OMG",
+    "league": "LPL",
+    "season": "2014 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2014_Worlds_C9_TOP_Balls",
+    "playerName": "Balls",
+    "position": "TOP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_C9_JGL_Meteos",
+    "playerName": "Meteos",
+    "position": "JGL",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_C9_MID_Hai",
+    "playerName": "Hai",
+    "position": "MID",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_C9_BOT_Sneaky",
+    "playerName": "Sneaky",
+    "position": "BOT",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_C9_SUP_LemonNation",
+    "playerName": "LemonNation",
+    "position": "SUP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_TSM_TOP_Dyrus",
+    "playerName": "Dyrus",
+    "position": "TOP",
+    "team": "TSM",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_TSM_JGL_Amazing",
+    "playerName": "Amazing",
+    "position": "JGL",
+    "team": "TSM",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_TSM_MID_Bjergsen",
+    "playerName": "Bjergsen",
+    "position": "MID",
+    "team": "TSM",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_TSM_BOT_WildTurtle",
+    "playerName": "WildTurtle",
+    "position": "BOT",
+    "team": "TSM",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2014_Worlds_TSM_SUP_Lustboy",
+    "playerName": "Lustboy",
+    "position": "SUP",
+    "team": "TSM",
+    "league": "LCS",
+    "season": "2014 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_MSI_SKT_TOP_MaRin",
+    "playerName": "MaRin",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_MSI_SKT_JGL_Bengi",
+    "playerName": "Bengi",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_MSI_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_MSI_SKT_MID_Easyhoon",
+    "playerName": "Easyhoon",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_MSI_SKT_BOT_Bang",
+    "playerName": "Bang",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_MSI_SKT_SUP_Wolf",
+    "playerName": "Wolf",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2015_MSI_EDG_TOP_Korol",
+    "playerName": "Korol",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2015_MSI_EDG_JGL_Clearlove",
+    "playerName": "Clearlove",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2015_MSI_EDG_MID_PawN",
+    "playerName": "PawN",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2015_MSI_EDG_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2015_MSI_EDG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2015_MSI_FNC_TOP_Huni",
+    "playerName": "Huni",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2015_MSI_FNC_JGL_Reignover",
+    "playerName": "Reignover",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2015_MSI_FNC_MID_Febiven",
+    "playerName": "Febiven",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2015_MSI_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2015_MSI_FNC_SUP_YellOwStaR",
+    "playerName": "YellOwStaR",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_MSI_AHQ_TOP_Ziv",
+    "playerName": "Ziv",
+    "position": "TOP",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_MSI_AHQ_JGL_Mountain",
+    "playerName": "Mountain",
+    "position": "JGL",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_MSI_AHQ_MID_Westdoor",
+    "playerName": "Westdoor",
+    "position": "MID",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_MSI_AHQ_BOT_Anex",
+    "playerName": "Anex",
+    "position": "BOT",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_MSI_AHQ_SUP_Albis",
+    "playerName": "Albis",
+    "position": "SUP",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_Worlds_SKT_TOP_MaRin",
+    "playerName": "MaRin",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2015_Worlds_SKT_JGL_Bengi",
+    "playerName": "Bengi",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2015_Worlds_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2015_Worlds_SKT_MID_Easyhoon",
+    "playerName": "Easyhoon",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2015_Worlds_SKT_BOT_Bang",
+    "playerName": "Bang",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2015_Worlds_SKT_SUP_Wolf",
+    "playerName": "Wolf",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2015_Worlds_KT_TOP_Ssumday",
+    "playerName": "Ssumday",
+    "position": "TOP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_Worlds_KT_JGL_Score",
+    "playerName": "Score",
+    "position": "JGL",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_Worlds_KT_MID_Nagne",
+    "playerName": "Nagne",
+    "position": "MID",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_Worlds_KT_BOT_Arrow",
+    "playerName": "Arrow",
+    "position": "BOT",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_Worlds_KT_SUP_Piccaboo",
+    "playerName": "Piccaboo",
+    "position": "SUP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2015_Worlds_KOO_TOP_Smeb",
+    "playerName": "Smeb",
+    "position": "TOP",
+    "team": "KOO",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_Worlds_KOO_JGL_Hojin",
+    "playerName": "Hojin",
+    "position": "JGL",
+    "team": "KOO",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_Worlds_KOO_MID_Kuro",
+    "playerName": "Kuro",
+    "position": "MID",
+    "team": "KOO",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_Worlds_KOO_BOT_PraY",
+    "playerName": "PraY",
+    "position": "BOT",
+    "team": "KOO",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2015_Worlds_KOO_SUP_GorillA",
+    "playerName": "GorillA",
+    "position": "SUP",
+    "team": "KOO",
+    "league": "LCK",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2015_Worlds_EDG_TOP_Korol",
+    "playerName": "Korol",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2015_Worlds_EDG_JGL_Clearlove",
+    "playerName": "Clearlove",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2015_Worlds_EDG_MID_PawN",
+    "playerName": "PawN",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2015_Worlds_EDG_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2015_Worlds_EDG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2015_Worlds_FNC_TOP_Huni",
+    "playerName": "Huni",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_FNC_JGL_Reignover",
+    "playerName": "Reignover",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_FNC_MID_Febiven",
+    "playerName": "Febiven",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_FNC_SUP_YellOwStaR",
+    "playerName": "YellOwStaR",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_OG_TOP_sOAZ",
+    "playerName": "sOAZ",
+    "position": "TOP",
+    "team": "OG",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_OG_JGL_Amazing",
+    "playerName": "Amazing",
+    "position": "JGL",
+    "team": "OG",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_OG_MID_xPeke",
+    "playerName": "xPeke",
+    "position": "MID",
+    "team": "OG",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_OG_BOT_Zven",
+    "playerName": "Zven",
+    "position": "BOT",
+    "team": "OG",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2015_Worlds_OG_SUP_Mithy",
+    "playerName": "Mithy",
+    "position": "SUP",
+    "team": "OG",
+    "league": "LEC",
+    "season": "2015 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCP_2015_Worlds_FW_TOP_Steak",
+    "playerName": "Steak",
+    "position": "TOP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_FW_JGL_Karsa",
+    "playerName": "Karsa",
+    "position": "JGL",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_FW_MID_Maple",
+    "playerName": "Maple",
+    "position": "MID",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_FW_BOT_NL",
+    "playerName": "NL",
+    "position": "BOT",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_FW_SUP_SwordArt",
+    "playerName": "SwordArt",
+    "position": "SUP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_AHQ_TOP_Ziv",
+    "playerName": "Ziv",
+    "position": "TOP",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_AHQ_JGL_Mountain",
+    "playerName": "Mountain",
+    "position": "JGL",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_AHQ_MID_Westdoor",
+    "playerName": "Westdoor",
+    "position": "MID",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_AHQ_BOT_Anex",
+    "playerName": "Anex",
+    "position": "BOT",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2015_Worlds_AHQ_SUP_Albis",
+    "playerName": "Albis",
+    "position": "SUP",
+    "team": "AHQ",
+    "league": "LCP",
+    "season": "2015 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2016_MSI_SKT_TOP_Duke",
+    "playerName": "Duke",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_MSI_SKT_JGL_Blank",
+    "playerName": "Blank",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_MSI_SKT_JGL_Bengi",
+    "playerName": "Bengi",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_MSI_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_MSI_SKT_BOT_Bang",
+    "playerName": "Bang",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_MSI_SKT_SUP_Wolf",
+    "playerName": "Wolf",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2016_MSI_RNG_TOP_Looper",
+    "playerName": "Looper",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_MSI_RNG_JGL_Mlxg",
+    "playerName": "Mlxg",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_MSI_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_MSI_RNG_BOT_Wuxx",
+    "playerName": "Wuxx",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_MSI_RNG_SUP_Mata",
+    "playerName": "Mata",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2016_MSI_CLG_TOP_Darshan",
+    "playerName": "Darshan",
+    "position": "TOP",
+    "team": "CLG",
+    "league": "LCS",
+    "season": "2016 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2016_MSI_CLG_JGL_Xmithie",
+    "playerName": "Xmithie",
+    "position": "JGL",
+    "team": "CLG",
+    "league": "LCS",
+    "season": "2016 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2016_MSI_CLG_MID_Huhi",
+    "playerName": "Huhi",
+    "position": "MID",
+    "team": "CLG",
+    "league": "LCS",
+    "season": "2016 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2016_MSI_CLG_BOT_Stixxay",
+    "playerName": "Stixxay",
+    "position": "BOT",
+    "team": "CLG",
+    "league": "LCS",
+    "season": "2016 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2016_MSI_CLG_SUP_aphromoo",
+    "playerName": "aphromoo",
+    "position": "SUP",
+    "team": "CLG",
+    "league": "LCS",
+    "season": "2016 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCP_2016_MSI_FW_TOP_MMD",
+    "playerName": "MMD",
+    "position": "TOP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2016_MSI_FW_JGL_Karsa",
+    "playerName": "Karsa",
+    "position": "JGL",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2016_MSI_FW_MID_Maple",
+    "playerName": "Maple",
+    "position": "MID",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2016_MSI_FW_BOT_NL",
+    "playerName": "NL",
+    "position": "BOT",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2016_MSI_FW_SUP_SwordARt",
+    "playerName": "SwordARt",
+    "position": "SUP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2016 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2016_Worlds_SKT_TOP_Duke",
+    "playerName": "Duke",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_Worlds_SKT_JGL_Blank",
+    "playerName": "Blank",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_Worlds_SKT_JGL_Bengi",
+    "playerName": "Bengi",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_Worlds_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_Worlds_SKT_BOT_Bang",
+    "playerName": "Bang",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_Worlds_SKT_SUP_Wolf",
+    "playerName": "Wolf",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2016_Worlds_ROX_TOP_Smeb",
+    "playerName": "Smeb",
+    "position": "TOP",
+    "team": "ROX",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_ROX_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "ROX",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_ROX_MID_Kuro",
+    "playerName": "Kuro",
+    "position": "MID",
+    "team": "ROX",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_ROX_BOT_PraY",
+    "playerName": "PraY",
+    "position": "BOT",
+    "team": "ROX",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_ROX_SUP_GorillA",
+    "playerName": "GorillA",
+    "position": "SUP",
+    "team": "ROX",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_SSG_TOP_CuVee",
+    "playerName": "CuVee",
+    "position": "TOP",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_SSG_JGL_Ambition",
+    "playerName": "Ambition",
+    "position": "JGL",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_SSG_MID_Crown",
+    "playerName": "Crown",
+    "position": "MID",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_SSG_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2016_Worlds_SSG_SUP_CoreJJ",
+    "playerName": "CoreJJ",
+    "position": "SUP",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2016_Worlds_RNG_TOP_Looper",
+    "playerName": "Looper",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_RNG_JGL_Mlxg",
+    "playerName": "Mlxg",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_RNG_BOT_Uzi",
+    "playerName": "Uzi",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_RNG_SUP_Mata",
+    "playerName": "Mata",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_EDG_TOP_Korol",
+    "playerName": "Korol",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_EDG_JGL_Clearlove",
+    "playerName": "Clearlove",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_EDG_MID_Scout",
+    "playerName": "Scout",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_EDG_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2016_Worlds_EDG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2016_Worlds_H2K_TOP_Odoamne",
+    "playerName": "Odoamne",
+    "position": "TOP",
+    "team": "H2K",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2016_Worlds_H2K_JGL_Jankos",
+    "playerName": "Jankos",
+    "position": "JGL",
+    "team": "H2K",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2016_Worlds_H2K_MID_Ryu",
+    "playerName": "Ryu",
+    "position": "MID",
+    "team": "H2K",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2016_Worlds_H2K_BOT_FORG1VEN",
+    "playerName": "FORG1VEN",
+    "position": "BOT",
+    "team": "H2K",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2016_Worlds_H2K_SUP_Vander",
+    "playerName": "Vander",
+    "position": "SUP",
+    "team": "H2K",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2016_Worlds_ANX_TOP_Smurf",
+    "playerName": "Smurf",
+    "position": "TOP",
+    "team": "ANX",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2016_Worlds_ANX_JGL_PvPStejos",
+    "playerName": "PvPStejos",
+    "position": "JGL",
+    "team": "ANX",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2016_Worlds_ANX_MID_Kira",
+    "playerName": "Kira",
+    "position": "MID",
+    "team": "ANX",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2016_Worlds_ANX_BOT_aMiracle",
+    "playerName": "aMiracle",
+    "position": "BOT",
+    "team": "ANX",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2016_Worlds_ANX_SUP_Likkrit",
+    "playerName": "Likkrit",
+    "position": "SUP",
+    "team": "ANX",
+    "league": "LEC",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2016_Worlds_C9_TOP_Impact",
+    "playerName": "Impact",
+    "position": "TOP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2016_Worlds_C9_JGL_Meteos",
+    "playerName": "Meteos",
+    "position": "JGL",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2016_Worlds_C9_MID_Jensen",
+    "playerName": "Jensen",
+    "position": "MID",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2016_Worlds_C9_BOT_Sneaky",
+    "playerName": "Sneaky",
+    "position": "BOT",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2016_Worlds_C9_SUP_Smoothie",
+    "playerName": "Smoothie",
+    "position": "SUP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2016 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_MSI_SKT_TOP_Huni",
+    "playerName": "Huni",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_MSI_SKT_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_MSI_SKT_JGL_Blank",
+    "playerName": "Blank",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_MSI_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_MSI_SKT_BOT_Bang",
+    "playerName": "Bang",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_MSI_SKT_SUP_Wolf",
+    "playerName": "Wolf",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2017_MSI_WE_TOP_957",
+    "playerName": "957",
+    "position": "TOP",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2017_MSI_WE_JGL_Condi",
+    "playerName": "Condi",
+    "position": "JGL",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2017_MSI_WE_MID_Xiye",
+    "playerName": "Xiye",
+    "position": "MID",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2017_MSI_WE_BOT_Mystic",
+    "playerName": "Mystic",
+    "position": "BOT",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2017_MSI_WE_SUP_Ben",
+    "playerName": "Ben",
+    "position": "SUP",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2017_MSI_WE_SUP_Zero",
+    "playerName": "Zero",
+    "position": "SUP",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_MSI_G2_TOP_Expect",
+    "playerName": "Expect",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2017 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2017_MSI_G2_JGL_Trick",
+    "playerName": "Trick",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2017 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2017_MSI_G2_MID_Perkz",
+    "playerName": "Perkz",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2017 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2017_MSI_G2_BOT_Zven",
+    "playerName": "Zven",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2017 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2017_MSI_G2_SUP_Mithy",
+    "playerName": "Mithy",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2017 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCP_2017_MSI_FW_TOP_MMD",
+    "playerName": "MMD",
+    "position": "TOP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2017_MSI_FW_JGL_Karsa",
+    "playerName": "Karsa",
+    "position": "JGL",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2017_MSI_FW_MID_Maple",
+    "playerName": "Maple",
+    "position": "MID",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2017_MSI_FW_BOT_Betty",
+    "playerName": "Betty",
+    "position": "BOT",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2017_MSI_FW_SUP_SwordArt",
+    "playerName": "SwordArt",
+    "position": "SUP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2017 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_SKT_TOP_Huni",
+    "playerName": "Huni",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2017_Worlds_SKT_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2017_Worlds_SKT_JGL_Blank",
+    "playerName": "Blank",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2017_Worlds_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2017_Worlds_SKT_BOT_Bang",
+    "playerName": "Bang",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2017_Worlds_SKT_SUP_Wolf",
+    "playerName": "Wolf",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2017_Worlds_LZ_TOP_Khan",
+    "playerName": "Khan",
+    "position": "TOP",
+    "team": "LZ",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_LZ_TOP_Rascal",
+    "playerName": "Rascal",
+    "position": "TOP",
+    "team": "LZ",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_LZ_JGL_Cuzz",
+    "playerName": "Cuzz",
+    "position": "JGL",
+    "team": "LZ",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_LZ_MID_Bdd",
+    "playerName": "Bdd",
+    "position": "MID",
+    "team": "LZ",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_LZ_BOT_PraY",
+    "playerName": "PraY",
+    "position": "BOT",
+    "team": "LZ",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_LZ_SUP_GorillA",
+    "playerName": "GorillA",
+    "position": "SUP",
+    "team": "LZ",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2017_Worlds_SSG_TOP_CuVee",
+    "playerName": "CuVee",
+    "position": "TOP",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_Worlds_SSG_JGL_Ambition",
+    "playerName": "Ambition",
+    "position": "JGL",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_Worlds_SSG_MID_Crown",
+    "playerName": "Crown",
+    "position": "MID",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_Worlds_SSG_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2017_Worlds_SSG_SUP_CoreJJ",
+    "playerName": "CoreJJ",
+    "position": "SUP",
+    "team": "SSG",
+    "league": "LCK",
+    "season": "2017 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2017_Worlds_RNG_TOP_Letme",
+    "playerName": "Letme",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_RNG_JGL_Mlxg",
+    "playerName": "Mlxg",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_RNG_BOT_Uzi",
+    "playerName": "Uzi",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_WE_TOP_957",
+    "playerName": "957",
+    "position": "TOP",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_WE_JGL_Condi",
+    "playerName": "Condi",
+    "position": "JGL",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_WE_MID_Xiye",
+    "playerName": "Xiye",
+    "position": "MID",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_WE_BOT_Mystic",
+    "playerName": "Mystic",
+    "position": "BOT",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_WE_SUP_Ben",
+    "playerName": "Ben",
+    "position": "SUP",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2017_Worlds_WE_SUP_Zero",
+    "playerName": "Zero",
+    "position": "SUP",
+    "team": "WE",
+    "league": "LPL",
+    "season": "2017 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2017_Worlds_MSF_TOP_Alphari",
+    "playerName": "Alphari",
+    "position": "TOP",
+    "team": "MSF",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_MSF_JGL_Maxlore",
+    "playerName": "Maxlore",
+    "position": "JGL",
+    "team": "MSF",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_MSF_MID_PowerOfEvil",
+    "playerName": "PowerOfEvil",
+    "position": "MID",
+    "team": "MSF",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_MSF_BOT_HansSama",
+    "playerName": "Hans Sama",
+    "position": "BOT",
+    "team": "MSF",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_MSF_SUP_IgNar",
+    "playerName": "IgNar",
+    "position": "SUP",
+    "team": "MSF",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_FNC_TOP_sOAZ",
+    "playerName": "sOAZ",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_FNC_JGL_Broxah",
+    "playerName": "Broxah",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_FNC_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2017_Worlds_FNC_SUP_Jesiz",
+    "playerName": "Jesiz",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2017_Worlds_C9_TOP_Impact",
+    "playerName": "Impact",
+    "position": "TOP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2017_Worlds_C9_JGL_Contractz",
+    "playerName": "Contractz",
+    "position": "JGL",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2017_Worlds_C9_MID_Jensen",
+    "playerName": "Jensen",
+    "position": "MID",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2017_Worlds_C9_BOT_Sneaky",
+    "playerName": "Sneaky",
+    "position": "BOT",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2017_Worlds_C9_SUP_Smoothie",
+    "playerName": "Smoothie",
+    "position": "SUP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2017 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_MSI_KZ_TOP_Khan",
+    "playerName": "Khan",
+    "position": "TOP",
+    "team": "KZ",
+    "league": "LCK",
+    "season": "2018 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2018_MSI_KZ_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "KZ",
+    "league": "LCK",
+    "season": "2018 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2018_MSI_KZ_JGL_Cuzz",
+    "playerName": "Cuzz",
+    "position": "JGL",
+    "team": "KZ",
+    "league": "LCK",
+    "season": "2018 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2018_MSI_KZ_MID_Bdd",
+    "playerName": "Bdd",
+    "position": "MID",
+    "team": "KZ",
+    "league": "LCK",
+    "season": "2018 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2018_MSI_KZ_BOT_PraY",
+    "playerName": "PraY",
+    "position": "BOT",
+    "team": "KZ",
+    "league": "LCK",
+    "season": "2018 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2018_MSI_KZ_SUP_GorillA",
+    "playerName": "GorillA",
+    "position": "SUP",
+    "team": "KZ",
+    "league": "LCK",
+    "season": "2018 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2018_MSI_RNG_TOP_Letme",
+    "playerName": "Letme",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_MSI_RNG_JGL_Karsa",
+    "playerName": "Karsa",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_MSI_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_MSI_RNG_BOT_Uzi",
+    "playerName": "Uzi",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_MSI_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2018_MSI_FNC_TOP_Bwipo",
+    "playerName": "Bwipo",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2018_MSI_FNC_JGL_Broxah",
+    "playerName": "Broxah",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2018_MSI_FNC_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2018_MSI_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2018_MSI_FNC_SUP_Hylissang",
+    "playerName": "Hylissang",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2018_MSI_FW_TOP_Hanabi",
+    "playerName": "Hanabi",
+    "position": "TOP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2018_MSI_FW_JGL_Moojin",
+    "playerName": "Moojin",
+    "position": "JGL",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2018_MSI_FW_MID_Maple",
+    "playerName": "Maple",
+    "position": "MID",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2018_MSI_FW_BOT_Betty",
+    "playerName": "Betty",
+    "position": "BOT",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2018_MSI_FW_SUP_SwordArt",
+    "playerName": "SwordArt",
+    "position": "SUP",
+    "team": "FW",
+    "league": "LCP",
+    "season": "2018 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_AF_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "AF",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_AF_JGL_Spirit",
+    "playerName": "Spirit",
+    "position": "JGL",
+    "team": "AF",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_AF_MID_Kuro",
+    "playerName": "Kuro",
+    "position": "MID",
+    "team": "AF",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_AF_BOT_Kramer",
+    "playerName": "Kramer",
+    "position": "BOT",
+    "team": "AF",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_AF_SUP_TusiN",
+    "playerName": "TusiN",
+    "position": "SUP",
+    "team": "AF",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_KT_TOP_Smeb",
+    "playerName": "Smeb",
+    "position": "TOP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_KT_JGL_Score",
+    "playerName": "Score",
+    "position": "JGL",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_KT_MID_Ucal",
+    "playerName": "Ucal",
+    "position": "MID",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_KT_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2018_Worlds_KT_SUP_Mata",
+    "playerName": "Mata",
+    "position": "SUP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_EDG_TOP_Ray",
+    "playerName": "Ray",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_EDG_JGL_Haro",
+    "playerName": "Haro",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_EDG_MID_Scout",
+    "playerName": "Scout",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_EDG_BOT_iBoy",
+    "playerName": "iBoy",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_EDG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_RNG_TOP_Letme",
+    "playerName": "Letme",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_RNG_JGL_Karsa",
+    "playerName": "Karsa",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_RNG_BOT_Uzi",
+    "playerName": "Uzi",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2018_Worlds_IG_TOP_TheShy",
+    "playerName": "TheShy",
+    "position": "TOP",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_Worlds_IG_JGL_Ning",
+    "playerName": "Ning",
+    "position": "JGL",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_Worlds_IG_MID_Rookie",
+    "playerName": "Rookie",
+    "position": "MID",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_Worlds_IG_BOT_JackeyLoce",
+    "playerName": "JackeyLoce",
+    "position": "BOT",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2018_Worlds_IG_SUP_Baolan",
+    "playerName": "Baolan",
+    "position": "SUP",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2018 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2018_Worlds_FNC_TOP_Bwipo",
+    "playerName": "Bwipo",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_FNC_JGL_Broxah",
+    "playerName": "Broxah",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_FNC_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_FNC_SUP_Hylissang",
+    "playerName": "Hylissang",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_G2_TOP_Wunder",
+    "playerName": "Wunder",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_G2_JGL_Jankos",
+    "playerName": "Jankos",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_G2_MID_Perkz",
+    "playerName": "Perkz",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_G2_BOT_Hjarnan",
+    "playerName": "Hjarnan",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2018_Worlds_G2_SUP_Wadid",
+    "playerName": "Wadid",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2018_Worlds_C9_TOP_Licorice",
+    "playerName": "Licorice",
+    "position": "TOP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2018_Worlds_C9_JGL_Svenskeren",
+    "playerName": "Svenskeren",
+    "position": "JGL",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2018_Worlds_C9_MID_Jensen",
+    "playerName": "Jensen",
+    "position": "MID",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2018_Worlds_C9_BOT_Sneaky",
+    "playerName": "Sneaky",
+    "position": "BOT",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2018_Worlds_C9_SUP_Zeyzal",
+    "playerName": "Zeyzal",
+    "position": "SUP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2018 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_MSI_SKT_TOP_Khan",
+    "playerName": "Khan",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_MSI_SKT_JGL_Clid",
+    "playerName": "Clid",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_MSI_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_MSI_SKT_BOT_Teddy",
+    "playerName": "Teddy",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_MSI_SKT_SUP_Mata",
+    "playerName": "Mata",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2019_MSI_IG_TOP_TheShy",
+    "playerName": "TheShy",
+    "position": "TOP",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2019_MSI_IG_JGL_Ning",
+    "playerName": "Ning",
+    "position": "JGL",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2019_MSI_IG_MID_Rookie",
+    "playerName": "Rookie",
+    "position": "MID",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2019_MSI_IG_BOT_JackeyLoce",
+    "playerName": "JackeyLoce",
+    "position": "BOT",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2019_MSI_IG_SUP_Baolan",
+    "playerName": "Baolan",
+    "position": "SUP",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_MSI_Wunder_TOP_Jankos",
+    "playerName": "Jankos",
+    "position": "TOP",
+    "team": "Wunder",
+    "league": "LEC",
+    "season": "2019 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2019_MSI_Wunder_JGL_Caps",
+    "playerName": "Caps",
+    "position": "JGL",
+    "team": "Wunder",
+    "league": "LEC",
+    "season": "2019 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2019_MSI_Wunder_MID_Perkz",
+    "playerName": "Perkz",
+    "position": "MID",
+    "team": "Wunder",
+    "league": "LEC",
+    "season": "2019 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2019_MSI_Wunder_BOT_Mikyx",
+    "playerName": "Mikyx",
+    "position": "BOT",
+    "team": "Wunder",
+    "league": "LEC",
+    "season": "2019 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCS_2019_MSI_TL_TOP_Impact",
+    "playerName": "Impact",
+    "position": "TOP",
+    "team": "TL",
+    "league": "LCS",
+    "season": "2019 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2019_MSI_TL_JGL_Xmithie",
+    "playerName": "Xmithie",
+    "position": "JGL",
+    "team": "TL",
+    "league": "LCS",
+    "season": "2019 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2019_MSI_TL_MID_Jensen",
+    "playerName": "Jensen",
+    "position": "MID",
+    "team": "TL",
+    "league": "LCS",
+    "season": "2019 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2019_MSI_TL_BOT_Doublelift",
+    "playerName": "Doublelift",
+    "position": "BOT",
+    "team": "TL",
+    "league": "LCS",
+    "season": "2019 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCS_2019_MSI_TL_SUP_CoreJJ",
+    "playerName": "CoreJJ",
+    "position": "SUP",
+    "team": "TL",
+    "league": "LCS",
+    "season": "2019 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_DWG_TOP_Nuguri",
+    "playerName": "Nuguri",
+    "position": "TOP",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_DWG_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_DWG_MID_ShowMaker",
+    "playerName": "ShowMaker",
+    "position": "MID",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_DWG_BOT_Nuclear",
+    "playerName": "Nuclear",
+    "position": "BOT",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_DWG_SUP_BeryL",
+    "playerName": "BeryL",
+    "position": "SUP",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_SKT_TOP_Khan",
+    "playerName": "Khan",
+    "position": "TOP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_SKT_JGL_Clid",
+    "playerName": "Clid",
+    "position": "JGL",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_SKT_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_SKT_BOT_Teddy",
+    "playerName": "Teddy",
+    "position": "BOT",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_SKT_SUP_Effort",
+    "playerName": "Effort",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_SKT_SUP_Mata",
+    "playerName": "Mata",
+    "position": "SUP",
+    "team": "SKT",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2019_Worlds_GRF_TOP_Sword",
+    "playerName": "Sword",
+    "position": "TOP",
+    "team": "GRF",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_GRF_JGL_Tarzan",
+    "playerName": "Tarzan",
+    "position": "JGL",
+    "team": "GRF",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_GRF_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GRF",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_GRF_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "GRF",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2019_Worlds_GRF_SUP_Lehends",
+    "playerName": "Lehends",
+    "position": "SUP",
+    "team": "GRF",
+    "league": "LCK",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2019_Worlds_IG_TOP_TheShy",
+    "playerName": "TheShy",
+    "position": "TOP",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2019_Worlds_IG_JGL_Leyab",
+    "playerName": "Leyab",
+    "position": "JGL",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2019_Worlds_IG_JGL_Ning",
+    "playerName": "Ning",
+    "position": "JGL",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2019_Worlds_IG_MID_Rookie",
+    "playerName": "Rookie",
+    "position": "MID",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2019_Worlds_IG_BOT_JackeyLove",
+    "playerName": "JackeyLove",
+    "position": "BOT",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2019_Worlds_IG_SUP_Baolan",
+    "playerName": "Baolan",
+    "position": "SUP",
+    "team": "IG",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2019_Worlds_FPX_TOP_GimGoon",
+    "playerName": "GimGoon",
+    "position": "TOP",
+    "team": "FPX",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2019_Worlds_FPX_JGL_Tian",
+    "playerName": "Tian",
+    "position": "JGL",
+    "team": "FPX",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2019_Worlds_FPX_MID_Doinb",
+    "playerName": "Doinb",
+    "position": "MID",
+    "team": "FPX",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2019_Worlds_FPX_BOT_Lwx",
+    "playerName": "Lwx",
+    "position": "BOT",
+    "team": "FPX",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2019_Worlds_FPX_SUP_Crisp",
+    "playerName": "Crisp",
+    "position": "SUP",
+    "team": "FPX",
+    "league": "LPL",
+    "season": "2019 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2019_Worlds_G2_TOP_Wunder",
+    "playerName": "Wunder",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2019_Worlds_G2_JGL_Jankos",
+    "playerName": "Jankos",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2019_Worlds_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2019_Worlds_G2_BOT_Perkz",
+    "playerName": "Perkz",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2019_Worlds_G2_SUP_Mikyx",
+    "playerName": "Mikyx",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2019_Worlds_SPY_TOP_Vizicsacsi",
+    "playerName": "Vizicsacsi",
+    "position": "TOP",
+    "team": "SPY",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_SPY_JGL_Xerxe",
+    "playerName": "Xerxe",
+    "position": "JGL",
+    "team": "SPY",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_SPY_MID_Humanoid",
+    "playerName": "Humanoid",
+    "position": "MID",
+    "team": "SPY",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_SPY_BOT_Kobbe",
+    "playerName": "Kobbe",
+    "position": "BOT",
+    "team": "SPY",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_SPY_SUP_Norskeren",
+    "playerName": "Norskeren",
+    "position": "SUP",
+    "team": "SPY",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_FNC_TOP_Bwipo",
+    "playerName": "Bwipo",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_FNC_JGL_Broxah",
+    "playerName": "Broxah",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_FNC_MID_Nemesis",
+    "playerName": "Nemesis",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2019_Worlds_FNC_SUP_Hylissang",
+    "playerName": "Hylissang",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2019 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_GEN_TOP_Rascal",
+    "playerName": "Rascal",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_GEN_JGL_Clid",
+    "playerName": "Clid",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_GEN_MID_Bdd",
+    "playerName": "Bdd",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_GEN_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_GEN_SUP_Life",
+    "playerName": "Life",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_DWG_TOP_Nuguri",
+    "playerName": "Nuguri",
+    "position": "TOP",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2020_Worlds_DWG_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2020_Worlds_DWG_MID_ShowMaker",
+    "playerName": "ShowMaker",
+    "position": "MID",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2020_Worlds_DWG_BOT_Ghost",
+    "playerName": "Ghost",
+    "position": "BOT",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2020_Worlds_DWG_SUP_BeryL",
+    "playerName": "BeryL",
+    "position": "SUP",
+    "team": "DWG",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2020_Worlds_DRX_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_DRX_JGL_Pyosik",
+    "playerName": "Pyosik",
+    "position": "JGL",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_DRX_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_DRX_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2020_Worlds_DRX_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2020_Worlds_TES_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_TES_JGL_Karsa",
+    "playerName": "Karsa",
+    "position": "JGL",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_TES_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_TES_BOT_JackeyLove",
+    "playerName": "JackeyLove",
+    "position": "BOT",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_TES_SUP_yuyanjia",
+    "playerName": "yuyanjia",
+    "position": "SUP",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_SN_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "SN",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_SN_JGL_SofM",
+    "playerName": "SofM",
+    "position": "JGL",
+    "team": "SN",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_SN_MID_Angel",
+    "playerName": "Angel",
+    "position": "MID",
+    "team": "SN",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_SN_BOT_huanfeng",
+    "playerName": "huanfeng",
+    "position": "BOT",
+    "team": "SN",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_SN_SUP_SwordArt",
+    "playerName": "SwordArt",
+    "position": "SUP",
+    "team": "SN",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2020_Worlds_JDG_TOP_Zoom",
+    "playerName": "Zoom",
+    "position": "TOP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2020_Worlds_JDG_JGL_Kanavi",
+    "playerName": "Kanavi",
+    "position": "JGL",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2020_Worlds_JDG_MID_Yagao",
+    "playerName": "Yagao",
+    "position": "MID",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2020_Worlds_JDG_BOT_LokeN",
+    "playerName": "LokeN",
+    "position": "BOT",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2020_Worlds_JDG_SUP_LvMao",
+    "playerName": "LvMao",
+    "position": "SUP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2020_Worlds_G2_TOP_Wunder",
+    "playerName": "Wunder",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2020_Worlds_G2_JGL_Jankos",
+    "playerName": "Jankos",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2020_Worlds_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2020_Worlds_G2_BOT_Perkz",
+    "playerName": "Perkz",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2020_Worlds_G2_SUP_Mikyx",
+    "playerName": "Mikyx",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2020_Worlds_FNC_TOP_Bwipo",
+    "playerName": "Bwipo",
+    "position": "TOP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2020_Worlds_FNC_JGL_Selfmade",
+    "playerName": "Selfmade",
+    "position": "JGL",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2020_Worlds_FNC_MID_Nemesis",
+    "playerName": "Nemesis",
+    "position": "MID",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2020_Worlds_FNC_BOT_Rekkles",
+    "playerName": "Rekkles",
+    "position": "BOT",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2020_Worlds_FNC_SUP_Hylissang",
+    "playerName": "Hylissang",
+    "position": "SUP",
+    "team": "FNC",
+    "league": "LEC",
+    "season": "2020 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_MSI_DK_TOP_Khan",
+    "playerName": "Khan",
+    "position": "TOP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_MSI_DK_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_MSI_DK_MID_ShowMaker",
+    "playerName": "ShowMaker",
+    "position": "MID",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_MSI_DK_BOT_Ghost",
+    "playerName": "Ghost",
+    "position": "BOT",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_MSI_DK_SUP_BeryL",
+    "playerName": "BeryL",
+    "position": "SUP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2021_MSI_RNG_TOP_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_MSI_RNG_TOP_Xiaobai",
+    "playerName": "Xiaobai",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_MSI_RNG_JGL_Wei",
+    "playerName": "Wei",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_MSI_RNG_MID_Cryin",
+    "playerName": "Cryin",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_MSI_RNG_BOT_GALA",
+    "playerName": "GALA",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_MSI_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2021_MSI_MAD_TOP_Armut",
+    "playerName": "Armut",
+    "position": "TOP",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_MSI_MAD_JGL_Elyoya",
+    "playerName": "Elyoya",
+    "position": "JGL",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_MSI_MAD_MID_Humanoid",
+    "playerName": "Humanoid",
+    "position": "MID",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_MSI_MAD_BOT_Carzzy",
+    "playerName": "Carzzy",
+    "position": "BOT",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_MSI_MAD_SUP_Kaiser",
+    "playerName": "Kaiser",
+    "position": "SUP",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2021_MSI_PSG_TOP_Hanabi",
+    "playerName": "Hanabi",
+    "position": "TOP",
+    "team": "PSG",
+    "league": "LCP",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2021_MSI_PSG_JGL_River",
+    "playerName": "River",
+    "position": "JGL",
+    "team": "PSG",
+    "league": "LCP",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2021_MSI_PSG_MID_Maple",
+    "playerName": "Maple",
+    "position": "MID",
+    "team": "PSG",
+    "league": "LCP",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2021_MSI_PSG_BOT_Doggo",
+    "playerName": "Doggo",
+    "position": "BOT",
+    "team": "PSG",
+    "league": "LCP",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2021_MSI_PSG_SUP_Kaiwing",
+    "playerName": "Kaiwing",
+    "position": "SUP",
+    "team": "PSG",
+    "league": "LCP",
+    "season": "2021 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_Worlds_GEN_TOP_Rascal",
+    "playerName": "Rascal",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_GEN_TOP_Burdol",
+    "playerName": "Burdol",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_GEN_JGL_Clid",
+    "playerName": "Clid",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_GEN_MID_Bdd",
+    "playerName": "Bdd",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_GEN_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_GEN_SUP_Life",
+    "playerName": "Life",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_T1_TOP_Canna",
+    "playerName": "Canna",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_HLE_TOP_Morgan",
+    "playerName": "Morgan",
+    "position": "TOP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_Worlds_HLE_JGL_Willer",
+    "playerName": "Willer",
+    "position": "JGL",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_Worlds_HLE_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_Worlds_HLE_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_Worlds_HLE_SUP_Vsta",
+    "playerName": "Vsta",
+    "position": "SUP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2021_Worlds_DK_TOP_Khan",
+    "playerName": "Khan",
+    "position": "TOP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_DK_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_DK_MID_ShowMaker",
+    "playerName": "ShowMaker",
+    "position": "MID",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_DK_BOT_Ghost",
+    "playerName": "Ghost",
+    "position": "BOT",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2021_Worlds_DK_SUP_BeryL",
+    "playerName": "BeryL",
+    "position": "SUP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2021 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2021_Worlds_RNG_TOP_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2021_Worlds_RNG_JGL_Wei",
+    "playerName": "Wei",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2021_Worlds_RNG_MID_Cryin",
+    "playerName": "Cryin",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2021_Worlds_RNG_BOT_GALA",
+    "playerName": "GALA",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2021_Worlds_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2021_Worlds_EDG_TOP_Flandre",
+    "playerName": "Flandre",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_Worlds_EDG_JGL_Jiejie",
+    "playerName": "Jiejie",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_Worlds_EDG_MID_Scout",
+    "playerName": "Scout",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_Worlds_EDG_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2021_Worlds_EDG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2021 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2021_Worlds_MAD_TOP_Armut",
+    "playerName": "Armut",
+    "position": "TOP",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_Worlds_MAD_JGL_Elyoya",
+    "playerName": "Elyoya",
+    "position": "JGL",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_Worlds_MAD_MID_Humanoid",
+    "playerName": "Humanoid",
+    "position": "MID",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_Worlds_MAD_BOT_Carzzy",
+    "playerName": "Carzzy",
+    "position": "BOT",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2021_Worlds_MAD_SUP_Kaiser",
+    "playerName": "Kaiser",
+    "position": "SUP",
+    "team": "MAD",
+    "league": "LEC",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2021_Worlds_C9_TOP_Fudge",
+    "playerName": "Fudge",
+    "position": "TOP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2021_Worlds_C9_JGL_Blaber",
+    "playerName": "Blaber",
+    "position": "JGL",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2021_Worlds_C9_MID_Perkz",
+    "playerName": "Perkz",
+    "position": "MID",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2021_Worlds_C9_BOT_Zven",
+    "playerName": "Zven",
+    "position": "BOT",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2021_Worlds_C9_SUP_Vulcan",
+    "playerName": "Vulcan",
+    "position": "SUP",
+    "team": "C9",
+    "league": "LCS",
+    "season": "2021 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_MSI_T1_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_MSI_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_MSI_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_MSI_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_MSI_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2022_MSI_RNG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2022_MSI_RNG_JGL_Wei",
+    "playerName": "Wei",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2022_MSI_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2022_MSI_RNG_BOT_GALA",
+    "playerName": "GALA",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2022_MSI_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LEC_2022_MSI_G2_TOP_BrokenBlade",
+    "playerName": "BrokenBlade",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_MSI_G2_JGL_Jankos",
+    "playerName": "Jankos",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_MSI_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_MSI_G2_BOT_Flakked",
+    "playerName": "Flakked",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_MSI_G2_SUP_Targamas",
+    "playerName": "Targamas",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2022_MSI_Impact_TOP_Inspired",
+    "playerName": "Inspired",
+    "position": "TOP",
+    "team": "Impact",
+    "league": "LCS",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2022_MSI_Impact_JGL_Jojopyun",
+    "playerName": "Jojopyun",
+    "position": "JGL",
+    "team": "Impact",
+    "league": "LCS",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2022_MSI_Impact_MID_Danny",
+    "playerName": "Danny",
+    "position": "MID",
+    "team": "Impact",
+    "league": "LCS",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2022_MSI_Impact_BOT_Vulcan",
+    "playerName": "Vulcan",
+    "position": "BOT",
+    "team": "Impact",
+    "league": "LCS",
+    "season": "2022 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_Worlds_T1_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_GEN_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_GEN_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_GEN_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_GEN_SUP_Lehends",
+    "playerName": "Lehends",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2022_Worlds_DK_TOP_Nuguri",
+    "playerName": "Nuguri",
+    "position": "TOP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_Worlds_DK_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_Worlds_DK_MID_ShowMaker",
+    "playerName": "ShowMaker",
+    "position": "MID",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_Worlds_DK_BOT_deokdam",
+    "playerName": "deokdam",
+    "position": "BOT",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_Worlds_DK_SUP_Kellin",
+    "playerName": "Kellin",
+    "position": "SUP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2022_Worlds_DRX_TOP_Kingen",
+    "playerName": "Kingen",
+    "position": "TOP",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2022_Worlds_DRX_JGL_Pyosik",
+    "playerName": "Pyosik",
+    "position": "JGL",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2022_Worlds_DRX_MID_Zeka",
+    "playerName": "Zeka",
+    "position": "MID",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2022_Worlds_DRX_BOT_Deft",
+    "playerName": "Deft",
+    "position": "BOT",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2022_Worlds_DRX_SUP_BeryL",
+    "playerName": "BeryL",
+    "position": "SUP",
+    "team": "DRX",
+    "league": "LCK",
+    "season": "2022 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2022_Worlds_JDG_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2022_Worlds_JDG_JGL_Kanavi",
+    "playerName": "Kanavi",
+    "position": "JGL",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2022_Worlds_JDG_MID_Yagao",
+    "playerName": "Yagao",
+    "position": "MID",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2022_Worlds_JDG_BOT_Hope",
+    "playerName": "Hope",
+    "position": "BOT",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2022_Worlds_JDG_SUP_MISSING",
+    "playerName": "MISSING",
+    "position": "SUP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2022_Worlds_RNG_TOP_Breathe",
+    "playerName": "Breathe",
+    "position": "TOP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_RNG_JGL_Wei",
+    "playerName": "Wei",
+    "position": "JGL",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_RNG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_RNG_BOT_GALA",
+    "playerName": "GALA",
+    "position": "BOT",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_RNG_SUP_Ming",
+    "playerName": "Ming",
+    "position": "SUP",
+    "team": "RNG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_EDG_TOP_Flandre",
+    "playerName": "Flandre",
+    "position": "TOP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_EDG_JGL_Jiejie",
+    "playerName": "Jiejie",
+    "position": "JGL",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_EDG_MID_Scout",
+    "playerName": "Scout",
+    "position": "MID",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_EDG_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2022_Worlds_EDG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "EDG",
+    "league": "LPL",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_Worlds_RGE_TOP_Odoamne",
+    "playerName": "Odoamne",
+    "position": "TOP",
+    "team": "RGE",
+    "league": "LEC",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_Worlds_RGE_JGL_Malrang",
+    "playerName": "Malrang",
+    "position": "JGL",
+    "team": "RGE",
+    "league": "LEC",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_Worlds_RGE_MID_Larssen",
+    "playerName": "Larssen",
+    "position": "MID",
+    "team": "RGE",
+    "league": "LEC",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_Worlds_RGE_BOT_Comp",
+    "playerName": "Comp",
+    "position": "BOT",
+    "team": "RGE",
+    "league": "LEC",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2022_Worlds_RGE_SUP_Trymbi",
+    "playerName": "Trymbi",
+    "position": "SUP",
+    "team": "RGE",
+    "league": "LEC",
+    "season": "2022 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_BOT_Peyz",
+    "playerName": "Peyz",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_MSI_T1_SUP_Delight",
+    "playerName": "Delight",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2023_MSI_JDG_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2023_MSI_JDG_JGL_Kanavi",
+    "playerName": "Kanavi",
+    "position": "JGL",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2023_MSI_JDG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2023_MSI_JDG_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2023_MSI_JDG_SUP_MISSING",
+    "playerName": "MISSING",
+    "position": "SUP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2023_MSI_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_MSI_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_MSI_BLG_MID_Yagao",
+    "playerName": "Yagao",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_MSI_BLG_BOT_Elk",
+    "playerName": "Elk",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_MSI_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2023_Worlds_GEN_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_GEN_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_GEN_BOT_Peyz",
+    "playerName": "Peyz",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_GEN_SUP_Delight",
+    "playerName": "Delight",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_KT_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_KT_JGL_Cuzz",
+    "playerName": "Cuzz",
+    "position": "JGL",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_KT_MID_Bdd",
+    "playerName": "Bdd",
+    "position": "MID",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_KT_BOT_Aiming",
+    "playerName": "Aiming",
+    "position": "BOT",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_KT_SUP_Lehends",
+    "playerName": "Lehends",
+    "position": "SUP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2023_Worlds_T1_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2023_Worlds_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2023_Worlds_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2023_Worlds_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2023_Worlds_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2023 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2023_Worlds_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_BLG_MID_Yagao",
+    "playerName": "Yagao",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_BLG_BOT_Elk",
+    "playerName": "Elk",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_WBG_TOP_TheShy",
+    "playerName": "TheShy",
+    "position": "TOP",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_WBG_JGL_Weiwei",
+    "playerName": "Weiwei",
+    "position": "JGL",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_WBG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_WBG_BOT_Light",
+    "playerName": "Light",
+    "position": "BOT",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_WBG_SUP_Crisp",
+    "playerName": "Crisp",
+    "position": "SUP",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_JDG_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_JDG_JGL_Kanavi",
+    "playerName": "Kanavi",
+    "position": "JGL",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_JDG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_JDG_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_JDG_SUP_MISSING",
+    "playerName": "MISSING",
+    "position": "SUP",
+    "team": "JDG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2023_Worlds_LNG_TOP_Zika",
+    "playerName": "Zika",
+    "position": "TOP",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2023_Worlds_LNG_JGL_Tarzan",
+    "playerName": "Tarzan",
+    "position": "JGL",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2023_Worlds_LNG_MID_Scout",
+    "playerName": "Scout",
+    "position": "MID",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2023_Worlds_LNG_BOT_GALA",
+    "playerName": "GALA",
+    "position": "BOT",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2023_Worlds_LNG_SUP_Hang",
+    "playerName": "Hang",
+    "position": "SUP",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2023_Worlds_NRG_TOP_Dhokla",
+    "playerName": "Dhokla",
+    "position": "TOP",
+    "team": "NRG",
+    "league": "LCS",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2023_Worlds_NRG_JGL_Contractz",
+    "playerName": "Contractz",
+    "position": "JGL",
+    "team": "NRG",
+    "league": "LCS",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2023_Worlds_NRG_MID_Palafox",
+    "playerName": "Palafox",
+    "position": "MID",
+    "team": "NRG",
+    "league": "LCS",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2023_Worlds_NRG_BOT_FBI",
+    "playerName": "FBI",
+    "position": "BOT",
+    "team": "NRG",
+    "league": "LCS",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2023_Worlds_NRG_SUP_IgNar",
+    "playerName": "IgNar",
+    "position": "SUP",
+    "team": "NRG",
+    "league": "LCS",
+    "season": "2023 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_MSI_GEN_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_MSI_GEN_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_MSI_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_MSI_GEN_BOT_Peyz",
+    "playerName": "Peyz",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_MSI_GEN_SUP_Lehends",
+    "playerName": "Lehends",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_MSI_T1_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_MSI_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_MSI_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_MSI_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_MSI_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_MSI_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_MSI_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_MSI_BLG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_MSI_BLG_BOT_Elk",
+    "playerName": "Elk",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_MSI_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2024_MSI_G2_TOP_BrokenBlade",
+    "playerName": "BrokenBlade",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2024_MSI_G2_JGL_Yike",
+    "playerName": "Yike",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2024_MSI_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2024_MSI_G2_BOT_HansSama",
+    "playerName": "Hans Sama",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2024_MSI_G2_SUP_Mikyx",
+    "playerName": "Mikyx",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2024 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_Worlds_HLE_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_Worlds_HLE_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_Worlds_HLE_MID_Zeka",
+    "playerName": "Zeka",
+    "position": "MID",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_Worlds_HLE_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_Worlds_HLE_SUP_Delight",
+    "playerName": "Delight",
+    "position": "SUP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2024_Worlds_T1_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_Worlds_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_Worlds_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_Worlds_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_Worlds_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2024_Worlds_GEN_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2024_Worlds_GEN_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2024_Worlds_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2024_Worlds_GEN_BOT_Peyz",
+    "playerName": "Peyz",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2024_Worlds_GEN_SUP_Lehends",
+    "playerName": "Lehends",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_LNG_TOP_Zika",
+    "playerName": "Zika",
+    "position": "TOP",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_LNG_JGL_Weiwei",
+    "playerName": "Weiwei",
+    "position": "JGL",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_LNG_MID_Scout",
+    "playerName": "Scout",
+    "position": "MID",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_LNG_BOT_GALA",
+    "playerName": "GALA",
+    "position": "BOT",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_LNG_SUP_Hang",
+    "playerName": "Hang",
+    "position": "SUP",
+    "team": "LNG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_WBG_TOP_Breathe",
+    "playerName": "Breathe",
+    "position": "TOP",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_WBG_JGL_Tarzan",
+    "playerName": "Tarzan",
+    "position": "JGL",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_WBG_MID_Xiaohu",
+    "playerName": "Xiaohu",
+    "position": "MID",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_WBG_BOT_Light",
+    "playerName": "Light",
+    "position": "BOT",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_WBG_SUP_Crisp",
+    "playerName": "Crisp",
+    "position": "SUP",
+    "team": "WBG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_BLG_JGL_Wei",
+    "playerName": "Wei",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_BLG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_BLG_BOT_Elk",
+    "playerName": "Elk",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2024_Worlds_TES_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_TES_JGL_Tian",
+    "playerName": "Tian",
+    "position": "JGL",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_TES_MID_Creme",
+    "playerName": "Creme",
+    "position": "MID",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_TES_BOT_JackeyLove",
+    "playerName": "JackeyLove",
+    "position": "BOT",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2024_Worlds_TES_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2024_Worlds_FLY_TOP_Bwipo",
+    "playerName": "Bwipo",
+    "position": "TOP",
+    "team": "FLY",
+    "league": "LCS",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2024_Worlds_FLY_JGL_Inspired",
+    "playerName": "Inspired",
+    "position": "JGL",
+    "team": "FLY",
+    "league": "LCS",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2024_Worlds_FLY_MID_Quad",
+    "playerName": "Quad",
+    "position": "MID",
+    "team": "FLY",
+    "league": "LCS",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2024_Worlds_FLY_BOT_Massu",
+    "playerName": "Massu",
+    "position": "BOT",
+    "team": "FLY",
+    "league": "LCS",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2024_Worlds_FLY_SUP_Busio",
+    "playerName": "Busio",
+    "position": "SUP",
+    "team": "FLY",
+    "league": "LCS",
+    "season": "2024 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_FST_HLE_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_FST_HLE_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_FST_HLE_MID_Zeka",
+    "playerName": "Zeka",
+    "position": "MID",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_FST_HLE_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_FST_HLE_SUP_Delight",
+    "playerName": "Delight",
+    "position": "SUP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2025_FST_KC_TOP_Canna",
+    "playerName": "Canna",
+    "position": "TOP",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2025 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_FST_KC_JGL_Yike",
+    "playerName": "Yike",
+    "position": "JGL",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2025 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_FST_KC_MID_Vladi",
+    "playerName": "Vladi",
+    "position": "MID",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2025 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_FST_KC_BOT_Caliste",
+    "playerName": "Caliste",
+    "position": "BOT",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2025 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_FST_KC_SUP_Targamas",
+    "playerName": "Targamas",
+    "position": "SUP",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2025 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_MSI_GEN_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_MSI_GEN_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_MSI_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_MSI_GEN_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_MSI_GEN_SUP_Duro",
+    "playerName": "Duro",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_MSI_T1_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_MSI_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_MSI_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_MSI_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_MSI_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2025_MSI_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2025 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_MSI_BLG_JGL_Beichuan",
+    "playerName": "Beichuan",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2025 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_MSI_BLG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2025 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_MSI_BLG_BOT_Elk",
+    "playerName": "Elk",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2025 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_MSI_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2025 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_Worlds_T1_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_Worlds_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_Worlds_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_Worlds_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_Worlds_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCK_2025_Worlds_GEN_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_GEN_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_GEN_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_GEN_SUP_Duro",
+    "playerName": "Duro",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_HLE_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_Worlds_HLE_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_Worlds_HLE_MID_Zeka",
+    "playerName": "Zeka",
+    "position": "MID",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_Worlds_HLE_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_Worlds_HLE_SUP_Delight",
+    "playerName": "Delight",
+    "position": "SUP",
+    "team": "HLE",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2025_Worlds_KT_TOP_PerfecT",
+    "playerName": "PerfecT",
+    "position": "TOP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_KT_JGL_Cuzz",
+    "playerName": "Cuzz",
+    "position": "JGL",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_KT_MID_Bdd",
+    "playerName": "Bdd",
+    "position": "MID",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_KT_BOT_deokdam",
+    "playerName": "deokdam",
+    "position": "BOT",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2025_Worlds_KT_SUP_Peter",
+    "playerName": "Peter",
+    "position": "SUP",
+    "team": "KT",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2025_Worlds_AL_TOP_Flandre",
+    "playerName": "Flandre",
+    "position": "TOP",
+    "team": "AL",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_Worlds_AL_JGL_Tarzan",
+    "playerName": "Tarzan",
+    "position": "JGL",
+    "team": "AL",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_Worlds_AL_MID_Shanks",
+    "playerName": "Shanks",
+    "position": "MID",
+    "team": "AL",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_Worlds_AL_BOT_Hope",
+    "playerName": "Hope",
+    "position": "BOT",
+    "team": "AL",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_Worlds_AL_SUP_Kael",
+    "playerName": "Kael",
+    "position": "SUP",
+    "team": "AL",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2025_Worlds_TES_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2025_Worlds_TES_JGL_Kanavi",
+    "playerName": "Kanavi",
+    "position": "JGL",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2025_Worlds_TES_MID_Creme",
+    "playerName": "Creme",
+    "position": "MID",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2025_Worlds_TES_BOT_JackeyLove",
+    "playerName": "JackeyLove",
+    "position": "BOT",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2025_Worlds_TES_SUP_Hang",
+    "playerName": "Hang",
+    "position": "SUP",
+    "team": "TES",
+    "league": "LPL",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2025_Worlds_G2_TOP_BrokenBlade",
+    "playerName": "BrokenBlade",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_Worlds_G2_JGL_SkewMond",
+    "playerName": "SkewMond",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_Worlds_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_Worlds_G2_BOT_HansSama",
+    "playerName": "Hans Sama",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2025_Worlds_G2_SUP_Labrov",
+    "playerName": "Labrov",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2025_Worlds_CFO_TOP_Driver",
+    "playerName": "Driver",
+    "position": "TOP",
+    "team": "CFO",
+    "league": "LCP",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2025_Worlds_CFO_TOP_Rest",
+    "playerName": "Rest",
+    "position": "TOP",
+    "team": "CFO",
+    "league": "LCP",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2025_Worlds_CFO_JGL_JunJia",
+    "playerName": "JunJia",
+    "position": "JGL",
+    "team": "CFO",
+    "league": "LCP",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2025_Worlds_CFO_MID_HongQ",
+    "playerName": "HongQ",
+    "position": "MID",
+    "team": "CFO",
+    "league": "LCP",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2025_Worlds_CFO_BOT_Doggo",
+    "playerName": "Doggo",
+    "position": "BOT",
+    "team": "CFO",
+    "league": "LCP",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCP_2025_Worlds_CFO_SUP_Kaiwing",
+    "playerName": "Kaiwing",
+    "position": "SUP",
+    "team": "CFO",
+    "league": "LCP",
+    "season": "2025 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2026_FST_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_FST_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_FST_BLG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_FST_BLG_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_FST_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 FST",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2026_FST_G2_TOP_BrokenBlade",
+    "playerName": "BrokenBlade",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_FST_G2_JGL_SkewMond",
+    "playerName": "SkewMond",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_FST_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_FST_G2_BOT_HansSamam",
+    "playerName": "Hans Samam",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_FST_G2_SUP_Labrov",
+    "playerName": "Labrov",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 FST",
+    "baseTier": 3
+  },
+  {
+    "id": "_2026_MSI_HLE_TOP_Zeus",
+    "playerName": "Zeus",
+    "position": "TOP",
+    "team": "HLE",
+    "league": "",
+    "season": "2026 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "_2026_MSI_HLE_JGL_Peanut",
+    "playerName": "Peanut",
+    "position": "JGL",
+    "team": "HLE",
+    "league": "",
+    "season": "2026 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "_2026_MSI_HLE_MID_Zeka",
+    "playerName": "Zeka",
+    "position": "MID",
+    "team": "HLE",
+    "league": "",
+    "season": "2026 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "_2026_MSI_HLE_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "HLE",
+    "league": "",
+    "season": "2026 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "_2026_MSI_HLE_SUP_Delight",
+    "playerName": "Delight",
+    "position": "SUP",
+    "team": "HLE",
+    "league": "",
+    "season": "2026 MSI",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2026_MSI_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_MSI_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_MSI_BLG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_MSI_BLG_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_MSI_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 MSI",
+    "baseTier": 4
+  },
+  {
+    "id": "LEC_2026_MSI_G2_TOP_BrokenBlade",
+    "playerName": "BrokenBlade",
+    "position": "TOP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_MSI_G2_JGL_SkewMond",
+    "playerName": "SkewMond",
+    "position": "JGL",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_MSI_G2_MID_Caps",
+    "playerName": "Caps",
+    "position": "MID",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_MSI_G2_BOT_HansSama",
+    "playerName": "Hans Sama",
+    "position": "BOT",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_MSI_G2_SUP_Labrov",
+    "playerName": "Labrov",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_MSI_LYON_TOP_Dhokla",
+    "playerName": "Dhokla",
+    "position": "TOP",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_MSI_LYON_JGL_Inspired",
+    "playerName": "Inspired",
+    "position": "JGL",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_MSI_LYON_MID_Saint",
+    "playerName": "Saint",
+    "position": "MID",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_MSI_LYON_BOT_Berserker",
+    "playerName": "Berserker",
+    "position": "BOT",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_MSI_LYON_SUP_Isles",
+    "playerName": "Isles",
+    "position": "SUP",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 MSI",
+    "baseTier": 3
+  }
+]

@@ -1,0 +1,467 @@
+@import 'tailwindcss';
+
+/* ─────────────── 공통 UI ─────────────── */
+
+@layer components {
+  .btn-primary {
+    @apply rounded-xl bg-amber-500 px-6 py-3 font-bold text-slate-950 shadow-lg shadow-amber-500/20 transition hover:bg-amber-400 active:scale-95 disabled:cursor-not-allowed disabled:opacity-40 disabled:active:scale-100;
+  }
+  .btn-secondary {
+    @apply rounded-xl border border-slate-700 bg-slate-800/70 px-6 py-3 font-bold text-slate-100 transition hover:bg-slate-700 active:scale-95;
+  }
+  .panel {
+    @apply rounded-xl border border-slate-800 bg-slate-900/70 p-4;
+  }
+  .chip {
+    @apply rounded-full bg-slate-800 px-2.5 py-1 text-slate-300;
+  }
+  .select {
+    @apply rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-slate-100;
+  }
+}
+
+.title-glow {
+  background: linear-gradient(180deg, #fff 0%, #fcd34d 60%, #b45309 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 24px rgb(251 191 36 / 0.35));
+}
+
+.reroll-dot {
+  @apply inline-block h-2.5 w-2.5 rounded-full bg-slate-700;
+}
+.reroll-dot.is-on {
+  background: #fbbf24;
+  box-shadow: 0 0 8px #fbbf24;
+}
+
+/* ─────────────── 카드 기본 ─────────────── */
+
+/* 클릭 영역(button) + 3D 원근 */
+.card-slot {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: inherit;
+  cursor: pointer;
+  perspective: 1000px;
+  transition: transform 0.2s ease;
+}
+.card-slot:not(:disabled):hover {
+  transform: translateY(-4px);
+}
+.card-slot:disabled {
+  cursor: default;
+}
+
+/* 앞면(.card)과 뒷면(.card-back)을 담고 Y축으로 회전하는 컨테이너 */
+.card-flipper {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.card {
+  --frame: #64748b;
+  --card-bg: linear-gradient(160deg, #1e293b, #0f172a);
+  --card-name: #f8fafc;
+  --card-meta: #cbd5e1;
+  --card-badge-bg: rgb(0 0 0 / 0.4);
+  --card-badge-fg: #f8fafc;
+  --card-bonus: #fcd34d;
+  position: relative;
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  border: 2px solid var(--frame);
+  background: var(--card-bg);
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s;
+}
+.card-pos-badge {
+  background: var(--card-badge-bg);
+  color: var(--card-badge-fg);
+}
+.card-name {
+  color: var(--card-name);
+}
+.card-meta {
+  color: var(--card-meta);
+}
+.card-bonus {
+  color: var(--card-bonus);
+}
+
+/* 시즌별 카드 배경 그라데이션 */
+.season-worlds {
+  --card-bg: linear-gradient(160deg, #020b65, #091047);
+}
+.season-msi {
+  --card-bg: linear-gradient(160deg, #191919, #e93323);
+}
+.season-fst {
+  --card-bg: linear-gradient(160deg, #ebe5e7, #ebe5e7);
+  --card-name: #0f172a;
+  --card-meta: #334155;
+  --card-badge-bg: rgb(15 23 42 / 0.85);
+  --card-badge-fg: #f8fafc;
+  --card-bonus: #b45309;
+}
+.season-fst .stars-3 { color: #475569; }
+.season-fst .stars-4 { color: #7e22ce; }
+.season-fst .stars-5 { color: #d97706; }
+.card-inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* ─────────────── 카드 뒷면 ─────────────── */
+
+.card-back {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+  border: 2px solid rgb(217 119 6 / 0.6);
+  background:
+    radial-gradient(circle at 50% 50%, rgb(251 191 36 / 0.18), transparent 55%),
+    repeating-linear-gradient(45deg, rgb(255 255 255 / 0.035) 0 8px, transparent 8px 16px),
+    linear-gradient(160deg, #1e1b4b, #0b1220 60%, #1c1917);
+  box-shadow: inset 0 0 0 6px rgb(2 6 23 / 0.6), inset 0 0 0 7px rgb(217 119 6 / 0.35);
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-back-emblem {
+  display: grid;
+  place-items: center;
+  width: 62%;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  border: 1px solid rgb(200 170 110 / 0.45);
+  background: radial-gradient(circle, rgb(200 170 110 / 0.12), transparent 70%);
+  box-shadow:
+    0 0 24px rgb(251 191 36 / 0.15),
+    inset 0 0 18px rgb(200 170 110 / 0.15);
+}
+.card-back-icon {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgb(200 170 110 / 0.45));
+  user-select: none;
+}
+.card-back-label {
+  position: absolute;
+  bottom: 12%;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.4em;
+  color: rgb(200 170 110 / 0.8);
+}
+
+/* ─────────────── 뒤집기 연출 ─────────────── */
+/* 시간 값은 views.ts의 FLIP_IN_MS / FLIP_OUT_MS와 일치시킬 것 */
+
+.card-flipper.flip-in {
+  /* backwards: 시차 대기 중에도 뒷면 유지, 끝나면 기본 상태로 돌아가 hover 등과 충돌 없음 */
+  animation: flip-in 600ms cubic-bezier(0.25, 0.8, 0.35, 1) var(--flip-delay, 0ms) backwards;
+}
+.card-flipper.flip-out {
+  animation: flip-out 280ms ease-in var(--flip-delay, 0ms) forwards;
+}
+@keyframes flip-in {
+  0% { transform: rotateY(180deg) scale(1); }
+  55% { transform: rotateY(-14deg) scale(1.06); }
+  100% { transform: rotateY(0deg) scale(1); }
+}
+@keyframes flip-out {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(180deg); }
+}
+
+/* 고티어(5성 이상) 공개 시 섬광 */
+.flip-in .card.tier-5,
+.flip-in .card.tier-6 {
+  animation: reveal-flash 900ms ease-out calc(var(--flip-delay, 0ms) + 300ms);
+}
+@keyframes reveal-flash {
+  35% {
+    box-shadow:
+      0 0 0 3px #fde68a,
+      0 0 40px 10px rgb(251 191 36 / 0.7);
+  }
+}
+
+/* 카드가 다 뒤집힌 뒤 점수/시너지 공개 */
+.is-revealing .reveal-after {
+  animation: reveal-fade 400ms ease-out var(--reveal-delay, 0ms) backwards;
+}
+@keyframes reveal-fade {
+  from { opacity: 0; transform: translateY(6px); }
+}
+
+.card-art {
+  --art-bg: radial-gradient(circle at 50% 40%, #334155, #0b1220);
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin: 0.5rem 0.75rem;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 0.6rem;
+  background: var(--art-bg);
+}
+.card-kit {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 12px rgb(0 0 0 / 0.45));
+  user-select: none;
+}
+.card-art-fallback {
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgb(255 255 255 / 0.2);
+}
+
+/* 리그별 카드 중앙부 색상 (지정 색상을 중심으로 은은한 그라데이션) */
+.card-art.league-lck {
+  --art-bg:
+    radial-gradient(circle at 50% 35%, rgb(255 255 255 / 0.08), transparent 65%),
+    linear-gradient(155deg, #2b2842 0%, #1b192a 55%, #0f0e18 100%);
+}
+.card-art.league-lpl {
+  --art-bg:
+    radial-gradient(circle at 50% 35%, rgb(255 230 200 / 0.22), transparent 65%),
+    linear-gradient(155deg, #f25244 0%, #e13325 55%, #a31b10 100%);
+}
+.card-art.league-lec {
+  --art-bg:
+    radial-gradient(circle at 50% 35%, rgb(255 255 255 / 0.35), transparent 65%),
+    linear-gradient(155deg, #8ef0d5 0%, #68e1c0 55%, #3bb596 100%);
+}
+.card-art.league-lcs {
+  --art-bg:
+    radial-gradient(circle at 50% 35%, rgb(255 255 255 / 0.6), transparent 65%),
+    linear-gradient(155deg, #fbfaf8 0%, #eeece7 55%, #cfcac0 100%);
+}
+.card-art.league-lcp {
+  --art-bg:
+    radial-gradient(circle at 50% 35%, rgb(255 255 255 / 0.3), transparent 65%),
+    linear-gradient(155deg, #f3ab7c 0%, #e88f56 55%, #bf6630 100%);
+}
+
+/* 티어별 프레임 색 */
+.tier-3 { --frame: #64748b; }
+.tier-4 { --frame: #a855f7; }
+.tier-5 { --frame: #f59e0b; }
+.tier-6 { --frame: #f0abfc; }
+
+.stars { letter-spacing: -0.05em; }
+.stars-3 { color: #94a3b8; }
+.stars-4 { color: #c084fc; }
+.stars-5 { color: #fbbf24; }
+.stars-6 {
+  background: linear-gradient(90deg, #f0abfc, #fde68a, #67e8f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* HOLD 상태 */
+.card.is-locked {
+  box-shadow:
+    0 0 0 3px #22d3ee,
+    0 0 18px rgb(34 211 238 / 0.5);
+}
+.lock-badge {
+  position: absolute;
+  top: 2.1rem;
+  right: 1rem;
+  z-index: 5;
+  border-radius: 0.375rem;
+  background: #22d3ee;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.65rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #082f49;
+}
+
+/* ─────────────── 시너지: 부분 시너지 (같은 팀 3~4장) ─────────────── */
+
+.card-partial {
+  --frame: #34d399;
+  box-shadow: 0 0 16px rgb(52 211 153 / 0.3);
+}
+.card-partial-4 {
+  animation: partial-pulse 2s ease-in-out infinite;
+}
+@keyframes partial-pulse {
+  50% {
+    box-shadow:
+      0 0 0 2px #6ee7b7,
+      0 0 28px rgb(52 211 153 / 0.6);
+  }
+}
+
+/* ─────────────── 시너지: 기본 보상 ─────────────── */
+
+.card-synergy {
+  --frame: #38bdf8;
+  box-shadow: 0 0 20px rgb(56 189 248 / 0.35);
+}
+
+/* ─────────────── 시너지: 프레스티지 (금빛 흐르는 테두리 + 홀로그램) ─────────────── */
+
+.card-prestige {
+  border-color: transparent;
+  box-shadow: 0 0 24px rgb(251 191 36 / 0.35);
+}
+.card-prestige::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: inherit;
+  padding: 3px;
+  background: linear-gradient(120deg, #92400e, #fcd34d, #fffbeb, #fcd34d, #92400e, #fcd34d);
+  background-size: 300% 300%;
+  animation: gold-flow 4s linear infinite;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.holo-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  background: linear-gradient(
+    115deg,
+    transparent 20%,
+    rgb(255 0 170 / 0.3) 35%,
+    rgb(0 255 255 / 0.3) 50%,
+    rgb(255 240 0 / 0.3) 65%,
+    transparent 80%
+  );
+  background-size: 250% 250%;
+  mix-blend-mode: color-dodge;
+  opacity: 0.35;
+  animation: holo-shift 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes gold-flow {
+  to { background-position: 300% 0; }
+}
+@keyframes holo-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ─────────────── 시너지: 레전더리 (마우스 반응 홀로그램 + 입자) ─────────────── */
+
+.card-legendary {
+  --frame: #f0abfc;
+  box-shadow:
+    0 0 30px rgb(240 171 252 / 0.45),
+    0 0 60px rgb(251 191 36 / 0.25);
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform 0.08s linear, box-shadow 0.2s;
+}
+.card-legendary:not(:disabled):hover {
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale(1.03);
+}
+.card-legendary .holo-overlay {
+  animation: none;
+  background-position: var(--mx, 50%) var(--my, 50%);
+  opacity: 0.55;
+}
+.glare {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  border-radius: inherit;
+  background: radial-gradient(circle at var(--mx, 50%) var(--my, 30%), rgb(255 255 255 / 0.45), transparent 45%);
+  mix-blend-mode: overlay;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.card-legendary:hover .glare {
+  opacity: 1;
+}
+.particle {
+  position: absolute;
+  bottom: 0;
+  left: var(--x);
+  z-index: 4;
+  width: 4px;
+  height: 4px;
+  border-radius: 9999px;
+  background: #fef3c7;
+  box-shadow: 0 0 6px 2px rgb(251 191 36 / 0.8);
+  opacity: 0;
+  pointer-events: none;
+}
+.card-legendary:hover .particle {
+  animation: particle-float 1.8s ease-out infinite;
+  animation-delay: var(--d);
+}
+@keyframes particle-float {
+  0% { transform: translateY(0) scale(1); opacity: 0; }
+  15% { opacity: 1; }
+  100% { transform: translateY(-260px) translateX(12px) scale(0.3); opacity: 0; }
+}
+
+/* ─────────────── 도감 ─────────────── */
+
+.dex-item {
+  --frame: #475569;
+  --card-bg: #0f172a;
+  --card-name: #f8fafc;
+  --card-meta: #94a3b8;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 2px solid var(--frame);
+  background: var(--card-bg);
+}
+.dex-item .card-art {
+  margin: 0;
+  border-radius: 0;
+}
+.dex-item .card-art-fallback {
+  font-size: 1.5rem;
+}
+.dex-item.is-unknown {
+  --frame: #1e293b;
+  filter: grayscale(1);
+  opacity: 0.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-prestige::before,
+  .holo-overlay,
+  .particle,
+  .card-flipper,
+  .card,
+  .reveal-after {
+    animation: none !important;
+  }
+}
