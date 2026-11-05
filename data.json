@@ -3640,6 +3640,16 @@
     "imgUrl": "/assets/images/perkz_2019.png"
   },
   {
+    "id": "LEC_2019_MSI_G2_SUP_Mikyx",
+    "playerName": "Mikyx",
+    "position": "SUP",
+    "team": "G2",
+    "league": "LEC",
+    "season": "2019 MSI",
+    "baseTier": 5,
+    "imgUrl": "/assets/images/mikyx_2019.png"
+  },
+  {
     "id": "LCS_2019_MSI_TL_TOP_Impact",
     "playerName": "Impact",
     "position": "TOP",
