@@ -6,7 +6,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/xpeke_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_FNC_JGL_Cyanide",
@@ -15,7 +16,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/cyanide_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_FNC_MID_Shushei",
@@ -24,7 +26,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/shushei_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_FNC_BOT_LaMiaZealot",
@@ -33,7 +36,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/lamiazealot_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_FNC_SUP_Mellisan",
@@ -42,7 +46,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/mellisan_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_AAA_TOP_sOAZ",
@@ -51,7 +56,8 @@
     "team": "AAA",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/soaz_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_AAA_JGL_Linak",
@@ -60,7 +66,8 @@
     "team": "AAA",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/linak_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_AAA_MID_MoMa",
@@ -69,7 +76,8 @@
     "team": "AAA",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/moma_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_AAA_BOT_YellOwStaR",
@@ -78,7 +86,8 @@
     "team": "AAA",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yellowstar_2011.png"
   },
   {
     "id": "LEC_2011_Worlds_AAA_SUP_kujaa",
@@ -87,7 +96,8 @@
     "team": "AAA",
     "league": "LEC",
     "season": "2011 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kujaa_2011.png"
   },
   {
     "id": "LCK_2012_Worlds_AZF_TOP_Shy",
@@ -96,7 +106,8 @@
     "team": "AZF",
     "league": "LCK",
     "season": "2012 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/shy_2012.png"
   },
   {
     "id": "LCK_2012_Worlds_AZF_JGL_CloudTemplar",
@@ -105,7 +116,8 @@
     "team": "AZF",
     "league": "LCK",
     "season": "2012 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cloudtemplar_2012.png"
   },
   {
     "id": "LCK_2012_Worlds_AZF_MID_RapidStar",
@@ -114,7 +126,8 @@
     "team": "AZF",
     "league": "LCK",
     "season": "2012 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/rapidstar_2012.png"
   },
   {
     "id": "LCK_2012_Worlds_AZF_BOT_Woong",
@@ -123,7 +136,8 @@
     "team": "AZF",
     "league": "LCK",
     "season": "2012 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/woong_2012.png"
   },
   {
     "id": "LCK_2012_Worlds_AZF_SUP_MadLife",
@@ -132,7 +146,8 @@
     "team": "AZF",
     "league": "LCK",
     "season": "2012 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/madlife_2012.png"
   },
   {
     "id": "LCP_2012_Worlds_TPA_TOP_Stanley",
@@ -141,7 +156,8 @@
     "team": "TPA",
     "league": "LCP",
     "season": "2012 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/stanley_2012.png"
   },
   {
     "id": "LCP_2012_Worlds_TPA_JGL_Lilballz",
@@ -150,7 +166,8 @@
     "team": "TPA",
     "league": "LCP",
     "season": "2012 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/lilballz_2012.png"
   },
   {
     "id": "LCP_2012_Worlds_TPA_MID_Toyz",
@@ -159,7 +176,8 @@
     "team": "TPA",
     "league": "LCP",
     "season": "2012 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/toyz_2012.png"
   },
   {
     "id": "LCP_2012_Worlds_TPA_BOT_BeBe",
@@ -168,7 +186,8 @@
     "team": "TPA",
     "league": "LCP",
     "season": "2012 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bebe_2012.png"
   },
   {
     "id": "LCP_2012_Worlds_TPA_SUP_MiSTakE",
@@ -177,7 +196,8 @@
     "team": "TPA",
     "league": "LCP",
     "season": "2012 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/mistake_2012.png"
   },
   {
     "id": "LCK_2013_Worlds_SKT_TOP_Impact",
@@ -186,7 +206,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/impact_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_SKT_JGL_Bengi",
@@ -195,7 +216,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bengi_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_SKT_MID_Faker",
@@ -204,7 +226,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_SKT_BOT_Piglet",
@@ -213,7 +236,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/piglet_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_SKT_SUP_PoohManDu",
@@ -222,7 +246,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/poohmandu_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_NBS_TOP_Expression",
@@ -231,7 +256,8 @@
     "team": "NBS",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/expression_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_NBS_JGL_Watch",
@@ -240,7 +266,8 @@
     "team": "NBS",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/watch_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_NBS_MID_Nagne",
@@ -249,7 +276,8 @@
     "team": "NBS",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/nagne_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_NBS_BOT_PraY",
@@ -258,7 +286,8 @@
     "team": "NBS",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/pray_2013.png"
   },
   {
     "id": "LCK_2013_Worlds_NBS_SUP_Cain",
@@ -267,7 +296,8 @@
     "team": "NBS",
     "league": "LCK",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cain_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_RYL_TOP_GoDlike",
@@ -276,7 +306,8 @@
     "team": "RYL",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/godlike_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_RYL_JGL_Lucky",
@@ -285,7 +316,8 @@
     "team": "RYL",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/lucky_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_RYL_MID_Wh1t3zZ",
@@ -294,7 +326,8 @@
     "team": "RYL",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wh1t3zz_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_RYL_BOT_Uzi",
@@ -303,7 +336,8 @@
     "team": "RYL",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/uzi_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_RYL_SUP_Tabe",
@@ -312,7 +346,8 @@
     "team": "RYL",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/tabe_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_OMG_TOP_Gogoing",
@@ -321,7 +356,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gogoing_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_OMG_JGL_LoveLing",
@@ -330,7 +366,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/loveling_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_OMG_MID_Cool",
@@ -339,7 +376,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/cool_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_OMG_BOT_san",
@@ -348,7 +386,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/san_2013.png"
   },
   {
     "id": "LPL_2013_Worlds_OMG_SUP_Pomelo",
@@ -357,7 +396,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/pomelo_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_FNC_TOP_sOAZ",
@@ -366,7 +406,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/soaz_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_FNC_JGL_Cynanide",
@@ -375,7 +416,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cynanide_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_FNC_MID_xPeke",
@@ -384,7 +426,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xpeke_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_FNC_BOT_puszu",
@@ -393,7 +436,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/puszu_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_FNC_SUP_YellOwStaR",
@@ -402,7 +446,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yellowstar_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_GMB_TOP_Darien",
@@ -411,7 +456,8 @@
     "team": "GMB",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/darien_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_GMB_JGL_Diamondprox",
@@ -420,7 +466,8 @@
     "team": "GMB",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/diamondprox_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_GMB_MID_AlexIch",
@@ -429,7 +476,8 @@
     "team": "GMB",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/alex ich_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_GMB_BOT_Genja",
@@ -438,7 +486,8 @@
     "team": "GMB",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/genja_2013.png"
   },
   {
     "id": "LEC_2013_Worlds_GMB_SUP_Voidle",
@@ -447,7 +496,8 @@
     "team": "GMB",
     "league": "LEC",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/voidle_2013.png"
   },
   {
     "id": "LCS_2013_Worlds_C9_TOP_Balls",
@@ -456,7 +506,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/balls_2013.png"
   },
   {
     "id": "LCS_2013_Worlds_C9_JGL_Meteos",
@@ -465,7 +516,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meteos_2013.png"
   },
   {
     "id": "LCS_2013_Worlds_C9_MID_Hai",
@@ -474,7 +526,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hai_2013.png"
   },
   {
     "id": "LCS_2013_Worlds_C9_BOT_Sneaky",
@@ -483,7 +536,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/sneaky_2013.png"
   },
   {
     "id": "LCS_2013_Worlds_C9_SUP_LemonNation",
@@ -492,7 +546,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/lemonnation_2013.png"
   },
   {
     "id": "LCP_2013_Worlds_GAB_TOP_Steak",
@@ -501,7 +556,8 @@
     "team": "GAB",
     "league": "LCP",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/steak_2013.png"
   },
   {
     "id": "LCP_2013_Worlds_GAB_JGL_Winds",
@@ -510,7 +566,8 @@
     "team": "GAB",
     "league": "LCP",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/winds_2013.png"
   },
   {
     "id": "LCP_2013_Worlds_GAB_MID_Maple",
@@ -519,7 +576,8 @@
     "team": "GAB",
     "league": "LCP",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maple_2013.png"
   },
   {
     "id": "LCP_2013_Worlds_GAB_BOT_NL",
@@ -528,7 +586,8 @@
     "team": "GAB",
     "league": "LCP",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nl_2013.png"
   },
   {
     "id": "LCP_2013_Worlds_GAB_SUP_SwordArt",
@@ -537,7 +596,8 @@
     "team": "GAB",
     "league": "LCP",
     "season": "2013 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/swordart_2013.png"
   },
   {
     "id": "LCK_2014_Worlds_SSW_TOP_Looper",
@@ -546,7 +606,8 @@
     "team": "SSW",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/looper_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSW_JGL_DanDy",
@@ -555,7 +616,8 @@
     "team": "SSW",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/dandy_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSW_MID_PawN",
@@ -564,7 +626,8 @@
     "team": "SSW",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/pawn_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSW_BOT_imp",
@@ -573,7 +636,8 @@
     "team": "SSW",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/imp_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSW_SUP_Mata",
@@ -582,7 +646,8 @@
     "team": "SSW",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/mata_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSB_TOP_Acorn",
@@ -591,7 +656,8 @@
     "team": "SSB",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/acorn_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSB_JGL_Spirit",
@@ -600,7 +666,8 @@
     "team": "SSB",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/spirit_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSB_MID_Dade",
@@ -609,7 +676,8 @@
     "team": "SSB",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/dade_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSB_BOT_Deft",
@@ -618,7 +686,8 @@
     "team": "SSB",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/deft_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_SSB_SUP_Heart",
@@ -627,7 +696,8 @@
     "team": "SSB",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/heart_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_NWS_TOP_Save",
@@ -636,7 +706,8 @@
     "team": "NWS",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/save_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_NWS_JGL_Watch",
@@ -645,7 +716,8 @@
     "team": "NWS",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/watch_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_NWS_MID_Ggoong",
@@ -654,7 +726,8 @@
     "team": "NWS",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ggoong_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_NWS_BOT_Zefa",
@@ -663,7 +736,8 @@
     "team": "NWS",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zefa_2014.png"
   },
   {
     "id": "LCK_2014_Worlds_NWS_SUP_GorillA",
@@ -672,7 +746,8 @@
     "team": "NWS",
     "league": "LCK",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gorilla_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_SHR_TOP_Cola",
@@ -681,7 +756,8 @@
     "team": "SHR",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cola_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_SHR_JGL_inSec",
@@ -690,7 +766,8 @@
     "team": "SHR",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/insec_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_SHR_MID_Corn",
@@ -699,7 +776,8 @@
     "team": "SHR",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/corn_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_SHR_BOT_Uzi",
@@ -708,7 +786,8 @@
     "team": "SHR",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/uzi_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_SHR_SUP_Zero",
@@ -717,7 +796,8 @@
     "team": "SHR",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zero_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_EDG_TOP_Korol",
@@ -726,7 +806,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/korol_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_EDG_JGL_Clearlove",
@@ -735,7 +816,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/clearlove_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_EDG_MID_U",
@@ -744,7 +826,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/u_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_EDG_BOT_NaMei",
@@ -753,7 +836,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/namei_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_EDG_SUP_FZZF",
@@ -762,7 +846,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/fzzf_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_OMG_TOP_Gogoing",
@@ -771,7 +856,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gogoing_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_OMG_JGL_LoveLing",
@@ -780,7 +866,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/loveling_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_OMG_MID_Cool",
@@ -789,7 +876,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cool_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_OMG_BOT_san",
@@ -798,7 +886,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/san_2014.png"
   },
   {
     "id": "LPL_2014_Worlds_OMG_SUP_Cloud",
@@ -807,7 +896,8 @@
     "team": "OMG",
     "league": "LPL",
     "season": "2014 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cloud_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_C9_TOP_Balls",
@@ -816,7 +906,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/balls_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_C9_JGL_Meteos",
@@ -825,7 +916,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meteos_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_C9_MID_Hai",
@@ -834,7 +926,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hai_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_C9_BOT_Sneaky",
@@ -843,7 +936,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/sneaky_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_C9_SUP_LemonNation",
@@ -852,7 +946,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/lemonnation_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_TSM_TOP_Dyrus",
@@ -861,7 +956,8 @@
     "team": "TSM",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/dyrus_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_TSM_JGL_Amazing",
@@ -870,7 +966,8 @@
     "team": "TSM",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/amazing_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_TSM_MID_Bjergsen",
@@ -879,7 +976,8 @@
     "team": "TSM",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bjergsen_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_TSM_BOT_WildTurtle",
@@ -888,7 +986,8 @@
     "team": "TSM",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/wildturtle_2014.png"
   },
   {
     "id": "LCS_2014_Worlds_TSM_SUP_Lustboy",
@@ -897,7 +996,8 @@
     "team": "TSM",
     "league": "LCS",
     "season": "2014 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/lustboy_2014.png"
   },
   {
     "id": "LCK_2015_MSI_SKT_TOP_MaRin",
@@ -906,7 +1006,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/marin_2015.png"
   },
   {
     "id": "LCK_2015_MSI_SKT_JGL_Bengi",
@@ -915,7 +1016,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bengi_2015.png"
   },
   {
     "id": "LCK_2015_MSI_SKT_MID_Faker",
@@ -924,7 +1026,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2015.png"
   },
   {
     "id": "LCK_2015_MSI_SKT_MID_Easyhoon",
@@ -933,7 +1036,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/easyhoon_2015.png"
   },
   {
     "id": "LCK_2015_MSI_SKT_BOT_Bang",
@@ -942,7 +1046,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bang_2015.png"
   },
   {
     "id": "LCK_2015_MSI_SKT_SUP_Wolf",
@@ -951,7 +1056,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wolf_2015.png"
   },
   {
     "id": "LPL_2015_MSI_EDG_TOP_Korol",
@@ -960,7 +1066,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/korol_2015.png"
   },
   {
     "id": "LPL_2015_MSI_EDG_JGL_Clearlove",
@@ -969,7 +1076,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/clearlove_2015.png"
   },
   {
     "id": "LPL_2015_MSI_EDG_MID_PawN",
@@ -978,7 +1086,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/pawn_2015.png"
   },
   {
     "id": "LPL_2015_MSI_EDG_BOT_Deft",
@@ -987,7 +1096,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/deft_2015.png"
   },
   {
     "id": "LPL_2015_MSI_EDG_SUP_Meiko",
@@ -996,7 +1106,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/meiko_2015.png"
   },
   {
     "id": "LEC_2015_MSI_FNC_TOP_Huni",
@@ -1005,7 +1116,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/huni_2015.png"
   },
   {
     "id": "LEC_2015_MSI_FNC_JGL_Reignover",
@@ -1014,7 +1126,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/reignover_2015.png"
   },
   {
     "id": "LEC_2015_MSI_FNC_MID_Febiven",
@@ -1023,7 +1136,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/febiven_2015.png"
   },
   {
     "id": "LEC_2015_MSI_FNC_BOT_Rekkles",
@@ -1032,7 +1146,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rekkles_2015.png"
   },
   {
     "id": "LEC_2015_MSI_FNC_SUP_YellOwStaR",
@@ -1041,7 +1156,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/yellowstar_2015.png"
   },
   {
     "id": "LCP_2015_MSI_AHQ_TOP_Ziv",
@@ -1050,7 +1166,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ziv_2015.png"
   },
   {
     "id": "LCP_2015_MSI_AHQ_JGL_Mountain",
@@ -1059,7 +1176,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mountain_2015.png"
   },
   {
     "id": "LCP_2015_MSI_AHQ_MID_Westdoor",
@@ -1068,7 +1186,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/westdoor_2015.png"
   },
   {
     "id": "LCP_2015_MSI_AHQ_BOT_Anex",
@@ -1077,7 +1196,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/anex_2015.png"
   },
   {
     "id": "LCP_2015_MSI_AHQ_SUP_Albis",
@@ -1086,7 +1206,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/albis_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_SKT_TOP_MaRin",
@@ -1095,7 +1216,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/marin_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_SKT_JGL_Bengi",
@@ -1104,7 +1226,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bengi_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_SKT_MID_Faker",
@@ -1113,7 +1236,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_SKT_MID_Easyhoon",
@@ -1122,7 +1246,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/easyhoon_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_SKT_BOT_Bang",
@@ -1131,7 +1256,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bang_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_SKT_SUP_Wolf",
@@ -1140,7 +1266,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wolf_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KT_TOP_Ssumday",
@@ -1149,7 +1276,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ssumday_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KT_JGL_Score",
@@ -1158,7 +1286,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/score_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KT_MID_Nagne",
@@ -1167,7 +1296,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nagne_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KT_BOT_Arrow",
@@ -1176,7 +1306,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/arrow_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KT_SUP_Piccaboo",
@@ -1185,7 +1316,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/piccaboo_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KOO_TOP_Smeb",
@@ -1194,7 +1326,8 @@
     "team": "KOO",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/smeb_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KOO_JGL_Hojin",
@@ -1203,7 +1336,8 @@
     "team": "KOO",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/hojin_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KOO_MID_Kuro",
@@ -1212,7 +1346,8 @@
     "team": "KOO",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kuro_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KOO_BOT_PraY",
@@ -1221,7 +1356,8 @@
     "team": "KOO",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/pray_2015.png"
   },
   {
     "id": "LCK_2015_Worlds_KOO_SUP_GorillA",
@@ -1230,7 +1366,8 @@
     "team": "KOO",
     "league": "LCK",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gorilla_2015.png"
   },
   {
     "id": "LPL_2015_Worlds_EDG_TOP_Korol",
@@ -1239,7 +1376,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/korol_2015.png"
   },
   {
     "id": "LPL_2015_Worlds_EDG_JGL_Clearlove",
@@ -1248,7 +1386,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/clearlove_2015.png"
   },
   {
     "id": "LPL_2015_Worlds_EDG_MID_PawN",
@@ -1257,7 +1396,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/pawn_2015.png"
   },
   {
     "id": "LPL_2015_Worlds_EDG_BOT_Deft",
@@ -1266,7 +1406,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/deft_2015.png"
   },
   {
     "id": "LPL_2015_Worlds_EDG_SUP_Meiko",
@@ -1275,7 +1416,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meiko_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_FNC_TOP_Huni",
@@ -1284,7 +1426,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/huni_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_FNC_JGL_Reignover",
@@ -1293,7 +1436,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/reignover_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_FNC_MID_Febiven",
@@ -1302,7 +1446,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/febiven_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_FNC_BOT_Rekkles",
@@ -1311,7 +1456,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/rekkles_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_FNC_SUP_YellOwStaR",
@@ -1320,7 +1466,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yellowstar_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_OG_TOP_sOAZ",
@@ -1329,7 +1476,8 @@
     "team": "OG",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/soaz_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_OG_JGL_Amazing",
@@ -1338,7 +1486,8 @@
     "team": "OG",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/amazing_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_OG_MID_xPeke",
@@ -1347,7 +1496,8 @@
     "team": "OG",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xpeke_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_OG_BOT_Zven",
@@ -1356,7 +1506,8 @@
     "team": "OG",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zven_2015.png"
   },
   {
     "id": "LEC_2015_Worlds_OG_SUP_Mithy",
@@ -1365,7 +1516,8 @@
     "team": "OG",
     "league": "LEC",
     "season": "2015 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mithy_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_FW_TOP_Steak",
@@ -1374,7 +1526,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/steak_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_FW_JGL_Karsa",
@@ -1383,7 +1536,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/karsa_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_FW_MID_Maple",
@@ -1392,7 +1546,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maple_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_FW_BOT_NL",
@@ -1401,7 +1556,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nl_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_FW_SUP_SwordArt",
@@ -1410,7 +1566,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/swordart_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_AHQ_TOP_Ziv",
@@ -1419,7 +1576,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ziv_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_AHQ_JGL_Mountain",
@@ -1428,7 +1586,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mountain_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_AHQ_MID_Westdoor",
@@ -1437,7 +1596,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/westdoor_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_AHQ_BOT_Anex",
@@ -1446,7 +1606,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/anex_2015.png"
   },
   {
     "id": "LCP_2015_Worlds_AHQ_SUP_Albis",
@@ -1455,7 +1616,8 @@
     "team": "AHQ",
     "league": "LCP",
     "season": "2015 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/albis_2015.png"
   },
   {
     "id": "LCK_2016_MSI_SKT_TOP_Duke",
@@ -1464,7 +1626,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/duke_2016.png"
   },
   {
     "id": "LCK_2016_MSI_SKT_JGL_Blank",
@@ -1473,7 +1636,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/blank_2016.png"
   },
   {
     "id": "LCK_2016_MSI_SKT_JGL_Bengi",
@@ -1482,7 +1646,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bengi_2016.png"
   },
   {
     "id": "LCK_2016_MSI_SKT_MID_Faker",
@@ -1491,7 +1656,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2016.png"
   },
   {
     "id": "LCK_2016_MSI_SKT_BOT_Bang",
@@ -1500,7 +1666,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bang_2016.png"
   },
   {
     "id": "LCK_2016_MSI_SKT_SUP_Wolf",
@@ -1509,7 +1676,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wolf_2016.png"
   },
   {
     "id": "LPL_2016_MSI_RNG_TOP_Looper",
@@ -1518,7 +1686,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/looper_2016.png"
   },
   {
     "id": "LPL_2016_MSI_RNG_JGL_Mlxg",
@@ -1527,7 +1696,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mlxg_2016.png"
   },
   {
     "id": "LPL_2016_MSI_RNG_MID_Xiaohu",
@@ -1536,7 +1706,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xiaohu_2016.png"
   },
   {
     "id": "LPL_2016_MSI_RNG_BOT_Wuxx",
@@ -1545,7 +1716,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/wuxx_2016.png"
   },
   {
     "id": "LPL_2016_MSI_RNG_SUP_Mata",
@@ -1554,7 +1726,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mata_2016.png"
   },
   {
     "id": "LCS_2016_MSI_CLG_TOP_Darshan",
@@ -1563,7 +1736,8 @@
     "team": "CLG",
     "league": "LCS",
     "season": "2016 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/darshan_2016.png"
   },
   {
     "id": "LCS_2016_MSI_CLG_JGL_Xmithie",
@@ -1572,7 +1746,8 @@
     "team": "CLG",
     "league": "LCS",
     "season": "2016 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xmithie_2016.png"
   },
   {
     "id": "LCS_2016_MSI_CLG_MID_Huhi",
@@ -1581,7 +1756,8 @@
     "team": "CLG",
     "league": "LCS",
     "season": "2016 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/huhi_2016.png"
   },
   {
     "id": "LCS_2016_MSI_CLG_BOT_Stixxay",
@@ -1590,7 +1766,8 @@
     "team": "CLG",
     "league": "LCS",
     "season": "2016 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/stixxay_2016.png"
   },
   {
     "id": "LCS_2016_MSI_CLG_SUP_aphromoo",
@@ -1599,7 +1776,8 @@
     "team": "CLG",
     "league": "LCS",
     "season": "2016 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/aphromoo_2016.png"
   },
   {
     "id": "LCP_2016_MSI_FW_TOP_MMD",
@@ -1608,7 +1786,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mmd_2016.png"
   },
   {
     "id": "LCP_2016_MSI_FW_JGL_Karsa",
@@ -1617,7 +1796,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/karsa_2016.png"
   },
   {
     "id": "LCP_2016_MSI_FW_MID_Maple",
@@ -1626,7 +1806,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maple_2016.png"
   },
   {
     "id": "LCP_2016_MSI_FW_BOT_NL",
@@ -1635,7 +1816,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nl_2016.png"
   },
   {
     "id": "LCP_2016_MSI_FW_SUP_SwordARt",
@@ -1644,7 +1826,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2016 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/swordart_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SKT_TOP_Duke",
@@ -1653,7 +1836,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/duke_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SKT_JGL_Blank",
@@ -1662,7 +1846,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/blank_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SKT_JGL_Bengi",
@@ -1671,7 +1856,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bengi_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SKT_MID_Faker",
@@ -1680,7 +1866,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SKT_BOT_Bang",
@@ -1689,7 +1876,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bang_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SKT_SUP_Wolf",
@@ -1698,7 +1886,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wolf_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_ROX_TOP_Smeb",
@@ -1707,7 +1896,8 @@
     "team": "ROX",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/smeb_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_ROX_JGL_Peanut",
@@ -1716,7 +1906,8 @@
     "team": "ROX",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peanut_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_ROX_MID_Kuro",
@@ -1725,7 +1916,8 @@
     "team": "ROX",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kuro_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_ROX_BOT_PraY",
@@ -1734,7 +1926,8 @@
     "team": "ROX",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/pray_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_ROX_SUP_GorillA",
@@ -1743,7 +1936,8 @@
     "team": "ROX",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gorilla_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SSG_TOP_CuVee",
@@ -1752,7 +1946,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cuvee_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SSG_JGL_Ambition",
@@ -1761,7 +1956,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ambition_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SSG_MID_Crown",
@@ -1770,7 +1966,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/crown_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SSG_BOT_Ruler",
@@ -1779,7 +1976,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ruler_2016.png"
   },
   {
     "id": "LCK_2016_Worlds_SSG_SUP_CoreJJ",
@@ -1788,7 +1986,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/corejj_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_RNG_TOP_Looper",
@@ -1797,7 +1996,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/looper_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_RNG_JGL_Mlxg",
@@ -1806,7 +2006,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mlxg_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_RNG_MID_Xiaohu",
@@ -1815,7 +2016,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xiaohu_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_RNG_BOT_Uzi",
@@ -1824,7 +2026,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/uzi_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_RNG_SUP_Mata",
@@ -1833,7 +2036,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mata_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_EDG_TOP_Korol",
@@ -1842,7 +2046,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/korol_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_EDG_JGL_Clearlove",
@@ -1851,7 +2056,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/clearlove_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_EDG_MID_Scout",
@@ -1860,7 +2066,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/scout_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_EDG_BOT_Deft",
@@ -1869,7 +2076,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/deft_2016.png"
   },
   {
     "id": "LPL_2016_Worlds_EDG_SUP_Meiko",
@@ -1878,7 +2086,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meiko_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_H2K_TOP_Odoamne",
@@ -1887,7 +2096,8 @@
     "team": "H2K",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/odoamne_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_H2K_JGL_Jankos",
@@ -1896,7 +2106,8 @@
     "team": "H2K",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jankos_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_H2K_MID_Ryu",
@@ -1905,7 +2116,8 @@
     "team": "H2K",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ryu_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_H2K_BOT_FORG1VEN",
@@ -1914,7 +2126,8 @@
     "team": "H2K",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/forg1ven_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_H2K_SUP_Vander",
@@ -1923,7 +2136,8 @@
     "team": "H2K",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/vander_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_ANX_TOP_Smurf",
@@ -1932,7 +2146,8 @@
     "team": "ANX",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/smurf_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_ANX_JGL_PvPStejos",
@@ -1941,7 +2156,8 @@
     "team": "ANX",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/pvpstejos_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_ANX_MID_Kira",
@@ -1950,7 +2166,8 @@
     "team": "ANX",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kira_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_ANX_BOT_aMiracle",
@@ -1959,7 +2176,8 @@
     "team": "ANX",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/amiracle_2016.png"
   },
   {
     "id": "LEC_2016_Worlds_ANX_SUP_Likkrit",
@@ -1968,7 +2186,8 @@
     "team": "ANX",
     "league": "LEC",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/likkrit_2016.png"
   },
   {
     "id": "LCS_2016_Worlds_C9_TOP_Impact",
@@ -1977,7 +2196,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/impact_2016.png"
   },
   {
     "id": "LCS_2016_Worlds_C9_JGL_Meteos",
@@ -1986,7 +2206,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meteos_2016.png"
   },
   {
     "id": "LCS_2016_Worlds_C9_MID_Jensen",
@@ -1995,7 +2216,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jensen_2016.png"
   },
   {
     "id": "LCS_2016_Worlds_C9_BOT_Sneaky",
@@ -2004,7 +2226,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/sneaky_2016.png"
   },
   {
     "id": "LCS_2016_Worlds_C9_SUP_Smoothie",
@@ -2013,7 +2236,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2016 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/smoothie_2016.png"
   },
   {
     "id": "LCK_2017_MSI_SKT_TOP_Huni",
@@ -2022,7 +2246,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/huni_2017.png"
   },
   {
     "id": "LCK_2017_MSI_SKT_JGL_Peanut",
@@ -2031,7 +2256,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/peanut_2017.png"
   },
   {
     "id": "LCK_2017_MSI_SKT_JGL_Blank",
@@ -2040,7 +2266,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/blank_2017.png"
   },
   {
     "id": "LCK_2017_MSI_SKT_MID_Faker",
@@ -2049,7 +2276,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2017.png"
   },
   {
     "id": "LCK_2017_MSI_SKT_BOT_Bang",
@@ -2058,7 +2286,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bang_2017.png"
   },
   {
     "id": "LCK_2017_MSI_SKT_SUP_Wolf",
@@ -2067,7 +2296,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wolf_2017.png"
   },
   {
     "id": "LPL_2017_MSI_WE_TOP_957",
@@ -2076,7 +2306,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/957_2017.png"
   },
   {
     "id": "LPL_2017_MSI_WE_JGL_Condi",
@@ -2085,7 +2316,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/condi_2017.png"
   },
   {
     "id": "LPL_2017_MSI_WE_MID_Xiye",
@@ -2094,7 +2326,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xiye_2017.png"
   },
   {
     "id": "LPL_2017_MSI_WE_BOT_Mystic",
@@ -2103,7 +2336,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mystic_2017.png"
   },
   {
     "id": "LPL_2017_MSI_WE_SUP_Ben",
@@ -2112,7 +2346,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ben_2017.png"
   },
   {
     "id": "LPL_2017_MSI_WE_SUP_Zero",
@@ -2121,7 +2356,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zero_2017.png"
   },
   {
     "id": "LEC_2017_MSI_G2_TOP_Expect",
@@ -2130,7 +2366,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2017 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/expect_2017.png"
   },
   {
     "id": "LEC_2017_MSI_G2_JGL_Trick",
@@ -2139,7 +2376,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2017 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/trick_2017.png"
   },
   {
     "id": "LEC_2017_MSI_G2_MID_Perkz",
@@ -2148,7 +2386,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2017 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/perkz_2017.png"
   },
   {
     "id": "LEC_2017_MSI_G2_BOT_Zven",
@@ -2157,7 +2396,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2017 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zven_2017.png"
   },
   {
     "id": "LEC_2017_MSI_G2_SUP_Mithy",
@@ -2166,7 +2406,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2017 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mithy_2017.png"
   },
   {
     "id": "LCP_2017_MSI_FW_TOP_MMD",
@@ -2175,7 +2416,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mmd_2017.png"
   },
   {
     "id": "LCP_2017_MSI_FW_JGL_Karsa",
@@ -2184,7 +2426,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/karsa_2017.png"
   },
   {
     "id": "LCP_2017_MSI_FW_MID_Maple",
@@ -2193,7 +2436,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maple_2017.png"
   },
   {
     "id": "LCP_2017_MSI_FW_BOT_Betty",
@@ -2202,7 +2446,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/betty_2017.png"
   },
   {
     "id": "LCP_2017_MSI_FW_SUP_SwordArt",
@@ -2211,7 +2456,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2017 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/swordart_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SKT_TOP_Huni",
@@ -2220,7 +2466,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/huni_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SKT_JGL_Peanut",
@@ -2229,7 +2476,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peanut_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SKT_JGL_Blank",
@@ -2238,7 +2486,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/blank_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SKT_MID_Faker",
@@ -2247,7 +2496,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SKT_BOT_Bang",
@@ -2256,7 +2506,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bang_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SKT_SUP_Wolf",
@@ -2265,7 +2516,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wolf_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_LZ_TOP_Khan",
@@ -2274,7 +2526,8 @@
     "team": "LZ",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/khan_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_LZ_TOP_Rascal",
@@ -2283,7 +2536,8 @@
     "team": "LZ",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rascal_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_LZ_JGL_Cuzz",
@@ -2292,7 +2546,8 @@
     "team": "LZ",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/cuzz_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_LZ_MID_Bdd",
@@ -2301,7 +2556,8 @@
     "team": "LZ",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bdd_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_LZ_BOT_PraY",
@@ -2310,7 +2566,8 @@
     "team": "LZ",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/pray_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_LZ_SUP_GorillA",
@@ -2319,7 +2576,8 @@
     "team": "LZ",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gorilla_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SSG_TOP_CuVee",
@@ -2328,7 +2586,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/cuvee_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SSG_JGL_Ambition",
@@ -2337,7 +2596,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ambition_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SSG_MID_Crown",
@@ -2346,7 +2606,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/crown_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SSG_BOT_Ruler",
@@ -2355,7 +2616,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ruler_2017.png"
   },
   {
     "id": "LCK_2017_Worlds_SSG_SUP_CoreJJ",
@@ -2364,7 +2626,8 @@
     "team": "SSG",
     "league": "LCK",
     "season": "2017 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/corejj_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_RNG_TOP_Letme",
@@ -2373,7 +2636,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/letme_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_RNG_JGL_Mlxg",
@@ -2382,7 +2646,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mlxg_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_RNG_MID_Xiaohu",
@@ -2391,7 +2656,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xiaohu_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_RNG_BOT_Uzi",
@@ -2400,7 +2666,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/uzi_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_RNG_SUP_Ming",
@@ -2409,7 +2676,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ming_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_WE_TOP_957",
@@ -2418,7 +2686,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/957_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_WE_JGL_Condi",
@@ -2427,7 +2696,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/condi_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_WE_MID_Xiye",
@@ -2436,7 +2706,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xiye_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_WE_BOT_Mystic",
@@ -2445,7 +2716,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mystic_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_WE_SUP_Ben",
@@ -2454,7 +2726,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ben_2017.png"
   },
   {
     "id": "LPL_2017_Worlds_WE_SUP_Zero",
@@ -2463,7 +2736,8 @@
     "team": "WE",
     "league": "LPL",
     "season": "2017 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zero_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_MSF_TOP_Alphari",
@@ -2472,7 +2746,8 @@
     "team": "MSF",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/alphari_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_MSF_JGL_Maxlore",
@@ -2481,7 +2756,8 @@
     "team": "MSF",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maxlore_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_MSF_MID_PowerOfEvil",
@@ -2490,7 +2766,8 @@
     "team": "MSF",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/powerofevil_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_MSF_BOT_HansSama",
@@ -2499,7 +2776,8 @@
     "team": "MSF",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hans sama_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_MSF_SUP_IgNar",
@@ -2508,7 +2786,8 @@
     "team": "MSF",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ignar_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_FNC_TOP_sOAZ",
@@ -2517,7 +2796,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/soaz_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_FNC_JGL_Broxah",
@@ -2526,7 +2806,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/broxah_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_FNC_MID_Caps",
@@ -2535,7 +2816,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_FNC_BOT_Rekkles",
@@ -2544,7 +2826,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rekkles_2017.png"
   },
   {
     "id": "LEC_2017_Worlds_FNC_SUP_Jesiz",
@@ -2553,7 +2836,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jesiz_2017.png"
   },
   {
     "id": "LCS_2017_Worlds_C9_TOP_Impact",
@@ -2562,7 +2846,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/impact_2017.png"
   },
   {
     "id": "LCS_2017_Worlds_C9_JGL_Contractz",
@@ -2571,7 +2856,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/contractz_2017.png"
   },
   {
     "id": "LCS_2017_Worlds_C9_MID_Jensen",
@@ -2580,7 +2866,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jensen_2017.png"
   },
   {
     "id": "LCS_2017_Worlds_C9_BOT_Sneaky",
@@ -2589,7 +2876,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/sneaky_2017.png"
   },
   {
     "id": "LCS_2017_Worlds_C9_SUP_Smoothie",
@@ -2598,7 +2886,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2017 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/smoothie_2017.png"
   },
   {
     "id": "LCK_2018_MSI_KZ_TOP_Khan",
@@ -2607,7 +2896,8 @@
     "team": "KZ",
     "league": "LCK",
     "season": "2018 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/khan_2018.png"
   },
   {
     "id": "LCK_2018_MSI_KZ_JGL_Peanut",
@@ -2616,7 +2906,8 @@
     "team": "KZ",
     "league": "LCK",
     "season": "2018 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peanut_2018.png"
   },
   {
     "id": "LCK_2018_MSI_KZ_JGL_Cuzz",
@@ -2625,7 +2916,8 @@
     "team": "KZ",
     "league": "LCK",
     "season": "2018 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cuzz_2018.png"
   },
   {
     "id": "LCK_2018_MSI_KZ_MID_Bdd",
@@ -2634,7 +2926,8 @@
     "team": "KZ",
     "league": "LCK",
     "season": "2018 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bdd_2018.png"
   },
   {
     "id": "LCK_2018_MSI_KZ_BOT_PraY",
@@ -2643,7 +2936,8 @@
     "team": "KZ",
     "league": "LCK",
     "season": "2018 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/pray_2018.png"
   },
   {
     "id": "LCK_2018_MSI_KZ_SUP_GorillA",
@@ -2652,7 +2946,8 @@
     "team": "KZ",
     "league": "LCK",
     "season": "2018 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gorilla_2018.png"
   },
   {
     "id": "LPL_2018_MSI_RNG_TOP_Letme",
@@ -2661,7 +2956,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/letme_2018.png"
   },
   {
     "id": "LPL_2018_MSI_RNG_JGL_Karsa",
@@ -2670,7 +2966,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/karsa_2018.png"
   },
   {
     "id": "LPL_2018_MSI_RNG_MID_Xiaohu",
@@ -2679,7 +2976,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/xiaohu_2018.png"
   },
   {
     "id": "LPL_2018_MSI_RNG_BOT_Uzi",
@@ -2688,7 +2986,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/uzi_2018.png"
   },
   {
     "id": "LPL_2018_MSI_RNG_SUP_Ming",
@@ -2697,7 +2996,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ming_2018.png"
   },
   {
     "id": "LEC_2018_MSI_FNC_TOP_Bwipo",
@@ -2706,7 +3006,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bwipo_2018.png"
   },
   {
     "id": "LEC_2018_MSI_FNC_JGL_Broxah",
@@ -2715,7 +3016,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/broxah_2018.png"
   },
   {
     "id": "LEC_2018_MSI_FNC_MID_Caps",
@@ -2724,7 +3026,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2018.png"
   },
   {
     "id": "LEC_2018_MSI_FNC_BOT_Rekkles",
@@ -2733,7 +3036,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rekkles_2018.png"
   },
   {
     "id": "LEC_2018_MSI_FNC_SUP_Hylissang",
@@ -2742,7 +3046,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hylissang_2018.png"
   },
   {
     "id": "LCP_2018_MSI_FW_TOP_Hanabi",
@@ -2751,7 +3056,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hanabi_2018.png"
   },
   {
     "id": "LCP_2018_MSI_FW_JGL_Moojin",
@@ -2760,7 +3066,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/moojin_2018.png"
   },
   {
     "id": "LCP_2018_MSI_FW_MID_Maple",
@@ -2769,7 +3076,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maple_2018.png"
   },
   {
     "id": "LCP_2018_MSI_FW_BOT_Betty",
@@ -2778,7 +3086,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/betty_2018.png"
   },
   {
     "id": "LCP_2018_MSI_FW_SUP_SwordArt",
@@ -2787,7 +3096,8 @@
     "team": "FW",
     "league": "LCP",
     "season": "2018 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/swordart_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_AF_TOP_Kiin",
@@ -2796,7 +3106,8 @@
     "team": "AF",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kiin_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_AF_JGL_Spirit",
@@ -2805,7 +3116,8 @@
     "team": "AF",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/spirit_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_AF_MID_Kuro",
@@ -2814,7 +3126,8 @@
     "team": "AF",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kuro_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_AF_BOT_Kramer",
@@ -2823,7 +3136,8 @@
     "team": "AF",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kramer_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_AF_SUP_TusiN",
@@ -2832,7 +3146,8 @@
     "team": "AF",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/tusin_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_KT_TOP_Smeb",
@@ -2841,7 +3156,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/smeb_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_KT_JGL_Score",
@@ -2850,7 +3166,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/score_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_KT_MID_Ucal",
@@ -2859,7 +3176,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ucal_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_KT_BOT_Deft",
@@ -2868,7 +3186,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/deft_2018.png"
   },
   {
     "id": "LCK_2018_Worlds_KT_SUP_Mata",
@@ -2877,7 +3196,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mata_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_EDG_TOP_Ray",
@@ -2886,7 +3206,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ray_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_EDG_JGL_Haro",
@@ -2895,7 +3216,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/haro_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_EDG_MID_Scout",
@@ -2904,7 +3226,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/scout_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_EDG_BOT_iBoy",
@@ -2913,7 +3236,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/iboy_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_EDG_SUP_Meiko",
@@ -2922,7 +3246,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meiko_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_RNG_TOP_Letme",
@@ -2931,7 +3256,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/letme_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_RNG_JGL_Karsa",
@@ -2940,7 +3266,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/karsa_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_RNG_MID_Xiaohu",
@@ -2949,7 +3276,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xiaohu_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_RNG_BOT_Uzi",
@@ -2958,7 +3286,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/uzi_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_RNG_SUP_Ming",
@@ -2967,7 +3296,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ming_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_IG_TOP_TheShy",
@@ -2976,7 +3306,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/theshy_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_IG_JGL_Ning",
@@ -2985,7 +3316,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ning_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_IG_MID_Rookie",
@@ -2994,7 +3326,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/rookie_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_IG_BOT_JackeyLoce",
@@ -3003,7 +3336,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/jackeyloce_2018.png"
   },
   {
     "id": "LPL_2018_Worlds_IG_SUP_Baolan",
@@ -3012,7 +3346,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2018 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/baolan_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_FNC_TOP_Bwipo",
@@ -3021,7 +3356,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bwipo_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_FNC_JGL_Broxah",
@@ -3030,7 +3366,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/broxah_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_FNC_MID_Caps",
@@ -3039,7 +3376,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/caps_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_FNC_BOT_Rekkles",
@@ -3048,7 +3386,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/rekkles_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_FNC_SUP_Hylissang",
@@ -3057,7 +3396,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/hylissang_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_G2_TOP_Wunder",
@@ -3066,7 +3406,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wunder_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_G2_JGL_Jankos",
@@ -3075,7 +3416,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jankos_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_G2_MID_Perkz",
@@ -3084,7 +3426,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/perkz_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_G2_BOT_Hjarnan",
@@ -3093,7 +3436,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/hjarnan_2018.png"
   },
   {
     "id": "LEC_2018_Worlds_G2_SUP_Wadid",
@@ -3102,7 +3446,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wadid_2018.png"
   },
   {
     "id": "LCS_2018_Worlds_C9_TOP_Licorice",
@@ -3111,7 +3456,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/licorice_2018.png"
   },
   {
     "id": "LCS_2018_Worlds_C9_JGL_Svenskeren",
@@ -3120,7 +3466,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/svenskeren_2018.png"
   },
   {
     "id": "LCS_2018_Worlds_C9_MID_Jensen",
@@ -3129,7 +3476,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jensen_2018.png"
   },
   {
     "id": "LCS_2018_Worlds_C9_BOT_Sneaky",
@@ -3138,7 +3486,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/sneaky_2018.png"
   },
   {
     "id": "LCS_2018_Worlds_C9_SUP_Zeyzal",
@@ -3147,7 +3496,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2018 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zeyzal_2018.png"
   },
   {
     "id": "LCK_2019_MSI_SKT_TOP_Khan",
@@ -3156,7 +3506,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/khan_2019.png"
   },
   {
     "id": "LCK_2019_MSI_SKT_JGL_Clid",
@@ -3165,7 +3516,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/clid_2019.png"
   },
   {
     "id": "LCK_2019_MSI_SKT_MID_Faker",
@@ -3174,7 +3526,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/faker_2019.png"
   },
   {
     "id": "LCK_2019_MSI_SKT_BOT_Teddy",
@@ -3183,7 +3536,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/teddy_2019.png"
   },
   {
     "id": "LCK_2019_MSI_SKT_SUP_Mata",
@@ -3192,7 +3546,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mata_2019.png"
   },
   {
     "id": "LPL_2019_MSI_IG_TOP_TheShy",
@@ -3201,7 +3556,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/theshy_2019.png"
   },
   {
     "id": "LPL_2019_MSI_IG_JGL_Ning",
@@ -3210,7 +3566,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ning_2019.png"
   },
   {
     "id": "LPL_2019_MSI_IG_MID_Rookie",
@@ -3219,7 +3576,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rookie_2019.png"
   },
   {
     "id": "LPL_2019_MSI_IG_BOT_JackeyLoce",
@@ -3228,7 +3586,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jackeyloce_2019.png"
   },
   {
     "id": "LPL_2019_MSI_IG_SUP_Baolan",
@@ -3237,43 +3596,48 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/baolan_2019.png"
   },
   {
-    "id": "LEC_2019_MSI_Wunder_TOP_Jankos",
-    "playerName": "Jankos",
+    "id": "LEC_2019_MSI_G2_TOP_Wunder",
+    "playerName": "Wunder",
     "position": "TOP",
-    "team": "Wunder",
+    "team": "G2",
     "league": "LEC",
     "season": "2019 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wunder_2019.png"
   },
   {
-    "id": "LEC_2019_MSI_Wunder_JGL_Caps",
-    "playerName": "Caps",
+    "id": "LEC_2019_MSI_G2_JGL_Jankos",
+    "playerName": "Jankos",
     "position": "JGL",
-    "team": "Wunder",
+    "team": "G2",
     "league": "LEC",
     "season": "2019 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/jankos_2019.png"
   },
   {
-    "id": "LEC_2019_MSI_Wunder_MID_Perkz",
-    "playerName": "Perkz",
+    "id": "LEC_2019_MSI_G2_MID_Caps",
+    "playerName": "Caps",
     "position": "MID",
-    "team": "Wunder",
+    "team": "G2",
     "league": "LEC",
     "season": "2019 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/caps_2019.png"
   },
   {
-    "id": "LEC_2019_MSI_Wunder_BOT_Mikyx",
-    "playerName": "Mikyx",
+    "id": "LEC_2019_MSI_G2_BOT_Perkz",
+    "playerName": "Perkz",
     "position": "BOT",
-    "team": "Wunder",
+    "team": "G2",
     "league": "LEC",
     "season": "2019 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/perkz_2019.png"
   },
   {
     "id": "LCS_2019_MSI_TL_TOP_Impact",
@@ -3282,7 +3646,8 @@
     "team": "TL",
     "league": "LCS",
     "season": "2019 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/impact_2019.png"
   },
   {
     "id": "LCS_2019_MSI_TL_JGL_Xmithie",
@@ -3291,7 +3656,8 @@
     "team": "TL",
     "league": "LCS",
     "season": "2019 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xmithie_2019.png"
   },
   {
     "id": "LCS_2019_MSI_TL_MID_Jensen",
@@ -3300,7 +3666,8 @@
     "team": "TL",
     "league": "LCS",
     "season": "2019 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jensen_2019.png"
   },
   {
     "id": "LCS_2019_MSI_TL_BOT_Doublelift",
@@ -3309,7 +3676,8 @@
     "team": "TL",
     "league": "LCS",
     "season": "2019 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/doublelift_2019.png"
   },
   {
     "id": "LCS_2019_MSI_TL_SUP_CoreJJ",
@@ -3318,7 +3686,8 @@
     "team": "TL",
     "league": "LCS",
     "season": "2019 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/corejj_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_DWG_TOP_Nuguri",
@@ -3327,7 +3696,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nuguri_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_DWG_JGL_Canyon",
@@ -3336,7 +3706,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/canyon_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_DWG_MID_ShowMaker",
@@ -3345,7 +3716,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/showmaker_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_DWG_BOT_Nuclear",
@@ -3354,7 +3726,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nuclear_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_DWG_SUP_BeryL",
@@ -3363,7 +3736,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/beryl_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_SKT_TOP_Khan",
@@ -3372,7 +3746,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/khan_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_SKT_JGL_Clid",
@@ -3381,7 +3756,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/clid_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_SKT_MID_Faker",
@@ -3390,7 +3766,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_SKT_BOT_Teddy",
@@ -3399,7 +3776,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/teddy_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_SKT_SUP_Effort",
@@ -3408,7 +3786,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/effort_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_SKT_SUP_Mata",
@@ -3417,7 +3796,8 @@
     "team": "SKT",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mata_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_GRF_TOP_Sword",
@@ -3426,7 +3806,8 @@
     "team": "GRF",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/sword_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_GRF_JGL_Tarzan",
@@ -3435,7 +3816,8 @@
     "team": "GRF",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/tarzan_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_GRF_MID_Chovy",
@@ -3444,7 +3826,8 @@
     "team": "GRF",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/chovy_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_GRF_BOT_Viper",
@@ -3453,7 +3836,8 @@
     "team": "GRF",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/viper_2019.png"
   },
   {
     "id": "LCK_2019_Worlds_GRF_SUP_Lehends",
@@ -3462,7 +3846,8 @@
     "team": "GRF",
     "league": "LCK",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/lehends_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_IG_TOP_TheShy",
@@ -3471,16 +3856,18 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/theshy_2019.png"
   },
   {
-    "id": "LPL_2019_Worlds_IG_JGL_Leyab",
-    "playerName": "Leyab",
+    "id": "LPL_2019_Worlds_IG_JGL_Leyan",
+    "playerName": "Leyan",
     "position": "JGL",
     "team": "IG",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/leyan_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_IG_JGL_Ning",
@@ -3489,7 +3876,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ning_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_IG_MID_Rookie",
@@ -3498,7 +3886,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/rookie_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_IG_BOT_JackeyLove",
@@ -3507,7 +3896,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jackeylove_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_IG_SUP_Baolan",
@@ -3516,7 +3906,8 @@
     "team": "IG",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/baolan_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_FPX_TOP_GimGoon",
@@ -3525,7 +3916,8 @@
     "team": "FPX",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gimgoon_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_FPX_JGL_Tian",
@@ -3534,7 +3926,8 @@
     "team": "FPX",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/tian_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_FPX_MID_Doinb",
@@ -3543,7 +3936,8 @@
     "team": "FPX",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/doinb_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_FPX_BOT_Lwx",
@@ -3552,7 +3946,8 @@
     "team": "FPX",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/lwx_2019.png"
   },
   {
     "id": "LPL_2019_Worlds_FPX_SUP_Crisp",
@@ -3561,7 +3956,8 @@
     "team": "FPX",
     "league": "LPL",
     "season": "2019 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/crisp_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_G2_TOP_Wunder",
@@ -3570,7 +3966,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wunder_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_G2_JGL_Jankos",
@@ -3579,7 +3976,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jankos_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_G2_MID_Caps",
@@ -3588,7 +3986,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/caps_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_G2_BOT_Perkz",
@@ -3597,7 +3996,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/perkz_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_G2_SUP_Mikyx",
@@ -3606,7 +4006,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mikyx_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_SPY_TOP_Vizicsacsi",
@@ -3615,7 +4016,8 @@
     "team": "SPY",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/vizicsacsi_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_SPY_JGL_Xerxe",
@@ -3624,7 +4026,8 @@
     "team": "SPY",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xerxe_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_SPY_MID_Humanoid",
@@ -3633,7 +4036,8 @@
     "team": "SPY",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/humanoid_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_SPY_BOT_Kobbe",
@@ -3642,7 +4046,8 @@
     "team": "SPY",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kobbe_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_SPY_SUP_Norskeren",
@@ -3651,7 +4056,8 @@
     "team": "SPY",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/norskeren_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_FNC_TOP_Bwipo",
@@ -3660,7 +4066,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bwipo_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_FNC_JGL_Broxah",
@@ -3669,7 +4076,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/broxah_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_FNC_MID_Nemesis",
@@ -3678,7 +4086,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nemesis_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_FNC_BOT_Rekkles",
@@ -3687,7 +4096,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rekkles_2019.png"
   },
   {
     "id": "LEC_2019_Worlds_FNC_SUP_Hylissang",
@@ -3696,7 +4106,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2019 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hylissang_2019.png"
   },
   {
     "id": "LCK_2020_Worlds_GEN_TOP_Rascal",
@@ -3705,7 +4116,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rascal_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_GEN_JGL_Clid",
@@ -3714,7 +4126,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/clid_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_GEN_MID_Bdd",
@@ -3723,7 +4136,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bdd_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_GEN_BOT_Ruler",
@@ -3732,7 +4146,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ruler_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_GEN_SUP_Life",
@@ -3741,7 +4156,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/life_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DWG_TOP_Nuguri",
@@ -3750,7 +4166,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/nuguri_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DWG_JGL_Canyon",
@@ -3759,7 +4176,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/canyon_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DWG_MID_ShowMaker",
@@ -3768,7 +4186,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/showmaker_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DWG_BOT_Ghost",
@@ -3777,7 +4196,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ghost_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DWG_SUP_BeryL",
@@ -3786,7 +4206,8 @@
     "team": "DWG",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/beryl_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DRX_TOP_Doran",
@@ -3795,7 +4216,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/doran_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DRX_JGL_Pyosik",
@@ -3804,7 +4226,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/pyosik_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DRX_MID_Chovy",
@@ -3813,7 +4236,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/chovy_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DRX_BOT_Deft",
@@ -3822,7 +4246,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/deft_2020.png"
   },
   {
     "id": "LCK_2020_Worlds_DRX_SUP_Keria",
@@ -3831,7 +4256,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/keria_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_TES_TOP_369",
@@ -3840,7 +4266,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/369_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_TES_JGL_Karsa",
@@ -3849,7 +4276,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/karsa_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_TES_MID_Knight",
@@ -3858,7 +4286,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/knight_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_TES_BOT_JackeyLove",
@@ -3867,7 +4296,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jackeylove_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_TES_SUP_yuyanjia",
@@ -3876,7 +4306,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yuyanjia_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_SN_TOP_Bin",
@@ -3885,7 +4316,8 @@
     "team": "SN",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_SN_JGL_SofM",
@@ -3894,7 +4326,8 @@
     "team": "SN",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/sofm_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_SN_MID_Angel",
@@ -3903,7 +4336,8 @@
     "team": "SN",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/angel_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_SN_BOT_huanfeng",
@@ -3912,7 +4346,8 @@
     "team": "SN",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/huanfeng_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_SN_SUP_SwordArt",
@@ -3921,7 +4356,8 @@
     "team": "SN",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/swordart_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_JDG_TOP_Zoom",
@@ -3930,7 +4366,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zoom_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_JDG_JGL_Kanavi",
@@ -3939,7 +4376,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kanavi_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_JDG_MID_Yagao",
@@ -3948,7 +4386,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/yagao_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_JDG_BOT_LokeN",
@@ -3957,7 +4396,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/loken_2020.png"
   },
   {
     "id": "LPL_2020_Worlds_JDG_SUP_LvMao",
@@ -3966,7 +4406,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/lvmao_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_G2_TOP_Wunder",
@@ -3975,7 +4416,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wunder_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_G2_JGL_Jankos",
@@ -3984,7 +4426,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jankos_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_G2_MID_Caps",
@@ -3993,7 +4436,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/caps_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_G2_BOT_Perkz",
@@ -4002,7 +4446,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/perkz_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_G2_SUP_Mikyx",
@@ -4011,7 +4456,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/mikyx_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_FNC_TOP_Bwipo",
@@ -4020,7 +4466,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bwipo_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_FNC_JGL_Selfmade",
@@ -4029,7 +4476,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/selfmade_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_FNC_MID_Nemesis",
@@ -4038,7 +4486,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nemesis_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_FNC_BOT_Rekkles",
@@ -4047,7 +4496,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rekkles_2020.png"
   },
   {
     "id": "LEC_2020_Worlds_FNC_SUP_Hylissang",
@@ -4056,7 +4506,8 @@
     "team": "FNC",
     "league": "LEC",
     "season": "2020 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hylissang_2020.png"
   },
   {
     "id": "LCK_2021_MSI_DK_TOP_Khan",
@@ -4065,7 +4516,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/khan_2021.png"
   },
   {
     "id": "LCK_2021_MSI_DK_JGL_Canyon",
@@ -4074,7 +4526,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/canyon_2021.png"
   },
   {
     "id": "LCK_2021_MSI_DK_MID_ShowMaker",
@@ -4083,7 +4536,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/showmaker_2021.png"
   },
   {
     "id": "LCK_2021_MSI_DK_BOT_Ghost",
@@ -4092,7 +4546,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ghost_2021.png"
   },
   {
     "id": "LCK_2021_MSI_DK_SUP_BeryL",
@@ -4101,7 +4556,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/beryl_2021.png"
   },
   {
     "id": "LPL_2021_MSI_RNG_TOP_Xiaohu",
@@ -4110,7 +4566,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/xiaohu_2021.png"
   },
   {
     "id": "LPL_2021_MSI_RNG_TOP_Xiaobai",
@@ -4119,7 +4576,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/xiaobai_2021.png"
   },
   {
     "id": "LPL_2021_MSI_RNG_JGL_Wei",
@@ -4128,7 +4586,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wei_2021.png"
   },
   {
     "id": "LPL_2021_MSI_RNG_MID_Cryin",
@@ -4137,7 +4596,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/cryin_2021.png"
   },
   {
     "id": "LPL_2021_MSI_RNG_BOT_GALA",
@@ -4146,7 +4606,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gala_2021.png"
   },
   {
     "id": "LPL_2021_MSI_RNG_SUP_Ming",
@@ -4155,7 +4616,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ming_2021.png"
   },
   {
     "id": "LEC_2021_MSI_MAD_TOP_Armut",
@@ -4164,7 +4626,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/armut_2021.png"
   },
   {
     "id": "LEC_2021_MSI_MAD_JGL_Elyoya",
@@ -4173,7 +4636,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/elyoya_2021.png"
   },
   {
     "id": "LEC_2021_MSI_MAD_MID_Humanoid",
@@ -4182,7 +4646,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/humanoid_2021.png"
   },
   {
     "id": "LEC_2021_MSI_MAD_BOT_Carzzy",
@@ -4191,7 +4656,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/carzzy_2021.png"
   },
   {
     "id": "LEC_2021_MSI_MAD_SUP_Kaiser",
@@ -4200,7 +4666,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kaiser_2021.png"
   },
   {
     "id": "LCP_2021_MSI_PSG_TOP_Hanabi",
@@ -4209,7 +4676,8 @@
     "team": "PSG",
     "league": "LCP",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hanabi_2021.png"
   },
   {
     "id": "LCP_2021_MSI_PSG_JGL_River",
@@ -4218,7 +4686,8 @@
     "team": "PSG",
     "league": "LCP",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/river_2021.png"
   },
   {
     "id": "LCP_2021_MSI_PSG_MID_Maple",
@@ -4227,7 +4696,8 @@
     "team": "PSG",
     "league": "LCP",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/maple_2021.png"
   },
   {
     "id": "LCP_2021_MSI_PSG_BOT_Doggo",
@@ -4236,7 +4706,8 @@
     "team": "PSG",
     "league": "LCP",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/doggo_2021.png"
   },
   {
     "id": "LCP_2021_MSI_PSG_SUP_Kaiwing",
@@ -4245,7 +4716,8 @@
     "team": "PSG",
     "league": "LCP",
     "season": "2021 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kaiwing_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_GEN_TOP_Rascal",
@@ -4254,7 +4726,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/rascal_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_GEN_TOP_Burdol",
@@ -4263,7 +4736,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/burdol_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_GEN_JGL_Clid",
@@ -4272,7 +4746,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/clid_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_GEN_MID_Bdd",
@@ -4281,7 +4756,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bdd_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_GEN_BOT_Ruler",
@@ -4290,7 +4766,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ruler_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_GEN_SUP_Life",
@@ -4299,7 +4776,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/life_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_T1_TOP_Canna",
@@ -4308,7 +4786,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/canna_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_T1_JGL_Oner",
@@ -4317,7 +4796,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/oner_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_T1_MID_Faker",
@@ -4326,7 +4806,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_T1_BOT_Gumayusi",
@@ -4335,7 +4816,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gumayusi_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_T1_SUP_Keria",
@@ -4344,7 +4826,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/keria_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_HLE_TOP_Morgan",
@@ -4353,7 +4836,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/morgan_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_HLE_JGL_Willer",
@@ -4362,7 +4846,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/willer_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_HLE_MID_Chovy",
@@ -4371,7 +4856,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/chovy_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_HLE_BOT_Deft",
@@ -4380,7 +4866,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/deft_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_HLE_SUP_Vsta",
@@ -4389,7 +4876,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/vsta_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_DK_TOP_Khan",
@@ -4398,7 +4886,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/khan_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_DK_JGL_Canyon",
@@ -4407,7 +4896,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/canyon_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_DK_MID_ShowMaker",
@@ -4416,7 +4906,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/showmaker_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_DK_BOT_Ghost",
@@ -4425,7 +4916,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ghost_2021.png"
   },
   {
     "id": "LCK_2021_Worlds_DK_SUP_BeryL",
@@ -4434,7 +4926,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2021 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/beryl_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_RNG_TOP_Xiaohu",
@@ -4443,7 +4936,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xiaohu_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_RNG_JGL_Wei",
@@ -4452,7 +4946,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/wei_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_RNG_MID_Cryin",
@@ -4461,7 +4956,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/cryin_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_RNG_BOT_GALA",
@@ -4470,7 +4966,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gala_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_RNG_SUP_Ming",
@@ -4479,7 +4976,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ming_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_EDG_TOP_Flandre",
@@ -4488,7 +4986,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/flandre_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_EDG_JGL_Jiejie",
@@ -4497,7 +4996,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/jiejie_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_EDG_MID_Scout",
@@ -4506,7 +5006,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/scout_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_EDG_BOT_Viper",
@@ -4515,7 +5016,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/viper_2021.png"
   },
   {
     "id": "LPL_2021_Worlds_EDG_SUP_Meiko",
@@ -4524,7 +5026,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2021 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/meiko_2021.png"
   },
   {
     "id": "LEC_2021_Worlds_MAD_TOP_Armut",
@@ -4533,7 +5036,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/armut_2021.png"
   },
   {
     "id": "LEC_2021_Worlds_MAD_JGL_Elyoya",
@@ -4542,7 +5046,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/elyoya_2021.png"
   },
   {
     "id": "LEC_2021_Worlds_MAD_MID_Humanoid",
@@ -4551,7 +5056,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/humanoid_2021.png"
   },
   {
     "id": "LEC_2021_Worlds_MAD_BOT_Carzzy",
@@ -4560,7 +5066,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/carzzy_2021.png"
   },
   {
     "id": "LEC_2021_Worlds_MAD_SUP_Kaiser",
@@ -4569,7 +5076,8 @@
     "team": "MAD",
     "league": "LEC",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kaiser_2021.png"
   },
   {
     "id": "LCS_2021_Worlds_C9_TOP_Fudge",
@@ -4578,7 +5086,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/fudge_2021.png"
   },
   {
     "id": "LCS_2021_Worlds_C9_JGL_Blaber",
@@ -4587,7 +5096,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/blaber_2021.png"
   },
   {
     "id": "LCS_2021_Worlds_C9_MID_Perkz",
@@ -4596,7 +5106,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/perkz_2021.png"
   },
   {
     "id": "LCS_2021_Worlds_C9_BOT_Zven",
@@ -4605,7 +5116,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zven_2021.png"
   },
   {
     "id": "LCS_2021_Worlds_C9_SUP_Vulcan",
@@ -4614,7 +5126,8 @@
     "team": "C9",
     "league": "LCS",
     "season": "2021 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/vulcan_2021.png"
   },
   {
     "id": "LCK_2022_MSI_T1_TOP_Zeus",
@@ -4623,7 +5136,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zeus_2022.png"
   },
   {
     "id": "LCK_2022_MSI_T1_JGL_Oner",
@@ -4632,7 +5146,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/oner_2022.png"
   },
   {
     "id": "LCK_2022_MSI_T1_MID_Faker",
@@ -4641,7 +5156,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2022.png"
   },
   {
     "id": "LCK_2022_MSI_T1_BOT_Gumayusi",
@@ -4650,7 +5166,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gumayusi_2022.png"
   },
   {
     "id": "LCK_2022_MSI_T1_SUP_Keria",
@@ -4659,7 +5176,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/keria_2022.png"
   },
   {
     "id": "LPL_2022_MSI_RNG_TOP_Bin",
@@ -4668,7 +5186,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/bin_2022.png"
   },
   {
     "id": "LPL_2022_MSI_RNG_JGL_Wei",
@@ -4677,7 +5196,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/wei_2022.png"
   },
   {
     "id": "LPL_2022_MSI_RNG_MID_Xiaohu",
@@ -4686,7 +5206,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/xiaohu_2022.png"
   },
   {
     "id": "LPL_2022_MSI_RNG_BOT_GALA",
@@ -4695,7 +5216,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gala_2022.png"
   },
   {
     "id": "LPL_2022_MSI_RNG_SUP_Ming",
@@ -4704,7 +5226,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ming_2022.png"
   },
   {
     "id": "LEC_2022_MSI_G2_TOP_BrokenBlade",
@@ -4713,7 +5236,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/brokenblade_2022.png"
   },
   {
     "id": "LEC_2022_MSI_G2_JGL_Jankos",
@@ -4722,7 +5246,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jankos_2022.png"
   },
   {
     "id": "LEC_2022_MSI_G2_MID_Caps",
@@ -4731,7 +5256,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2022.png"
   },
   {
     "id": "LEC_2022_MSI_G2_BOT_Flakked",
@@ -4740,7 +5266,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/flakked_2022.png"
   },
   {
     "id": "LEC_2022_MSI_G2_SUP_Targamas",
@@ -4749,43 +5276,48 @@
     "team": "G2",
     "league": "LEC",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/targamas_2022.png"
   },
   {
-    "id": "LCS_2022_MSI_Impact_TOP_Inspired",
+    "id": "LCS_2022_MSI_EG_TOP_Inspired",
     "playerName": "Inspired",
     "position": "TOP",
-    "team": "Impact",
+    "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/inspired_2022.png"
   },
   {
-    "id": "LCS_2022_MSI_Impact_JGL_Jojopyun",
+    "id": "LCS_2022_MSI_EG_JGL_Jojopyun",
     "playerName": "Jojopyun",
     "position": "JGL",
-    "team": "Impact",
+    "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jojopyun_2022.png"
   },
   {
-    "id": "LCS_2022_MSI_Impact_MID_Danny",
+    "id": "LCS_2022_MSI_EG_MID_Danny",
     "playerName": "Danny",
     "position": "MID",
-    "team": "Impact",
+    "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/danny_2022.png"
   },
   {
-    "id": "LCS_2022_MSI_Impact_BOT_Vulcan",
+    "id": "LCS_2022_MSI_EG_BOT_Vulcan",
     "playerName": "Vulcan",
     "position": "BOT",
-    "team": "Impact",
+    "team": "EG",
     "league": "LCS",
     "season": "2022 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/vulcan_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_T1_TOP_Zeus",
@@ -4794,7 +5326,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zeus_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_T1_JGL_Oner",
@@ -4803,7 +5336,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/oner_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_T1_MID_Faker",
@@ -4812,7 +5346,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_T1_BOT_Gumayusi",
@@ -4821,7 +5356,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gumayusi_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_T1_SUP_Keria",
@@ -4830,7 +5366,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/keria_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_GEN_TOP_Doran",
@@ -4839,7 +5376,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/doran_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_GEN_JGL_Peanut",
@@ -4848,7 +5386,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peanut_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_GEN_MID_Chovy",
@@ -4857,7 +5396,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/chovy_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_GEN_BOT_Ruler",
@@ -4866,7 +5406,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ruler_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_GEN_SUP_Lehends",
@@ -4875,7 +5416,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/lehends_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DK_TOP_Nuguri",
@@ -4884,7 +5426,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/nuguri_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DK_JGL_Canyon",
@@ -4893,7 +5436,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/canyon_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DK_MID_ShowMaker",
@@ -4902,7 +5446,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/showmaker_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DK_BOT_deokdam",
@@ -4911,7 +5456,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/deokdam_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DK_SUP_Kellin",
@@ -4920,7 +5466,8 @@
     "team": "DK",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kellin_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DRX_TOP_Kingen",
@@ -4929,7 +5476,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/kingen_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DRX_JGL_Pyosik",
@@ -4938,7 +5486,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/pyosik_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DRX_MID_Zeka",
@@ -4947,7 +5496,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/zeka_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DRX_BOT_Deft",
@@ -4956,7 +5506,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/deft_2022.png"
   },
   {
     "id": "LCK_2022_Worlds_DRX_SUP_BeryL",
@@ -4965,7 +5516,8 @@
     "team": "DRX",
     "league": "LCK",
     "season": "2022 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/beryl_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_JDG_TOP_369",
@@ -4974,7 +5526,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/369_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_JDG_JGL_Kanavi",
@@ -4983,7 +5536,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kanavi_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_JDG_MID_Yagao",
@@ -4992,7 +5546,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yagao_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_JDG_BOT_Hope",
@@ -5001,7 +5556,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/hope_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_JDG_SUP_MISSING",
@@ -5010,7 +5566,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/missing_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_RNG_TOP_Breathe",
@@ -5019,7 +5576,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/breathe_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_RNG_JGL_Wei",
@@ -5028,7 +5586,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/wei_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_RNG_MID_Xiaohu",
@@ -5037,7 +5596,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/xiaohu_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_RNG_BOT_GALA",
@@ -5046,7 +5606,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gala_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_RNG_SUP_Ming",
@@ -5055,7 +5616,8 @@
     "team": "RNG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ming_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_EDG_TOP_Flandre",
@@ -5064,7 +5626,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/flandre_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_EDG_JGL_Jiejie",
@@ -5073,7 +5636,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jiejie_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_EDG_MID_Scout",
@@ -5082,7 +5646,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/scout_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_EDG_BOT_Viper",
@@ -5091,7 +5656,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/viper_2022.png"
   },
   {
     "id": "LPL_2022_Worlds_EDG_SUP_Meiko",
@@ -5100,7 +5666,8 @@
     "team": "EDG",
     "league": "LPL",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meiko_2022.png"
   },
   {
     "id": "LEC_2022_Worlds_RGE_TOP_Odoamne",
@@ -5109,7 +5676,8 @@
     "team": "RGE",
     "league": "LEC",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/odoamne_2022.png"
   },
   {
     "id": "LEC_2022_Worlds_RGE_JGL_Malrang",
@@ -5118,7 +5686,8 @@
     "team": "RGE",
     "league": "LEC",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/malrang_2022.png"
   },
   {
     "id": "LEC_2022_Worlds_RGE_MID_Larssen",
@@ -5127,7 +5696,8 @@
     "team": "RGE",
     "league": "LEC",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/larssen_2022.png"
   },
   {
     "id": "LEC_2022_Worlds_RGE_BOT_Comp",
@@ -5136,7 +5706,8 @@
     "team": "RGE",
     "league": "LEC",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/comp_2022.png"
   },
   {
     "id": "LEC_2022_Worlds_RGE_SUP_Trymbi",
@@ -5145,7 +5716,8 @@
     "team": "RGE",
     "league": "LEC",
     "season": "2022 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/trymbi_2022.png"
   },
   {
     "id": "LCK_2023_MSI_T1_TOP_Zeus",
@@ -5154,7 +5726,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zeus_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_JGL_Oner",
@@ -5163,7 +5736,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/oner_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_MID_Faker",
@@ -5172,7 +5746,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/faker_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_BOT_Gumayusi",
@@ -5181,7 +5756,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gumayusi_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_SUP_Keria",
@@ -5190,7 +5766,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/keria_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_TOP_Doran",
@@ -5199,7 +5776,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/doran_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_JGL_Peanut",
@@ -5208,7 +5786,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/peanut_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_MID_Chovy",
@@ -5217,7 +5796,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/chovy_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_BOT_Peyz",
@@ -5226,7 +5806,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/peyz_2023.png"
   },
   {
     "id": "LCK_2023_MSI_T1_SUP_Delight",
@@ -5235,7 +5816,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/delight_2023.png"
   },
   {
     "id": "LPL_2023_MSI_JDG_TOP_369",
@@ -5244,7 +5826,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/369_2023.png"
   },
   {
     "id": "LPL_2023_MSI_JDG_JGL_Kanavi",
@@ -5253,7 +5836,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/kanavi_2023.png"
   },
   {
     "id": "LPL_2023_MSI_JDG_MID_Knight",
@@ -5262,7 +5846,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/knight_2023.png"
   },
   {
     "id": "LPL_2023_MSI_JDG_BOT_Ruler",
@@ -5271,7 +5856,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ruler_2023.png"
   },
   {
     "id": "LPL_2023_MSI_JDG_SUP_MISSING",
@@ -5280,7 +5866,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/missing_2023.png"
   },
   {
     "id": "LPL_2023_MSI_BLG_TOP_Bin",
@@ -5289,7 +5876,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2023.png"
   },
   {
     "id": "LPL_2023_MSI_BLG_JGL_Xun",
@@ -5298,7 +5886,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xun_2023.png"
   },
   {
     "id": "LPL_2023_MSI_BLG_MID_Yagao",
@@ -5307,7 +5896,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yagao_2023.png"
   },
   {
     "id": "LPL_2023_MSI_BLG_BOT_Elk",
@@ -5316,7 +5906,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/elk_2023.png"
   },
   {
     "id": "LPL_2023_MSI_BLG_SUP_ON",
@@ -5325,7 +5916,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/on_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_GEN_TOP_Doran",
@@ -5334,7 +5926,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/doran_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_GEN_JGL_Peanut",
@@ -5343,7 +5936,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/peanut_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_GEN_MID_Chovy",
@@ -5352,7 +5946,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/chovy_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_GEN_BOT_Peyz",
@@ -5361,7 +5956,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/peyz_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_GEN_SUP_Delight",
@@ -5370,7 +5966,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/delight_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_KT_TOP_Kiin",
@@ -5379,7 +5976,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kiin_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_KT_JGL_Cuzz",
@@ -5388,7 +5986,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/cuzz_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_KT_MID_Bdd",
@@ -5397,7 +5996,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bdd_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_KT_BOT_Aiming",
@@ -5406,7 +6006,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/aiming_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_KT_SUP_Lehends",
@@ -5415,7 +6016,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/lehends_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_T1_TOP_Zeus",
@@ -5424,7 +6026,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/zeus_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_T1_JGL_Oner",
@@ -5433,7 +6036,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/oner_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_T1_MID_Faker",
@@ -5442,7 +6046,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_T1_BOT_Gumayusi",
@@ -5451,7 +6056,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gumayusi_2023.png"
   },
   {
     "id": "LCK_2023_Worlds_T1_SUP_Keria",
@@ -5460,7 +6066,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2023 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/keria_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_BLG_TOP_Bin",
@@ -5469,7 +6076,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_BLG_JGL_Xun",
@@ -5478,7 +6086,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xun_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_BLG_MID_Yagao",
@@ -5487,7 +6096,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/yagao_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_BLG_BOT_Elk",
@@ -5496,7 +6106,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/elk_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_BLG_SUP_ON",
@@ -5505,7 +6116,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/on_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_WBG_TOP_TheShy",
@@ -5514,7 +6126,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/theshy_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_WBG_JGL_Weiwei",
@@ -5523,7 +6136,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/weiwei_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_WBG_MID_Xiaohu",
@@ -5532,7 +6146,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xiaohu_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_WBG_BOT_Light",
@@ -5541,7 +6156,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/light_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_WBG_SUP_Crisp",
@@ -5550,7 +6166,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/crisp_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_JDG_TOP_369",
@@ -5559,7 +6176,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/369_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_JDG_JGL_Kanavi",
@@ -5568,7 +6186,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kanavi_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_JDG_MID_Knight",
@@ -5577,7 +6196,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/knight_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_JDG_BOT_Ruler",
@@ -5586,7 +6206,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ruler_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_JDG_SUP_MISSING",
@@ -5595,7 +6216,8 @@
     "team": "JDG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/missing_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_LNG_TOP_Zika",
@@ -5604,7 +6226,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zika_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_LNG_JGL_Tarzan",
@@ -5613,7 +6236,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/tarzan_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_LNG_MID_Scout",
@@ -5622,7 +6246,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/scout_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_LNG_BOT_GALA",
@@ -5631,7 +6256,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gala_2023.png"
   },
   {
     "id": "LPL_2023_Worlds_LNG_SUP_Hang",
@@ -5640,7 +6266,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hang_2023.png"
   },
   {
     "id": "LCS_2023_Worlds_NRG_TOP_Dhokla",
@@ -5649,7 +6276,8 @@
     "team": "NRG",
     "league": "LCS",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/dhokla_2023.png"
   },
   {
     "id": "LCS_2023_Worlds_NRG_JGL_Contractz",
@@ -5658,7 +6286,8 @@
     "team": "NRG",
     "league": "LCS",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/contractz_2023.png"
   },
   {
     "id": "LCS_2023_Worlds_NRG_MID_Palafox",
@@ -5667,7 +6296,8 @@
     "team": "NRG",
     "league": "LCS",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/palafox_2023.png"
   },
   {
     "id": "LCS_2023_Worlds_NRG_BOT_FBI",
@@ -5676,7 +6306,8 @@
     "team": "NRG",
     "league": "LCS",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/fbi_2023.png"
   },
   {
     "id": "LCS_2023_Worlds_NRG_SUP_IgNar",
@@ -5685,7 +6316,8 @@
     "team": "NRG",
     "league": "LCS",
     "season": "2023 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/ignar_2023.png"
   },
   {
     "id": "LCK_2024_MSI_GEN_TOP_Kiin",
@@ -5694,7 +6326,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/kiin_2024.png"
   },
   {
     "id": "LCK_2024_MSI_GEN_JGL_Canyon",
@@ -5703,7 +6336,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/canyon_2024.png"
   },
   {
     "id": "LCK_2024_MSI_GEN_MID_Chovy",
@@ -5712,7 +6346,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/chovy_2024.png"
   },
   {
     "id": "LCK_2024_MSI_GEN_BOT_Peyz",
@@ -5721,7 +6356,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/peyz_2024.png"
   },
   {
     "id": "LCK_2024_MSI_GEN_SUP_Lehends",
@@ -5730,7 +6366,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/lehends_2024.png"
   },
   {
     "id": "LCK_2024_MSI_T1_TOP_Zeus",
@@ -5739,7 +6376,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zeus_2024.png"
   },
   {
     "id": "LCK_2024_MSI_T1_JGL_Oner",
@@ -5748,7 +6386,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/oner_2024.png"
   },
   {
     "id": "LCK_2024_MSI_T1_MID_Faker",
@@ -5757,7 +6396,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/faker_2024.png"
   },
   {
     "id": "LCK_2024_MSI_T1_BOT_Gumayusi",
@@ -5766,7 +6406,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gumayusi_2024.png"
   },
   {
     "id": "LCK_2024_MSI_T1_SUP_Keria",
@@ -5775,7 +6416,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/keria_2024.png"
   },
   {
     "id": "LPL_2024_MSI_BLG_TOP_Bin",
@@ -5784,7 +6426,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2024.png"
   },
   {
     "id": "LPL_2024_MSI_BLG_JGL_Xun",
@@ -5793,7 +6436,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xun_2024.png"
   },
   {
     "id": "LPL_2024_MSI_BLG_MID_Knight",
@@ -5802,7 +6446,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/knight_2024.png"
   },
   {
     "id": "LPL_2024_MSI_BLG_BOT_Elk",
@@ -5811,7 +6456,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/elk_2024.png"
   },
   {
     "id": "LPL_2024_MSI_BLG_SUP_ON",
@@ -5820,7 +6466,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/on_2024.png"
   },
   {
     "id": "LEC_2024_MSI_G2_TOP_BrokenBlade",
@@ -5829,7 +6476,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/brokenblade_2024.png"
   },
   {
     "id": "LEC_2024_MSI_G2_JGL_Yike",
@@ -5838,7 +6486,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/yike_2024.png"
   },
   {
     "id": "LEC_2024_MSI_G2_MID_Caps",
@@ -5847,7 +6496,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2024.png"
   },
   {
     "id": "LEC_2024_MSI_G2_BOT_HansSama",
@@ -5856,7 +6506,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hans sama_2024.png"
   },
   {
     "id": "LEC_2024_MSI_G2_SUP_Mikyx",
@@ -5865,7 +6516,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2024 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/mikyx_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_HLE_TOP_Doran",
@@ -5874,7 +6526,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/doran_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_HLE_JGL_Peanut",
@@ -5883,7 +6536,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/peanut_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_HLE_MID_Zeka",
@@ -5892,7 +6546,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zeka_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_HLE_BOT_Viper",
@@ -5901,7 +6556,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/viper_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_HLE_SUP_Delight",
@@ -5910,7 +6566,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/delight_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_T1_TOP_Zeus",
@@ -5919,7 +6576,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/zeus_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_T1_JGL_Oner",
@@ -5928,7 +6586,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/oner_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_T1_MID_Faker",
@@ -5937,7 +6596,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_T1_BOT_Gumayusi",
@@ -5946,7 +6606,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gumayusi_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_T1_SUP_Keria",
@@ -5955,7 +6616,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/keria_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_GEN_TOP_Kiin",
@@ -5964,7 +6626,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kiin_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_GEN_JGL_Canyon",
@@ -5973,7 +6636,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/canyon_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_GEN_MID_Chovy",
@@ -5982,7 +6646,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/chovy_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_GEN_BOT_Peyz",
@@ -5991,7 +6656,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peyz_2024.png"
   },
   {
     "id": "LCK_2024_Worlds_GEN_SUP_Lehends",
@@ -6000,7 +6666,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/lehends_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_LNG_TOP_Zika",
@@ -6009,7 +6676,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zika_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_LNG_JGL_Weiwei",
@@ -6018,7 +6686,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/weiwei_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_LNG_MID_Scout",
@@ -6027,7 +6696,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/scout_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_LNG_BOT_GALA",
@@ -6036,7 +6706,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/gala_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_LNG_SUP_Hang",
@@ -6045,7 +6716,8 @@
     "team": "LNG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hang_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_WBG_TOP_Breathe",
@@ -6054,7 +6726,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/breathe_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_WBG_JGL_Tarzan",
@@ -6063,7 +6736,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/tarzan_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_WBG_MID_Xiaohu",
@@ -6072,7 +6746,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xiaohu_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_WBG_BOT_Light",
@@ -6081,7 +6756,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/light_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_WBG_SUP_Crisp",
@@ -6090,7 +6766,8 @@
     "team": "WBG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/crisp_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_BLG_TOP_Bin",
@@ -6099,7 +6776,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_BLG_JGL_Wei",
@@ -6108,7 +6786,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/wei_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_BLG_JGL_Xun",
@@ -6117,7 +6796,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xun_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_BLG_MID_Knight",
@@ -6126,7 +6806,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/knight_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_BLG_BOT_Elk",
@@ -6135,7 +6816,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/elk_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_BLG_SUP_ON",
@@ -6144,7 +6826,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/on_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_TES_TOP_369",
@@ -6153,7 +6836,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/369_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_TES_JGL_Tian",
@@ -6162,7 +6846,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/tian_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_TES_MID_Creme",
@@ -6171,7 +6856,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/creme_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_TES_BOT_JackeyLove",
@@ -6180,7 +6866,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/jackeylove_2024.png"
   },
   {
     "id": "LPL_2024_Worlds_TES_SUP_Meiko",
@@ -6189,7 +6876,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/meiko_2024.png"
   },
   {
     "id": "LCS_2024_Worlds_FLY_TOP_Bwipo",
@@ -6198,7 +6886,8 @@
     "team": "FLY",
     "league": "LCS",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bwipo_2024.png"
   },
   {
     "id": "LCS_2024_Worlds_FLY_JGL_Inspired",
@@ -6207,7 +6896,8 @@
     "team": "FLY",
     "league": "LCS",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/inspired_2024.png"
   },
   {
     "id": "LCS_2024_Worlds_FLY_MID_Quad",
@@ -6216,7 +6906,8 @@
     "team": "FLY",
     "league": "LCS",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/quad_2024.png"
   },
   {
     "id": "LCS_2024_Worlds_FLY_BOT_Massu",
@@ -6225,7 +6916,8 @@
     "team": "FLY",
     "league": "LCS",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/massu_2024.png"
   },
   {
     "id": "LCS_2024_Worlds_FLY_SUP_Busio",
@@ -6234,7 +6926,8 @@
     "team": "FLY",
     "league": "LCS",
     "season": "2024 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/busio_2024.png"
   },
   {
     "id": "LCK_2025_FST_HLE_TOP_Zeus",
@@ -6243,7 +6936,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zeus_2025.png"
   },
   {
     "id": "LCK_2025_FST_HLE_JGL_Peanut",
@@ -6252,7 +6946,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peanut_2025.png"
   },
   {
     "id": "LCK_2025_FST_HLE_MID_Zeka",
@@ -6261,7 +6956,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/zeka_2025.png"
   },
   {
     "id": "LCK_2025_FST_HLE_BOT_Viper",
@@ -6270,7 +6966,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/viper_2025.png"
   },
   {
     "id": "LCK_2025_FST_HLE_SUP_Delight",
@@ -6279,7 +6976,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/delight_2025.png"
   },
   {
     "id": "LEC_2025_FST_KC_TOP_Canna",
@@ -6288,7 +6986,8 @@
     "team": "KC",
     "league": "LEC",
     "season": "2025 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/canna_2025.png"
   },
   {
     "id": "LEC_2025_FST_KC_JGL_Yike",
@@ -6297,7 +6996,8 @@
     "team": "KC",
     "league": "LEC",
     "season": "2025 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/yike_2025.png"
   },
   {
     "id": "LEC_2025_FST_KC_MID_Vladi",
@@ -6306,7 +7006,8 @@
     "team": "KC",
     "league": "LEC",
     "season": "2025 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/vladi_2025.png"
   },
   {
     "id": "LEC_2025_FST_KC_BOT_Caliste",
@@ -6315,7 +7016,8 @@
     "team": "KC",
     "league": "LEC",
     "season": "2025 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caliste_2025.png"
   },
   {
     "id": "LEC_2025_FST_KC_SUP_Targamas",
@@ -6324,7 +7026,8 @@
     "team": "KC",
     "league": "LEC",
     "season": "2025 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/targamas_2025.png"
   },
   {
     "id": "LCK_2025_MSI_GEN_TOP_Kiin",
@@ -6333,7 +7036,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/kiin_2025.png"
   },
   {
     "id": "LCK_2025_MSI_GEN_JGL_Canyon",
@@ -6342,7 +7046,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/canyon_2025.png"
   },
   {
     "id": "LCK_2025_MSI_GEN_MID_Chovy",
@@ -6351,7 +7056,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/chovy_2025.png"
   },
   {
     "id": "LCK_2025_MSI_GEN_BOT_Ruler",
@@ -6360,7 +7066,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/ruler_2025.png"
   },
   {
     "id": "LCK_2025_MSI_GEN_SUP_Duro",
@@ -6369,7 +7076,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/duro_2025.png"
   },
   {
     "id": "LCK_2025_MSI_T1_TOP_Doran",
@@ -6378,7 +7086,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/doran_2025.png"
   },
   {
     "id": "LCK_2025_MSI_T1_JGL_Oner",
@@ -6387,7 +7096,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/oner_2025.png"
   },
   {
     "id": "LCK_2025_MSI_T1_MID_Faker",
@@ -6396,7 +7106,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/faker_2025.png"
   },
   {
     "id": "LCK_2025_MSI_T1_BOT_Gumayusi",
@@ -6405,7 +7116,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/gumayusi_2025.png"
   },
   {
     "id": "LCK_2025_MSI_T1_SUP_Keria",
@@ -6414,7 +7126,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/keria_2025.png"
   },
   {
     "id": "LPL_2025_MSI_BLG_TOP_Bin",
@@ -6423,7 +7136,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2025 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/bin_2025.png"
   },
   {
     "id": "LPL_2025_MSI_BLG_JGL_Beichuan",
@@ -6432,7 +7146,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2025 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/beichuan_2025.png"
   },
   {
     "id": "LPL_2025_MSI_BLG_MID_Knight",
@@ -6441,7 +7156,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2025 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/knight_2025.png"
   },
   {
     "id": "LPL_2025_MSI_BLG_BOT_Elk",
@@ -6450,7 +7166,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2025 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/elk_2025.png"
   },
   {
     "id": "LPL_2025_MSI_BLG_SUP_ON",
@@ -6459,7 +7176,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2025 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/on_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_T1_TOP_Doran",
@@ -6468,7 +7186,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/doran_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_T1_JGL_Oner",
@@ -6477,7 +7196,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/oner_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_T1_MID_Faker",
@@ -6486,7 +7206,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/faker_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_T1_BOT_Gumayusi",
@@ -6495,7 +7216,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gumayusi_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_T1_SUP_Keria",
@@ -6504,7 +7226,8 @@
     "team": "T1",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/keria_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_GEN_TOP_Kiin",
@@ -6513,7 +7236,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kiin_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_GEN_JGL_Canyon",
@@ -6522,7 +7246,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/canyon_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_GEN_MID_Chovy",
@@ -6531,7 +7256,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/chovy_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_GEN_BOT_Ruler",
@@ -6540,7 +7266,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/ruler_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_GEN_SUP_Duro",
@@ -6549,7 +7276,8 @@
     "team": "GEN",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/duro_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_HLE_TOP_Zeus",
@@ -6558,7 +7286,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zeus_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_HLE_JGL_Peanut",
@@ -6567,7 +7296,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/peanut_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_HLE_MID_Zeka",
@@ -6576,7 +7306,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/zeka_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_HLE_BOT_Viper",
@@ -6585,7 +7316,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/viper_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_HLE_SUP_Delight",
@@ -6594,7 +7326,8 @@
     "team": "HLE",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/delight_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_KT_TOP_PerfecT",
@@ -6603,7 +7336,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/perfect_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_KT_JGL_Cuzz",
@@ -6612,7 +7346,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/cuzz_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_KT_MID_Bdd",
@@ -6621,7 +7356,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bdd_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_KT_BOT_deokdam",
@@ -6630,7 +7366,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/deokdam_2025.png"
   },
   {
     "id": "LCK_2025_Worlds_KT_SUP_Peter",
@@ -6639,7 +7376,8 @@
     "team": "KT",
     "league": "LCK",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/peter_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_AL_TOP_Flandre",
@@ -6648,7 +7386,8 @@
     "team": "AL",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/flandre_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_AL_JGL_Tarzan",
@@ -6657,7 +7396,8 @@
     "team": "AL",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/tarzan_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_AL_MID_Shanks",
@@ -6666,7 +7406,8 @@
     "team": "AL",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/shanks_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_AL_BOT_Hope",
@@ -6675,7 +7416,8 @@
     "team": "AL",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hope_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_AL_SUP_Kael",
@@ -6684,7 +7426,8 @@
     "team": "AL",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kael_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_TES_TOP_369",
@@ -6693,7 +7436,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/369_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_TES_JGL_Kanavi",
@@ -6702,7 +7446,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/kanavi_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_TES_MID_Creme",
@@ -6711,7 +7456,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/creme_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_TES_BOT_JackeyLove",
@@ -6720,7 +7466,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/jackeylove_2025.png"
   },
   {
     "id": "LPL_2025_Worlds_TES_SUP_Hang",
@@ -6729,7 +7476,8 @@
     "team": "TES",
     "league": "LPL",
     "season": "2025 Worlds",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/hang_2025.png"
   },
   {
     "id": "LEC_2025_Worlds_G2_TOP_BrokenBlade",
@@ -6738,7 +7486,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/brokenblade_2025.png"
   },
   {
     "id": "LEC_2025_Worlds_G2_JGL_SkewMond",
@@ -6747,7 +7496,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/skewmond_2025.png"
   },
   {
     "id": "LEC_2025_Worlds_G2_MID_Caps",
@@ -6756,7 +7506,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2025.png"
   },
   {
     "id": "LEC_2025_Worlds_G2_BOT_HansSama",
@@ -6765,7 +7516,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hans sama_2025.png"
   },
   {
     "id": "LEC_2025_Worlds_G2_SUP_Labrov",
@@ -6774,7 +7526,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/labrov_2025.png"
   },
   {
     "id": "LCP_2025_Worlds_CFO_TOP_Driver",
@@ -6783,7 +7536,8 @@
     "team": "CFO",
     "league": "LCP",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/driver_2025.png"
   },
   {
     "id": "LCP_2025_Worlds_CFO_TOP_Rest",
@@ -6792,7 +7546,8 @@
     "team": "CFO",
     "league": "LCP",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/rest_2025.png"
   },
   {
     "id": "LCP_2025_Worlds_CFO_JGL_JunJia",
@@ -6801,7 +7556,8 @@
     "team": "CFO",
     "league": "LCP",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/junjia_2025.png"
   },
   {
     "id": "LCP_2025_Worlds_CFO_MID_HongQ",
@@ -6810,7 +7566,8 @@
     "team": "CFO",
     "league": "LCP",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hongq_2025.png"
   },
   {
     "id": "LCP_2025_Worlds_CFO_BOT_Doggo",
@@ -6819,7 +7576,8 @@
     "team": "CFO",
     "league": "LCP",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/doggo_2025.png"
   },
   {
     "id": "LCP_2025_Worlds_CFO_SUP_Kaiwing",
@@ -6828,7 +7586,8 @@
     "team": "CFO",
     "league": "LCP",
     "season": "2025 Worlds",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/kaiwing_2025.png"
   },
   {
     "id": "LPL_2026_FST_BLG_TOP_Bin",
@@ -6837,7 +7596,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2026.png"
   },
   {
     "id": "LPL_2026_FST_BLG_JGL_Xun",
@@ -6846,7 +7606,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xun_2026.png"
   },
   {
     "id": "LPL_2026_FST_BLG_MID_Knight",
@@ -6855,7 +7616,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/knight_2026.png"
   },
   {
     "id": "LPL_2026_FST_BLG_BOT_Viper",
@@ -6864,7 +7626,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/viper_2026.png"
   },
   {
     "id": "LPL_2026_FST_BLG_SUP_ON",
@@ -6873,7 +7636,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 FST",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/on_2026.png"
   },
   {
     "id": "LEC_2026_FST_G2_TOP_BrokenBlade",
@@ -6882,7 +7646,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/brokenblade_2026.png"
   },
   {
     "id": "LEC_2026_FST_G2_JGL_SkewMond",
@@ -6891,7 +7656,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/skewmond_2026.png"
   },
   {
     "id": "LEC_2026_FST_G2_MID_Caps",
@@ -6900,7 +7666,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2026.png"
   },
   {
     "id": "LEC_2026_FST_G2_BOT_HansSamam",
@@ -6909,7 +7676,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hans samam_2026.png"
   },
   {
     "id": "LEC_2026_FST_G2_SUP_Labrov",
@@ -6918,7 +7686,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 FST",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/labrov_2026.png"
   },
   {
     "id": "_2026_MSI_HLE_TOP_Zeus",
@@ -6927,7 +7696,8 @@
     "team": "HLE",
     "league": "",
     "season": "2026 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/zeus_2026.png"
   },
   {
     "id": "_2026_MSI_HLE_JGL_Peanut",
@@ -6936,7 +7706,8 @@
     "team": "HLE",
     "league": "",
     "season": "2026 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/peanut_2026.png"
   },
   {
     "id": "_2026_MSI_HLE_MID_Zeka",
@@ -6945,7 +7716,8 @@
     "team": "HLE",
     "league": "",
     "season": "2026 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/zeka_2026.png"
   },
   {
     "id": "_2026_MSI_HLE_BOT_Gumayusi",
@@ -6954,7 +7726,8 @@
     "team": "HLE",
     "league": "",
     "season": "2026 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/gumayusi_2026.png"
   },
   {
     "id": "_2026_MSI_HLE_SUP_Delight",
@@ -6963,7 +7736,8 @@
     "team": "HLE",
     "league": "",
     "season": "2026 MSI",
-    "baseTier": 5
+    "baseTier": 5,
+    "imgUrl": "/assets/images/delight_2026.png"
   },
   {
     "id": "LPL_2026_MSI_BLG_TOP_Bin",
@@ -6972,7 +7746,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/bin_2026.png"
   },
   {
     "id": "LPL_2026_MSI_BLG_JGL_Xun",
@@ -6981,7 +7756,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/xun_2026.png"
   },
   {
     "id": "LPL_2026_MSI_BLG_MID_Knight",
@@ -6990,7 +7766,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/knight_2026.png"
   },
   {
     "id": "LPL_2026_MSI_BLG_BOT_Viper",
@@ -6999,7 +7776,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/viper_2026.png"
   },
   {
     "id": "LPL_2026_MSI_BLG_SUP_ON",
@@ -7008,7 +7786,8 @@
     "team": "BLG",
     "league": "LPL",
     "season": "2026 MSI",
-    "baseTier": 4
+    "baseTier": 4,
+    "imgUrl": "/assets/images/on_2026.png"
   },
   {
     "id": "LEC_2026_MSI_G2_TOP_BrokenBlade",
@@ -7017,7 +7796,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/brokenblade_2026.png"
   },
   {
     "id": "LEC_2026_MSI_G2_JGL_SkewMond",
@@ -7026,7 +7806,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/skewmond_2026.png"
   },
   {
     "id": "LEC_2026_MSI_G2_MID_Caps",
@@ -7035,16 +7816,18 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/caps_2026.png"
   },
   {
-    "id": "LEC_2026_MSI_G2_BOT_HansSama",
-    "playerName": "Hans Sama",
+    "id": "LEC_2026_MSI_G2_BOT_HansSamam",
+    "playerName": "Hans Samam",
     "position": "BOT",
     "team": "G2",
     "league": "LEC",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/hans samam_2026.png"
   },
   {
     "id": "LEC_2026_MSI_G2_SUP_Labrov",
@@ -7053,7 +7836,8 @@
     "team": "G2",
     "league": "LEC",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/labrov_2026.png"
   },
   {
     "id": "LCS_2026_MSI_LYON_TOP_Dhokla",
@@ -7062,7 +7846,8 @@
     "team": "LYON",
     "league": "LCS",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/dhokla_2026.png"
   },
   {
     "id": "LCS_2026_MSI_LYON_JGL_Inspired",
@@ -7071,7 +7856,8 @@
     "team": "LYON",
     "league": "LCS",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/inspired_2026.png"
   },
   {
     "id": "LCS_2026_MSI_LYON_MID_Saint",
@@ -7080,7 +7866,8 @@
     "team": "LYON",
     "league": "LCS",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/saint_2026.png"
   },
   {
     "id": "LCS_2026_MSI_LYON_BOT_Berserker",
@@ -7089,7 +7876,8 @@
     "team": "LYON",
     "league": "LCS",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/berserker_2026.png"
   },
   {
     "id": "LCS_2026_MSI_LYON_SUP_Isles",
@@ -7098,6 +7886,7 @@
     "team": "LYON",
     "league": "LCS",
     "season": "2026 MSI",
-    "baseTier": 3
+    "baseTier": 3,
+    "imgUrl": "/assets/images/isles_2026.png"
   }
 ]
