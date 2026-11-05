@@ -252,7 +252,7 @@ function synergyPanel(state: GameState, synergy: SynergyResult): string {
   </div>`;
 }
 
-export function renderGame(state: GameState, flip?: FlipState): string {
+export function renderGame(state: GameState, flip?: FlipState, isSharedView = false): string {
   const cards = cardsOf(state);
   const synergy = evaluateSynergy(cards);
   const finished = state.phase === 'finished';
@@ -270,14 +270,16 @@ export function renderGame(state: GameState, flip?: FlipState): string {
     <header class="flex items-center justify-between">
       <button data-action="home" class="text-sm text-slate-400 hover:text-white">← 메인</button>
       <h1 class="text-xl font-black tracking-tight">LEGACY DRAFT</h1>
-      <div class="flex items-center gap-2 text-sm text-slate-400">리롤 <span class="flex gap-1">${dots}</span></div>
+      <div class="flex items-center gap-2 text-sm text-slate-400">
+        ${isSharedView ? '<span class="rounded-full bg-amber-500/20 px-2.5 py-0.5 text-xs font-bold text-amber-300">공유된 드림팀</span>' : `리롤 <span class="flex gap-1">${dots}</span>`}
+      </div>
     </header>
 
     <section id="team-board" class="flex flex-col gap-4 rounded-2xl bg-slate-900/60 p-4 sm:p-6 ${revealing ? 'is-revealing' : ''}"
       style="--reveal-delay:${revealDelay}ms">
       <div class="flex items-end justify-between">
         <div class="reveal-after">
-          <div class="text-xs tracking-widest text-slate-500">${finished ? 'FINAL ROSTER' : 'DRAFTING'}</div>
+          <div class="text-xs tracking-widest text-slate-500">${isSharedView ? 'SHARED ROSTER' : finished ? 'FINAL ROSTER' : 'DRAFTING'}</div>
           <div class="text-2xl font-black">팀 점수 <span class="text-amber-300">${teamScore(cards, synergy)}</span></div>
         </div>
         <div class="text-right text-xs text-slate-500">${finished ? new Date().toLocaleDateString('ko-KR') : '카드를 클릭해 HOLD'}</div>
@@ -293,8 +295,8 @@ export function renderGame(state: GameState, flip?: FlipState): string {
         finished
           ? `
         <button data-action="save" class="btn-primary">이미지 저장</button>
-        <button data-action="share" class="btn-secondary">공유하기</button>
-        <button data-action="start" class="btn-secondary">다시 드래프트</button>`
+        <button data-action="share" class="btn-secondary">링크 공유</button>
+        <button data-action="start" class="btn-secondary">${isSharedView ? '나도 드래프트 하기' : '다시 드래프트'}</button>`
           : `
         <button data-action="reroll" class="btn-primary" ${canReroll(state) ? '' : 'disabled'}>
           리롤 (${left}회 남음)

@@ -49,6 +49,8 @@ export const CARD_POOL: CardPool = (() => {
 
 export const CARD_BY_ID: ReadonlyMap<string, Card> = new Map(ALL_CARDS.map((c) => [c.id, c]));
 
+export const CARD_INDEX_BY_ID: ReadonlyMap<string, number> = new Map(ALL_CARDS.map((c, idx) => [c.id, idx]));
+
 export const rosterKey = (team: string, season: string, position: Position) => `${team}|${season}|${position}`;
 
 /** 팀·시즌·포지션 → 카드 목록 (앵커 보정 드로우용) */

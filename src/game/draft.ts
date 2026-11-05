@@ -95,6 +95,19 @@ export function finalize(state: GameState): GameState {
   return { ...state, phase: 'finished', slots: state.slots.map((s) => ({ ...s, isLocked: false })) };
 }
 
+/** 공유 링크 등으로 전달받은 5장의 카드로 확정된 게임 상태 생성 */
+export function createSharedGame(cards: readonly Card[]): GameState {
+  return {
+    slots: POSITIONS.map((position, i) => ({
+      position,
+      card: cards[i],
+      isLocked: false,
+    })),
+    rerollsUsed: MAX_REROLLS,
+    phase: 'finished',
+  };
+}
+
 export function cardsOf(state: GameState): Card[] {
   return state.slots.map((s) => s.card);
 }

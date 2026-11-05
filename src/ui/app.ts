@@ -1,7 +1,7 @@
-import { canReroll, cardsOf, createGame, finalize, reroll, toggleLock } from '../game/draft';
+import { canReroll, cardsOf, createGame, createSharedGame, finalize, reroll, toggleLock } from '../game/draft';
 import { addToCollection, loadCollection } from '../storage/collection';
 import type { GameState } from '../types';
-import { saveTeamImage, shareTeamImage } from './share';
+import { clearShareUrlParam, parseSharedCardsFromUrl, saveTeamImage, shareTeamLink } from './share';
 import {
   FLIP_STAGGER_MS,
   KIT_FALLBACK_URL,
@@ -22,6 +22,7 @@ const motionAllowed = () => !window.matchMedia('(prefers-reduced-motion: reduce)
 export class App {
   private screen: Screen = 'home';
   private game: GameState | null = null;
+  private isSharedView = false;
   private flip: FlipState | undefined;
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownedOnly: false };
   private busy = false;
@@ -51,6 +52,13 @@ export class App {
     [...Object.values(POSITION_ICON), KIT_FALLBACK_URL].forEach((src) => {
       new Image().src = src;
     });
+    // 공유 링크(?team=...)로 접속한 경우 해당 드림팀을 즉시 표시 (도감에는 기록하지 않음)
+    const sharedCards = parseSharedCardsFromUrl();
+    if (sharedCards) {
+      this.screen = 'game';
+      this.isSharedView = true;
+      this.game = createSharedGame(sharedCards);
+    }
     this.render();
   }
 
@@ -60,7 +68,7 @@ export class App {
         this.root.innerHTML = renderHome(loadCollection().size);
         break;
       case 'game':
-        if (this.game) this.root.innerHTML = renderGame(this.game, this.flip);
+        if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView);
         break;
       case 'collection':
         this.root.innerHTML = renderCollection(loadCollection(), this.filter);
@@ -71,6 +79,8 @@ export class App {
   }
 
   private go(screen: Screen): void {
+    clearShareUrlParam();
+    this.isSharedView = false;
     this.screen = screen;
     this.render();
     window.scrollTo({ top: 0 });
@@ -78,6 +88,7 @@ export class App {
 
   /** 상태 반영 + 도감 기록. flipIndices가 있으면 해당 슬롯은 뒷면에서 앞면으로 뒤집히며 등장 */
   private setGame(next: GameState, flipIndices?: number[]): void {
+    this.isSharedView = false;
     this.game = next;
     addToCollection(cardsOf(next).map((c) => c.id));
     if (flipIndices?.length && motionAllowed()) this.flip = { mode: 'in', indices: new Set(flipIndices) };
@@ -95,6 +106,7 @@ export class App {
   }
 
   private startGame(): Promise<void> {
+    clearShareUrlParam();
     return this.animate(async () => {
       this.screen = 'game';
       window.scrollTo({ top: 0 });
@@ -160,19 +172,18 @@ export class App {
   }
 
   private async capture(kind: 'save' | 'share'): Promise<void> {
-    const board = this.root.querySelector<HTMLElement>('#team-board');
-    if (!board) return;
+    if (!this.game) return;
     this.busy = true;
     try {
       if (kind === 'save') {
-        await saveTeamImage(board);
+        await saveTeamImage(this.game);
       } else {
-        const res = await shareTeamImage(board);
-        if (res === 'copied') alert('팀 이미지가 클립보드에 복사되었습니다! (Ctrl+V / ⌘V로 붙여넣기)');
+        const { result } = await shareTeamLink(this.game);
+        if (result === 'copied') alert('드림팀 공유 링크가 클립보드에 복사되었습니다!');
       }
     } catch (err) {
       console.error(err);
-      alert('이미지 생성에 실패했습니다.');
+      alert(kind === 'save' ? '이미지 저장에 실패했습니다.' : '링크 공유에 실패했습니다.');
     } finally {
       this.busy = false;
     }
