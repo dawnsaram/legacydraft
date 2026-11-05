@@ -40,22 +40,33 @@
 
 /*
  * 드래프트 5인 로스터 그리드:
- *  - 모바일/태블릿(<1024px): 6칸 그리드를 사용해 상단 3장(TOP·JGL·MID) + 하단 중앙 정렬 2장(BOT·SUP)의
- *    피라미드 대형으로 한 화면에 균형 있게 배치
- *  - 데스크톱(>=1024px): 5열 일렬 배치
+ *  - 모바일/태블릿(<1024px): 6칸 그리드를 사용해 상단 3장(TOP·MID·SUP) + 하단 중앙 정렬 2장(JGL·BOT)의
+ *    지그재그(좌→우 TOP-JGL-MID-BOT-SUP) 대형으로 한 화면에 균형 있게 배치
+ *  - 데스크톱(>=1024px): 5열 일렬 배치(TOP·JGL·MID·BOT·SUP)
  */
 .roster-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 0.5rem;
 }
-.roster-grid > .card-slot {
-  grid-column: span 2;
+.roster-grid > .card-slot:nth-child(1) {
+  grid-row: 1;
+  grid-column: 1 / span 2;
 }
-.roster-grid > .card-slot:nth-child(4) {
-  grid-column: 2 / span 2;
+.roster-grid > .card-slot:nth-child(3) {
+  grid-row: 1;
+  grid-column: 3 / span 2;
 }
 .roster-grid > .card-slot:nth-child(5) {
+  grid-row: 1;
+  grid-column: 5 / span 2;
+}
+.roster-grid > .card-slot:nth-child(2) {
+  grid-row: 2;
+  grid-column: 2 / span 2;
+}
+.roster-grid > .card-slot:nth-child(4) {
+  grid-row: 2;
   grid-column: 4 / span 2;
 }
 
@@ -69,9 +80,8 @@
   .roster-grid {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-  .roster-grid > .card-slot,
-  .roster-grid > .card-slot:nth-child(4),
-  .roster-grid > .card-slot:nth-child(5) {
+  .roster-grid > .card-slot:nth-child(n) {
+    grid-row: auto;
     grid-column: span 1;
   }
 }
