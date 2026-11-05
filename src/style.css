@@ -38,6 +38,44 @@
 
 /* ─────────────── 카드 기본 ─────────────── */
 
+/*
+ * 드래프트 5인 로스터 그리드:
+ *  - 모바일/태블릿(<1024px): 6칸 그리드를 사용해 상단 3장(TOP·JGL·MID) + 하단 중앙 정렬 2장(BOT·SUP)의
+ *    피라미드 대형으로 한 화면에 균형 있게 배치
+ *  - 데스크톱(>=1024px): 5열 일렬 배치
+ */
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+.roster-grid > .card-slot {
+  grid-column: span 2;
+}
+.roster-grid > .card-slot:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+.roster-grid > .card-slot:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+@media (min-width: 640px) {
+  .roster-grid {
+    gap: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .roster-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .roster-grid > .card-slot,
+  .roster-grid > .card-slot:nth-child(4),
+  .roster-grid > .card-slot:nth-child(5) {
+    grid-column: span 1;
+  }
+}
+
 /* 클릭 영역(button) + 3D 원근 */
 .card-slot {
   display: block;
@@ -215,11 +253,17 @@
   position: relative;
   display: grid;
   place-items: center;
-  margin: 0.5rem 0.75rem;
+  margin: 0.35rem 0.45rem;
   aspect-ratio: 3 / 4;
   overflow: hidden;
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   background: var(--art-bg);
+}
+@media (min-width: 640px) {
+  .card-art {
+    margin: 0.5rem 0.75rem;
+    border-radius: 0.6rem;
+  }
 }
 .card-kit {
   width: 100%;
@@ -288,16 +332,26 @@
 }
 .lock-badge {
   position: absolute;
-  top: 2.1rem;
-  right: 1rem;
+  top: 1.7rem;
+  right: 0.6rem;
   z-index: 5;
-  border-radius: 0.375rem;
+  border-radius: 0.3rem;
   background: #22d3ee;
-  padding: 0.1rem 0.45rem;
-  font-size: 0.65rem;
+  padding: 0.08rem 0.35rem;
+  font-size: 0.58rem;
   font-weight: 900;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: #082f49;
+}
+@media (min-width: 640px) {
+  .lock-badge {
+    top: 2.1rem;
+    right: 1rem;
+    border-radius: 0.375rem;
+    padding: 0.1rem 0.45rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+  }
 }
 
 /* ─────────────── 시너지: 부분 시너지 (같은 팀 3~4장) ─────────────── */

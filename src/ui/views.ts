@@ -153,17 +153,17 @@ export function renderCard(
     <div class="card-flipper ${flipClass}" ${flipStyle}>
       <div class="card tier-${tier} ${seasonClass(card.season)} ${synergyClass(card, synergy)} ${slot.isLocked ? 'is-locked' : ''}">
         <div class="card-inner">
-          <div class="flex items-center justify-between px-3 pt-2 text-[11px] font-bold tracking-wider">
-            <span class="card-pos-badge rounded px-1.5 py-0.5">${slot.position}</span>
-            <span class="card-meta">${esc(card.league || '—')}</span>
+          <div class="flex items-center justify-between px-2 pt-1.5 text-[10px] font-bold tracking-wider sm:px-3 sm:pt-2 sm:text-[11px]">
+            <span class="card-pos-badge rounded px-1 py-0.5 sm:px-1.5">${slot.position}</span>
+            <span class="card-meta truncate">${esc(card.league || '—')}</span>
           </div>
           ${cardArt(card)}
-          <div class="px-3 pb-3 text-left">
-            <div class="card-name truncate text-lg font-extrabold leading-tight">${esc(card.playerName)}</div>
-            <div class="card-meta truncate text-xs">${esc(card.team)} · ${esc(card.season)}</div>
-            <div class="mt-1 flex items-center gap-1 text-sm">
+          <div class="px-2 pb-2 text-left sm:px-3 sm:pb-3">
+            <div class="card-name truncate text-xs font-extrabold leading-tight sm:text-lg">${esc(card.playerName)}</div>
+            <div class="card-meta truncate text-[10px] sm:text-xs">${esc(card.team)} · ${esc(card.season)}</div>
+            <div class="mt-0.5 flex items-center gap-1 text-xs sm:mt-1 sm:text-sm">
               ${stars(tier)}
-              ${bonus > 0 ? `<span class="card-bonus text-[10px] font-bold">+${bonus}</span>` : ''}
+              ${bonus > 0 ? `<span class="card-bonus text-[9px] font-bold sm:text-[10px]">+${bonus}</span>` : ''}
             </div>
           </div>
         </div>
@@ -275,28 +275,28 @@ export function renderGame(state: GameState, flip?: FlipState, isSharedView = fa
       </div>
     </header>
 
-    <section id="team-board" class="flex flex-col gap-4 rounded-2xl bg-slate-900/60 p-4 sm:p-6 ${revealing ? 'is-revealing' : ''}"
+    <section id="team-board" class="flex flex-col gap-3 rounded-2xl bg-slate-900/60 p-3 sm:gap-4 sm:p-6 ${revealing ? 'is-revealing' : ''}"
       style="--reveal-delay:${revealDelay}ms">
-      <div class="flex items-end justify-between">
+      <div class="flex items-end justify-between px-1 sm:px-0">
         <div class="reveal-after">
-          <div class="text-xs tracking-widest text-slate-500">${isSharedView ? 'SHARED ROSTER' : finished ? 'FINAL ROSTER' : 'DRAFTING'}</div>
-          <div class="text-2xl font-black">팀 점수 <span class="text-amber-300">${teamScore(cards, synergy)}</span></div>
+          <div class="text-[10px] tracking-widest text-slate-500 sm:text-xs">${isSharedView ? 'SHARED ROSTER' : finished ? 'FINAL ROSTER' : 'DRAFTING'}</div>
+          <div class="text-xl font-black sm:text-2xl">팀 점수 <span class="text-amber-300">${teamScore(cards, synergy)}</span></div>
         </div>
-        <div class="text-right text-xs text-slate-500">${finished ? new Date().toLocaleDateString('ko-KR') : '카드를 클릭해 HOLD'}</div>
+        <div class="text-right text-[11px] text-slate-500 sm:text-xs">${finished ? new Date().toLocaleDateString('ko-KR') : '카드를 탭해 HOLD'}</div>
       </div>
-      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+      <div class="roster-grid">
         ${state.slots.map((s, i) => renderCard(s, i, synergy, !finished, flip)).join('')}
       </div>
       ${synergyPanel(state, synergy)}
     </section>
 
-    <footer class="flex flex-wrap justify-center gap-3">
+    <footer class="grid grid-cols-2 gap-2.5 sm:flex sm:flex-wrap sm:justify-center sm:gap-3">
       ${
         finished
           ? `
         <button data-action="save" class="btn-primary">이미지 저장</button>
         <button data-action="share" class="btn-secondary">링크 공유</button>
-        <button data-action="start" class="btn-secondary">${isSharedView ? '나도 드래프트 하기' : '다시 드래프트'}</button>`
+        <button data-action="start" class="btn-secondary col-span-2 sm:col-span-1">${isSharedView ? '나도 드래프트 하기' : '다시 드래프트'}</button>`
           : `
         <button data-action="reroll" class="btn-primary" ${canReroll(state) ? '' : 'disabled'}>
           리롤 (${left}회 남음)
