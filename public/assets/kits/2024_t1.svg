@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 600 800">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #e2e2e2;
+      }
+
+      .st1 {
+        fill: #fff;
+        stroke: #000;
+      }
+
+      .st1, .st2, .st3 {
+        stroke-miterlimit: 10;
+      }
+
+      .st2 {
+        stroke: #e2012d;
+        stroke-width: 2px;
+      }
+
+      .st2, .st3 {
+        fill: none;
+      }
+
+      .st4 {
+        fill: #e1b96e;
+      }
+
+      .st3 {
+        stroke: #e2e2e2;
+      }
+
+      .st5 {
+        fill: url(#_무제_그라디언트_21);
+      }
+    </style>
+    <radialGradient id="_무제_그라디언트_21" data-name="무제 그라디언트 21" cx="366" cy="345.1" fx="366" fy="345.1" r="37.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".4" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <polygon class="st1" points="517.5 274.7 494 358.2 488.3 357.6 479.3 356.7 426.6 351.4 426.6 598.7 173.4 598.7 173.4 351.4 120.7 356.7 116 357.2 111.7 357.6 106 358.2 82.5 274.7 89 272.3 91.1 271.6 99.6 268.4 239.6 216.6 360.4 216.6 500.4 268.4 508.9 271.6 517.5 274.7"/>
+  <path class="st2" d="M264.2,239.9c-26.7,0-90.8,44.3-90.8,111.5"/>
+  <path class="st2" d="M335.8,239.9c26.7,0,90.8,44.3,90.8,111.5"/>
+  <path class="st0" d="M300,211.6h41.2s-1.6,35.4-41.2,60.7c-39.7-25.3-41.2-60.7-41.2-60.7h41.2Z"/>
+  <polygon points="508.9 271.6 479.3 356.7 494 358.2 517.5 274.7 508.9 271.6"/>
+  <polygon points="91.1 271.6 120.7 356.7 106 358.2 82.5 274.7 91.1 271.6"/>
+  <path class="st3" d="M276.7,248.2"/>
+  <line class="st2" x1="342.6" y1="598.7" x2="342.6" y2="240.7"/>
+  <line class="st2" x1="354.3" y1="598.7" x2="354.3" y2="244.5"/>
+  <line class="st2" x1="366" y1="598.7" x2="366" y2="250.6"/>
+  <line class="st2" x1="377.8" y1="598.7" x2="377.8" y2="258.6"/>
+  <line class="st2" x1="389.5" y1="598.7" x2="389.5" y2="268.7"/>
+  <rect class="st5" x="320.4" y="318" width="91.2" height="54.3"/>
+  <g>
+    <path class="st4" d="M352.3,350.2c1.8,2.4,4,2.6,4,2.6h3.9l1.8-2.6h-9.7,0Z"/>
+    <path class="st4" d="M347.4,346.3c1.8,2.4,4,2.6,4,2.6h11.4l1.8-2.6h-17.2,0Z"/>
+    <path class="st4" d="M342.6,342.5c1.8,2.4,4,2.6,4,2.6h18.9l1.8-2.6h-24.7,0Z"/>
+    <path class="st4" d="M333.7,336.1c3.6,4.9,8,5.1,8,5.1h27.9l-9.3,13.5c-1.9,2.7,2.7,5.1,2.7,5.1l12.8-18.6s4.4-.3,8-5.1h-50.2.1Z"/>
+    <path class="st4" d="M393.7,336.1h-6.2c-3.6,4.9-8,5.1-8,5.1h4.5l-9.3,13.5c-1.9,2.7,2.7,5.1,2.7,5.1l16.3-23.7Z"/>
+  </g>
+  <path d="M173.4,575.8c14.8,0,31.3-27.1,31.3-27.1v50h-31.3v-22.9Z"/>
+  <path d="M426.6,575.8c-14.8,0-31.3-27.1-31.3-27.1v50s31.3,0,31.3,0v-22.9Z"/>
+  <path d="M300,223.9c17.9,0,38.6-6.3,38.6-6.3,0,10.7-15.3,30.6-15.3,30.6l32.6,6.6c6.3-16.2,4.5-38.7,4.5-38.7l-17.3-14.8-43.1,2.2-43.1-2.2-17.3,14.8s-1.8,22.5,4.5,38.7l32.6-6.6s-15.3-19.9-15.3-30.6c0,0,20.7,6.3,38.6,6.3h0Z"/>
+</svg>
