@@ -467,14 +467,17 @@ export async function saveTeamImage(state: GameState): Promise<void> {
 
 const SHARE_PARAM = 'team';
 
-/** 현재 5장의 카드를 짧은 인덱스 코드(예: "a1.b2.c3.d4.e5")로 직렬화한 공유 URL 생성 */
+/**
+ * 현재 5장의 카드를 공백·특수문자 없는 영숫자+하이픈 코드(예: "1a-4f-8c-b2-k9")로 직렬화한 공유 URL 생성.
+ * 마침표(.) 대신 하이픈(-)을 사용하여 메신저/SNS 자동 링크 파서가 끝부분을 잘라먹지 않도록 한다.
+ */
 export function buildShareUrl(state: GameState): string {
   const code = state.slots
     .map((s) => {
       const idx = CARD_INDEX_BY_ID.get(s.card.id);
-      return idx !== undefined ? idx.toString(36) : s.card.id;
+      return idx !== undefined ? idx.toString(36) : encodeURIComponent(s.card.id.replace(/\s+/g, '_'));
     })
-    .join('.');
+    .join('-');
   const url = new URL(window.location.href);
   url.search = '';
   url.hash = '';
@@ -482,11 +485,16 @@ export function buildShareUrl(state: GameState): string {
   return url.toString();
 }
 
-/** URL에 ?team=... 파라미터가 있으면 5장의 카드를 복원 */
+/** URL에 ?team=... 파라미터가 있으면 5장의 카드를 복원 (중간에 공백이 섞여 들어온 경우도 안전하게 제거) */
 export function parseSharedCardsFromUrl(): Card[] | null {
   const raw = new URLSearchParams(window.location.search).get(SHARE_PARAM);
   if (!raw) return null;
-  const parts = raw.split('.');
+  // 복사/붙여넣기 과정에서 섞인 모든 공백 제거 후 '-' 또는 '.' 기준으로 분리
+  const parts = raw
+    .trim()
+    .replace(/\s+/g, '')
+    .split(/[-.]/)
+    .filter(Boolean);
   if (parts.length !== 5) return null;
 
   const cards: Card[] = [];
@@ -498,7 +506,7 @@ export function parseSharedCardsFromUrl(): Card[] | null {
         continue;
       }
     }
-    const byId = CARD_BY_ID.get(token);
+    const byId = CARD_BY_ID.get(decodeURIComponent(token));
     if (byId) cards.push(byId);
   }
   return cards.length === 5 ? cards : null;
@@ -515,20 +523,15 @@ export type LinkShareResult = 'shared' | 'copied';
 
 /**
  * 링크 공유:
- *  - 모바일 등 Web Share API 지원 시 공유 시트로 링크+요약 텍스트 전달
- *  - 데스크톱에서는 클립보드에 공유 링크 복사
+ *  - 모바일 등 Web Share API 지원 시 공백/줄바꿈 있는 설명 텍스트 없이 순수 URL만 전달하여 링크 깨짐 방지
+ *  - 데스크톱에서는 클립보드에 순수 URL만 복사
  */
 export async function shareTeamLink(state: GameState): Promise<{ result: LinkShareResult; url: string }> {
   const url = buildShareUrl(state);
-  const cards = cardsOf(state);
-  const synergy = evaluateSynergy(cards);
-  const score = teamScore(cards, synergy);
-  const roster = cards.map((c) => `${c.team} ${c.playerName}`).join(' / ');
-  const text = `나의 Legacy Draft 드림팀 (${score}점 · ${synergy.label})\n${roster}`;
 
   if (typeof navigator.share === 'function') {
     try {
-      await navigator.share({ title: 'Legacy Draft 드림팀', text, url });
+      await navigator.share({ url });
       return { result: 'shared', url };
     } catch (e) {
       if ((e as DOMException).name === 'AbortError') return { result: 'shared', url };
