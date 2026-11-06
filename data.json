@@ -7840,14 +7840,14 @@
     "imgUrl": "/assets/images/caps_2026.png"
   },
   {
-    "id": "LEC_2026_MSI_G2_BOT_HansSamam",
-    "playerName": "Hans Samam",
+    "id": "LEC_2026_MSI_G2_BOT_HansSama",
+    "playerName": "Hans Sama",
     "position": "BOT",
     "team": "G2",
     "league": "LEC",
     "season": "2026 MSI",
     "baseTier": 3,
-    "imgUrl": "/assets/images/hans samam_2026.png"
+    "imgUrl": "/assets/images/hans sama_2026.png"
   },
   {
     "id": "LEC_2026_MSI_G2_SUP_Labrov",

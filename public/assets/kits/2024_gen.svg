@@ -13,8 +13,6 @@
 
       .st2 {
         fill: #fff;
-        stroke: #000;
-        stroke-miterlimit: 10;
       }
 
       .st3 {
