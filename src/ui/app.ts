@@ -23,6 +23,7 @@ export class App {
   private screen: Screen = 'home';
   private game: GameState | null = null;
   private isSharedView = false;
+  private newCardIds = new Set<string>();
   private flip: FlipState | undefined;
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownedOnly: false };
   private busy = false;
@@ -68,7 +69,7 @@ export class App {
         this.root.innerHTML = renderHome(loadCollection().size);
         break;
       case 'game':
-        if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView);
+        if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView, this.newCardIds);
         break;
       case 'collection':
         this.root.innerHTML = renderCollection(loadCollection(), this.filter);
@@ -90,7 +91,8 @@ export class App {
   private setGame(next: GameState, flipIndices?: number[]): void {
     this.isSharedView = false;
     this.game = next;
-    addToCollection(cardsOf(next).map((c) => c.id));
+    const added = addToCollection(cardsOf(next).map((c) => c.id));
+    added.forEach((id) => this.newCardIds.add(id));
     if (flipIndices?.length && motionAllowed()) this.flip = { mode: 'in', indices: new Set(flipIndices) };
     this.render();
   }
@@ -107,6 +109,7 @@ export class App {
 
   private startGame(): Promise<void> {
     clearShareUrlParam();
+    this.newCardIds.clear();
     return this.animate(async () => {
       this.screen = 'game';
       window.scrollTo({ top: 0 });

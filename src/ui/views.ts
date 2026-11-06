@@ -135,6 +135,7 @@ export function renderCard(
   synergy: SynergyResult,
   interactive: boolean,
   flip?: FlipState,
+  isNew = false,
 ): string {
   const { card } = slot;
   const tier = finalTier(card, synergy);
@@ -169,6 +170,7 @@ export function renderCard(
         </div>
         ${isFx ? '<div class="holo-overlay"></div>' : ''}
         ${synergy.type === 'legendary' ? `<div class="glare"></div>${particles()}` : ''}
+        ${isNew ? '<div class="new-badge">NEW</div>' : ''}
         ${slot.isLocked ? '<div class="lock-badge">HOLD</div>' : ''}
       </div>
       ${cardBack(slot.position)}
@@ -252,7 +254,12 @@ function synergyPanel(state: GameState, synergy: SynergyResult): string {
   </div>`;
 }
 
-export function renderGame(state: GameState, flip?: FlipState, isSharedView = false): string {
+export function renderGame(
+  state: GameState,
+  flip?: FlipState,
+  isSharedView = false,
+  newCardIds?: ReadonlySet<string>,
+): string {
   const cards = cardsOf(state);
   const synergy = evaluateSynergy(cards);
   const finished = state.phase === 'finished';
@@ -285,7 +292,7 @@ export function renderGame(state: GameState, flip?: FlipState, isSharedView = fa
         <div class="text-right text-[11px] text-slate-500 sm:text-xs">${finished ? new Date().toLocaleDateString('ko-KR') : '카드를 탭해 HOLD'}</div>
       </div>
       <div class="roster-grid">
-        ${state.slots.map((s, i) => renderCard(s, i, synergy, !finished, flip)).join('')}
+        ${state.slots.map((s, i) => renderCard(s, i, synergy, !finished, flip, Boolean(newCardIds?.has(s.card.id)))).join('')}
       </div>
       ${synergyPanel(state, synergy)}
     </section>
