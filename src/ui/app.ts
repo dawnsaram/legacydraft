@@ -8,13 +8,15 @@ import {
   POSITION_ICON,
   flipDurationMs,
   renderCollection,
+  renderGallery,
   renderGame,
   renderHome,
   type CollectionFilter,
   type FlipState,
+  type GalleryFilter,
 } from './views';
 
-type Screen = 'home' | 'game' | 'collection';
+type Screen = 'home' | 'game' | 'collection' | 'gallery';
 
 const wait = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 const motionAllowed = () => !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -26,12 +28,13 @@ export class App {
   private newCardIds = new Set<string>();
   private flip: FlipState | undefined;
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownedOnly: false };
+  private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', completedOnly: false };
   private busy = false;
 
   constructor(private readonly root: HTMLElement) {
     root.addEventListener('click', (e) => this.onClick(e));
     root.addEventListener('change', (e) => this.onFilterChange(e));
-    // 유니폼 아이콘이 없는 시즌·팀이면 fallback.svg로 대체
+    // 유니폼 아이콘이 없는 시즌·팀이면 fallback.svg로 대체, 히어로 이미지 로드 실패 시 숨김 처리
     root.addEventListener(
       'error',
       (e) => {
@@ -39,6 +42,9 @@ export class App {
         if (t instanceof HTMLImageElement && t.hasAttribute('data-kit-fallback')) {
           t.removeAttribute('data-kit-fallback');
           t.src = KIT_FALLBACK_URL;
+        } else if (t instanceof HTMLImageElement && t.hasAttribute('data-hero-fallback')) {
+          t.removeAttribute('data-hero-fallback');
+          t.style.display = 'none';
         }
       },
       true,
@@ -66,13 +72,16 @@ export class App {
   private render(): void {
     switch (this.screen) {
       case 'home':
-        this.root.innerHTML = renderHome(loadCollection().size);
+        this.root.innerHTML = renderHome(loadCollection());
         break;
       case 'game':
         if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView, this.newCardIds);
         break;
       case 'collection':
         this.root.innerHTML = renderCollection(loadCollection(), this.filter);
+        break;
+      case 'gallery':
+        this.root.innerHTML = renderGallery(loadCollection(), this.galleryFilter);
         break;
     }
     // 뒤집기 연출은 직후 1회 렌더에만 적용
@@ -155,6 +164,9 @@ export class App {
       case 'collection':
         this.go('collection');
         break;
+      case 'gallery':
+        this.go('gallery');
+        break;
       case 'toggle-lock':
         if (this.game) {
           this.game = toggleLock(this.game, Number(el.dataset.index));
@@ -195,10 +207,18 @@ export class App {
   private onFilterChange(e: Event): void {
     const t = e.target as HTMLInputElement | HTMLSelectElement;
     const key = t.dataset.filter;
-    if (!key) return;
-    if (key === 'ownedOnly') this.filter.ownedOnly = (t as HTMLInputElement).checked;
-    else if (key === 'position' || key === 'league') this.filter[key] = t.value;
-    this.render();
+    if (key) {
+      if (key === 'ownedOnly') this.filter.ownedOnly = (t as HTMLInputElement).checked;
+      else if (key === 'position' || key === 'league') this.filter[key] = t.value;
+      this.render();
+      return;
+    }
+    const galleryKey = t.dataset.galleryFilter;
+    if (galleryKey) {
+      if (galleryKey === 'completedOnly') this.galleryFilter.completedOnly = (t as HTMLInputElement).checked;
+      else if (galleryKey === 'league' || galleryKey === 'tier') this.galleryFilter[galleryKey] = t.value;
+      this.render();
+    }
   }
 
   private onPointerMove(e: PointerEvent): void {

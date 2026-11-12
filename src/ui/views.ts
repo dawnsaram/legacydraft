@@ -1,4 +1,5 @@
 import { ALL_CARDS } from '../data/cards';
+import { ALL_GALLERY_ENTRIES, type GalleryEntry } from '../data/gallery';
 import { MAX_REROLLS, canReroll, cardsOf, findAnchor, rerollsLeft } from '../game/draft';
 import { ANCHOR_BOOST_BONUS, ANCHOR_BOOST_MIN_COUNT, ANCHOR_CHANCE_BY_REROLL, TIER_WEIGHTS, anchorChance } from '../game/probability';
 import { evaluateSynergy, finalTier, teamScore, topMatch } from '../game/synergy';
@@ -182,7 +183,11 @@ export function renderCard(
 // 화면: 홈
 // ─────────────────────────────────────────────
 
-export function renderHome(ownedCount: number): string {
+export function renderHome(owned: Set<string>): string {
+  const ownedCount = owned.size;
+  const completedGalleryCount = ALL_GALLERY_ENTRIES.filter((entry) =>
+    entry.cards.every((c) => owned.has(c.id)),
+  ).length;
   const pct = (w: Record<number, number>) => `3성 ${w[3]}% · 4성 ${w[4]}% · 5성 ${w[5]}%`;
   return `
   <main class="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-10 px-6 py-16 text-center">
@@ -195,6 +200,7 @@ export function renderHome(ownedCount: number): string {
     <div class="flex w-full max-w-xs flex-col gap-3">
       <button data-action="start" class="btn-primary">드래프트 시작</button>
       <button data-action="collection" class="btn-secondary">도감 (${ownedCount} / ${ALL_CARDS.length})</button>
+      <button data-action="gallery" class="btn-secondary">갤러리 (${completedGalleryCount} / ${ALL_GALLERY_ENTRIES.length})</button>
     </div>
 
     <section class="grid w-full gap-3 text-left text-sm text-slate-300 sm:grid-cols-3">
@@ -392,4 +398,131 @@ export function renderCollection(owned: Set<string>, filter: CollectionFilter): 
     <div class="grid grid-cols-3 gap-3 sm:grid-cols-5 lg:grid-cols-8">${items}</div>
   </main>`;
 }
+
+// ─────────────────────────────────────────────
+// 화면: 갤러리 (시너지 도감)
+// ─────────────────────────────────────────────
+
+export interface GalleryFilter {
+  league: string;
+  tier: string;
+  completedOnly: boolean;
+}
+
+function renderGalleryEntry(entry: GalleryEntry, owned: Set<string>): string {
+  const ownedCards = entry.cards.filter((c) => owned.has(c.id)).length;
+  const totalCards = entry.cards.length;
+  const isComplete = totalCards > 0 && ownedCards === totalCards;
+  const sampleCard = entry.cards[0];
+  const kitSrc = sampleCard ? kitUrl(sampleCard) : KIT_FALLBACK_URL;
+
+  const heroContent = entry.heroUrl
+    ? `<img class="gallery-hero-img" src="${esc(entry.heroUrl)}" alt="${esc(entry.season)} ${esc(entry.team)}" data-hero-fallback loading="lazy" draggable="false" />`
+    : `<div class="gallery-hero-placeholder">
+         <span class="text-xs font-bold tracking-[0.25em] opacity-40">HERO IMAGE COMING SOON</span>
+       </div>`;
+
+  const descHtml = entry.description
+    ? `<p class="whitespace-pre-line text-sm leading-relaxed text-slate-200">${esc(entry.description)}</p>`
+    : `<p class="text-xs italic text-slate-500">팀 소개 및 시즌 스토리가 추후 추가될 예정입니다.</p>`;
+
+  const rosterPills = entry.cards
+    .map((c) => {
+      const has = owned.has(c.id);
+      return `<div class="gallery-player-pill ${has ? 'is-owned' : 'is-missing'}">
+        <span class="text-[10px] font-bold text-slate-400">${c.position}</span>
+        <span class="truncate text-xs font-extrabold ${has ? 'text-slate-100' : 'text-slate-500'}">${esc(c.playerName)}</span>
+      </div>`;
+    })
+    .join('');
+
+  return `
+  <article class="gallery-card tier-${entry.baseTier} ${seasonClass(entry.season)} ${isComplete ? 'is-complete' : ''}">
+    <div class="gallery-hero ${leagueClass(entry.league)}">
+      ${heroContent}
+      <div class="gallery-hero-overlay"></div>
+      <div class="gallery-hero-header">
+        <div class="gallery-kit-box ${leagueClass(entry.league)}">
+          <img class="gallery-kit-img" src="${esc(kitSrc)}" alt="${esc(entry.team)} 유니폼" data-kit-fallback loading="lazy" draggable="false" />
+        </div>
+        <div class="min-w-0 flex-1 text-left">
+          <div class="flex flex-wrap items-center gap-1.5">
+            <span class="rounded bg-black/55 px-1.5 py-0.5 text-[10px] font-bold tracking-wider text-slate-100">${esc(entry.season)}</span>
+            <span class="rounded bg-black/40 px-1.5 py-0.5 text-[10px] font-semibold text-slate-300">${esc(entry.league)}</span>
+            <span class="text-xs">${stars(entry.baseTier)}</span>
+          </div>
+          <h2 class="mt-0.5 truncate text-xl font-black tracking-tight text-white drop-shadow sm:text-2xl">${esc(entry.team)}</h2>
+        </div>
+        <div class="self-start">
+          <span class="gallery-status-badge ${isComplete ? 'is-complete' : ''}">
+            ${isComplete ? '★ COMPLETE' : `${ownedCards} / ${totalCards} 수집`}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-1 flex-col justify-between gap-3 p-4 text-left">
+      <div class="gallery-desc-box">
+        ${descHtml}
+      </div>
+      <div class="grid grid-cols-5 gap-1.5">
+        ${rosterPills}
+      </div>
+    </div>
+  </article>`;
+}
+
+export function renderGallery(owned: Set<string>, filter: GalleryFilter): string {
+  const list = ALL_GALLERY_ENTRIES.filter((entry) => {
+    const isComplete = entry.cards.length > 0 && entry.cards.every((c) => owned.has(c.id));
+    return (
+      (filter.league === 'ALL' || entry.league === filter.league) &&
+      (filter.tier === 'ALL' || String(entry.baseTier) === filter.tier) &&
+      (!filter.completedOnly || isComplete)
+    );
+  });
+
+  const completedTotal = ALL_GALLERY_ENTRIES.filter(
+    (entry) => entry.cards.length > 0 && entry.cards.every((c) => owned.has(c.id)),
+  ).length;
+  const pct = ((completedTotal / Math.max(1, ALL_GALLERY_ENTRIES.length)) * 100).toFixed(1);
+
+  const items =
+    list.length > 0
+      ? list.map((entry) => renderGalleryEntry(entry, owned)).join('')
+      : `<div class="panel col-span-full py-12 text-center text-sm text-slate-400">조건에 맞는 갤러리 로스터가 없습니다.</div>`;
+
+  return `
+  <main class="mx-auto flex min-h-screen max-w-6xl flex-col gap-6 px-4 py-6">
+    <header class="flex items-center justify-between">
+      <button data-action="home" class="text-sm text-slate-400 hover:text-white">← 메인</button>
+      <h1 class="text-xl font-black">갤러리</h1>
+      <div class="text-sm text-slate-400">완성 ${completedTotal} / ${ALL_GALLERY_ENTRIES.length} (${pct}%)</div>
+    </header>
+
+    <div class="h-2 overflow-hidden rounded-full bg-slate-800">
+      <div class="h-full bg-gradient-to-r from-amber-500 to-fuchsia-500" style="width:${pct}%"></div>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-3 text-sm">
+      <select data-gallery-filter="league" class="select">
+        ${option('ALL', '전체 리그', filter.league)}
+        ${LEAGUES.map((l) => option(l, l, filter.league)).join('')}
+      </select>
+      <select data-gallery-filter="tier" class="select">
+        ${option('ALL', '전체 티어', filter.tier)}
+        ${option('5', '★★★★★ (우승팀)', filter.tier)}
+        ${option('4', '★★★★ (4성)', filter.tier)}
+        ${option('3', '★★★ (3성)', filter.tier)}
+      </select>
+      <label class="flex items-center gap-2 text-slate-300">
+        <input type="checkbox" data-gallery-filter="completedOnly" ${filter.completedOnly ? 'checked' : ''} /> 5인 수집 완료만
+      </label>
+      <span class="ml-auto text-slate-500">${list.length}개 팀 표시</span>
+    </div>
+
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">${items}</div>
+  </main>`;
+}
+
 
