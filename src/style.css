@@ -784,10 +784,14 @@
 }
 
 .gallery-desc-box {
-  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  height: 4.25rem;
+  overflow-y: auto;
   border-radius: 0.6rem;
   background: rgb(2 6 23 / 0.45);
   padding: 0.65rem 0.8rem;
+  font-style: italic;
 }
 
 .gallery-player-pill {
