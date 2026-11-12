@@ -683,7 +683,7 @@
 .gallery-hero {
   --art-bg: linear-gradient(155deg, #1e293b 0%, #0f172a 100%);
   position: relative;
-  min-height: 9.5rem;
+  aspect-ratio: 960 / 400;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
