@@ -273,21 +273,36 @@ export function renderGame(
   const revealDelay = revealing ? flipDurationMs(flip.indices.size) : 0;
 
   return `
-  <main class="mx-auto flex min-h-screen max-w-6xl flex-col gap-6 px-4 py-6">
-    <header class="flex items-center justify-between">
-      <button data-action="home" class="text-sm text-slate-400 hover:text-white">← 메인</button>
-      <h1 class="text-xl font-black tracking-tight">LEGACY DRAFT</h1>
-      <div class="flex items-center gap-2 text-sm text-slate-400">
-        ${isSharedView ? '<span class="rounded-full bg-amber-500/20 px-2.5 py-0.5 text-xs font-bold text-amber-300">공유된 드림팀</span>' : `리롤 <span class="flex gap-1">${dots}</span>`}
+  <main class="mx-auto flex min-h-screen max-w-6xl flex-col gap-3 px-3 py-3 sm:gap-6 sm:px-4 sm:py-6">
+    <header class="order-1 flex items-center justify-between">
+      <button data-action="home" class="text-xs text-slate-400 hover:text-white sm:text-sm">← 메인</button>
+      <h1 class="text-base font-black tracking-tight sm:text-xl">LEGACY DRAFT</h1>
+      <div class="flex items-center gap-1.5 text-xs text-slate-400 sm:gap-2 sm:text-sm">
+        ${isSharedView ? '<span class="rounded-full bg-amber-500/20 px-2 py-0.5 text-[11px] font-bold text-amber-300 sm:px-2.5 sm:text-xs">공유된 드림팀</span>' : `리롤 <span class="flex gap-1">${dots}</span>`}
       </div>
     </header>
 
-    <section id="team-board" class="flex flex-col gap-3 rounded-2xl bg-slate-900/60 p-3 sm:gap-4 sm:p-6 ${revealing ? 'is-revealing' : ''}"
+    <nav aria-label="드래프트 조작" class="order-2 grid ${finished ? 'grid-cols-3' : 'grid-cols-2'} gap-2 lg:order-3 lg:flex lg:flex-wrap lg:justify-center lg:gap-3">
+      ${
+        finished
+          ? `
+        <button data-action="save" class="btn-primary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">이미지 저장</button>
+        <button data-action="share" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">링크 공유</button>
+        <button data-action="start" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">${isSharedView ? '나도 드래프트' : '다시 드래프트'}</button>`
+          : `
+        <button data-action="reroll" class="btn-primary !rounded-lg !px-3 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base" ${canReroll(state) ? '' : 'disabled'}>
+          리롤 (${left}회 남음)
+        </button>
+        <button data-action="finalize" class="btn-secondary !rounded-lg !px-3 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">이 팀으로 확정</button>`
+      }
+    </nav>
+
+    <section id="team-board" class="order-3 flex flex-col gap-2.5 rounded-2xl bg-slate-900/60 p-3 sm:gap-4 sm:p-6 lg:order-2 ${revealing ? 'is-revealing' : ''}"
       style="--reveal-delay:${revealDelay}ms">
       <div class="flex items-end justify-between px-1 sm:px-0">
         <div class="reveal-after">
           <div class="text-[10px] tracking-widest text-slate-500 sm:text-xs">${isSharedView ? 'SHARED ROSTER' : finished ? 'FINAL ROSTER' : 'DRAFTING'}</div>
-          <div class="text-xl font-black sm:text-2xl">팀 점수 <span class="text-amber-300">${teamScore(cards, synergy)}</span></div>
+          <div class="text-lg font-black sm:text-2xl">팀 점수 <span class="text-amber-300">${teamScore(cards, synergy)}</span></div>
         </div>
         <div class="text-right text-[11px] text-slate-500 sm:text-xs">${finished ? new Date().toLocaleDateString('ko-KR') : '카드를 탭해 HOLD'}</div>
       </div>
@@ -296,21 +311,6 @@ export function renderGame(
       </div>
       ${synergyPanel(state, synergy)}
     </section>
-
-    <footer class="grid grid-cols-2 gap-2.5 sm:flex sm:flex-wrap sm:justify-center sm:gap-3">
-      ${
-        finished
-          ? `
-        <button data-action="save" class="btn-primary">이미지 저장</button>
-        <button data-action="share" class="btn-secondary">링크 공유</button>
-        <button data-action="start" class="btn-secondary col-span-2 sm:col-span-1">${isSharedView ? '나도 드래프트 하기' : '다시 드래프트'}</button>`
-          : `
-        <button data-action="reroll" class="btn-primary" ${canReroll(state) ? '' : 'disabled'}>
-          리롤 (${left}회 남음)
-        </button>
-        <button data-action="finalize" class="btn-secondary">이 팀으로 확정</button>`
-      }
-    </footer>
   </main>`;
 }
 
