@@ -786,12 +786,16 @@
 .gallery-desc-box {
   display: flex;
   align-items: center;
-  height: 4.25rem;
-  overflow-y: auto;
+  justify-content: center;
+  height: 4.5rem;
   border-radius: 0.6rem;
   background: rgb(2 6 23 / 0.45);
-  padding: 0.65rem 0.8rem;
+  padding: 0.65rem 1rem;
   font-style: italic;
+  text-align: center;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 
 .gallery-player-pill {

@@ -423,8 +423,8 @@ function renderGalleryEntry(entry: GalleryEntry, owned: Set<string>): string {
        </div>`;
 
   const descHtml = entry.description
-    ? `<p class="whitespace-pre-line text-sm italic leading-relaxed text-slate-200">${esc(entry.description)}</p>`
-    : `<p class="text-xs italic text-slate-500">팀 소개 및 시즌 스토리가 추후 추가될 예정입니다.</p>`;
+    ? `<p class="w-full whitespace-pre-line text-center text-sm italic leading-relaxed text-slate-200">${esc(entry.description)}</p>`
+    : `<p class="w-full text-center text-xs italic text-slate-500">팀 소개 및 시즌 스토리가 추후 추가될 예정입니다.</p>`;
 
   const rosterPills = entry.cards
     .map((c) => {
