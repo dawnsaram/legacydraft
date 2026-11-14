@@ -47,14 +47,15 @@ export function showGalleryUnlockToast(entry: GalleryEntry, options: GalleryToas
             : `<img class="gallery-toast-kit-fallback" src="${esc(kitSrc)}" alt="${esc(entry.team)}" draggable="false" />`
         }
         <div class="gallery-toast-hero-overlay"></div>
-        <span class="gallery-toast-badge">★ GALLERY UNLOCKED</span>
-        <button type="button" class="gallery-toast-close" aria-label="알림 닫기">✕</button>
       </div>
       <div class="gallery-toast-body">
-        <div class="flex items-center justify-between gap-2">
+        <div class="flex items-center justify-between gap-1.5">
+          <span class="gallery-toast-badge">★ UNLOCKED</span>
+          <button type="button" class="gallery-toast-close" aria-label="알림 닫기">✕</button>
+        </div>
+        <div class="mt-0.5 flex items-center justify-between gap-2">
           <div class="min-w-0">
-            <div class="text-[11px] font-bold tracking-wider text-amber-300/90">${esc(entry.season)} · ${esc(entry.league)}</div>
-            <div class="truncate text-base font-black text-white">${esc(entry.team)} 로스터 완성!</div>
+            <div class="truncate text-xs font-black text-white">${esc(entry.season)} ${esc(entry.team)}</div>
           </div>
           ${
             onOpenGallery
@@ -62,11 +63,6 @@ export function showGalleryUnlockToast(entry: GalleryEntry, options: GalleryToas
               : ''
           }
         </div>
-        ${
-          entry.description
-            ? `<p class="mt-1 line-clamp-2 text-xs italic leading-relaxed text-slate-300">${esc(entry.description)}</p>`
-            : ''
-        }
       </div>
     `;
 
