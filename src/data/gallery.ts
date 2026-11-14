@@ -83,3 +83,18 @@ export const ALL_GALLERY_ENTRIES: readonly GalleryEntry[] = (() => {
   return entries;
 })();
 
+/** 새로 도감에 추가된 카드들로 인해 5인 로스터가 처음 완성된 갤러리 항목 반환 */
+export function findNewlyCompletedGalleryEntries(
+  addedCardIds: readonly string[],
+  ownedAfter: ReadonlySet<string>,
+): GalleryEntry[] {
+  if (addedCardIds.length === 0) return [];
+  const addedSet = new Set(addedCardIds);
+  return ALL_GALLERY_ENTRIES.filter(
+    (entry) =>
+      entry.cards.length > 0 &&
+      entry.cards.some((c) => addedSet.has(c.id)) &&
+      entry.cards.every((c) => ownedAfter.has(c.id)),
+  );
+}
+

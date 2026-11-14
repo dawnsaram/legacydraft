@@ -1,7 +1,9 @@
+import { findNewlyCompletedGalleryEntries } from '../data/gallery';
 import { canReroll, cardsOf, createGame, createSharedGame, finalize, reroll, toggleLock } from '../game/draft';
 import { addToCollection, loadCollection } from '../storage/collection';
 import type { GameState } from '../types';
 import { clearShareUrlParam, parseSharedCardsFromUrl, saveTeamImage, shareTeamLink } from './share';
+import { showGalleryUnlockToast } from './toast';
 import {
   FLIP_STAGGER_MS,
   KIT_FALLBACK_URL,
@@ -102,8 +104,22 @@ export class App {
     this.game = next;
     const added = addToCollection(cardsOf(next).map((c) => c.id));
     added.forEach((id) => this.newCardIds.add(id));
-    if (flipIndices?.length && motionAllowed()) this.flip = { mode: 'in', indices: new Set(flipIndices) };
+    const unlockedEntries = findNewlyCompletedGalleryEntries(added, loadCollection());
+    const hasFlip = Boolean(flipIndices?.length && motionAllowed());
+    if (hasFlip) this.flip = { mode: 'in', indices: new Set(flipIndices) };
     this.render();
+
+    if (unlockedEntries.length > 0) {
+      const delayMs = hasFlip ? flipDurationMs(flipIndices!.length, 'in') : 0;
+      unlockedEntries.forEach((entry, idx) => {
+        showGalleryUnlockToast(entry, {
+          delayMs: delayMs + idx * 250,
+          onOpenGallery: () => {
+            if (!this.busy) this.go('gallery');
+          },
+        });
+      });
+    }
   }
 
   /** 연출 중에는 입력을 막는다 */
