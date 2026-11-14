@@ -1,9 +1,18 @@
 import { findNewlyCompletedGalleryEntries } from '../data/gallery';
 import { canReroll, cardsOf, createGame, createSharedGame, finalize, reroll, toggleLock } from '../game/draft';
+import {
+  advanceToNextRound,
+  createTournament,
+  revealNextSet,
+  skipSetReveal,
+  startCurrentRound,
+  type TournamentState,
+} from '../game/tournament';
 import { addToCollection, loadCollection } from '../storage/collection';
 import type { GameState } from '../types';
 import { clearShareUrlParam, parseSharedCardsFromUrl, saveTeamImage, shareTeamLink } from './share';
 import { showGalleryUnlockToast } from './toast';
+import { renderTournament } from './tournamentView';
 import {
   FLIP_STAGGER_MS,
   KIT_FALLBACK_URL,
@@ -18,14 +27,17 @@ import {
   type GalleryFilter,
 } from './views';
 
-type Screen = 'home' | 'game' | 'collection' | 'gallery';
+type Screen = 'home' | 'game' | 'collection' | 'gallery' | 'tournament';
 
 const wait = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 const motionAllowed = () => !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const SET_REVEAL_INTERVAL_MS = 850;
 
 export class App {
   private screen: Screen = 'home';
   private game: GameState | null = null;
+  private tournament: TournamentState | null = null;
+  private tournamentTimer: number | null = null;
   private isSharedView = false;
   private newCardIds = new Set<string>();
   private flip: FlipState | undefined;
@@ -85,12 +97,23 @@ export class App {
       case 'gallery':
         this.root.innerHTML = renderGallery(loadCollection(), this.galleryFilter);
         break;
+      case 'tournament':
+        if (this.tournament) this.root.innerHTML = renderTournament(this.tournament);
+        break;
     }
     // 뒤집기 연출은 직후 1회 렌더에만 적용
     this.flip = undefined;
   }
 
+  private stopTournamentTimer(): void {
+    if (this.tournamentTimer !== null) {
+      window.clearInterval(this.tournamentTimer);
+      this.tournamentTimer = null;
+    }
+  }
+
   private go(screen: Screen): void {
+    this.stopTournamentTimer();
     clearShareUrlParam();
     this.isSharedView = false;
     this.screen = screen;
@@ -133,6 +156,8 @@ export class App {
   }
 
   private startGame(): Promise<void> {
+    this.stopTournamentTimer();
+    this.tournament = null;
     clearShareUrlParam();
     this.newCardIds.clear();
     return this.animate(async () => {
@@ -199,7 +224,64 @@ export class App {
       case 'share':
         await this.capture(el.dataset.action);
         break;
+      case 'tournament-start':
+        if (this.game) {
+          this.stopTournamentTimer();
+          this.tournament = createTournament(cardsOf(this.game));
+          this.screen = 'tournament';
+          this.render();
+          window.scrollTo({ top: 0 });
+        }
+        break;
+      case 'tournament-play':
+        this.playTournamentRound();
+        break;
+      case 'tournament-skip':
+        this.stopTournamentTimer();
+        if (this.tournament) {
+          this.tournament = skipSetReveal(this.tournament);
+          this.render();
+        }
+        break;
+      case 'tournament-next':
+        if (this.tournament) {
+          this.tournament = advanceToNextRound(this.tournament);
+          this.render();
+        }
+        break;
+      case 'tournament-back':
+        this.go('game');
+        break;
     }
+  }
+
+  private playTournamentRound(): void {
+    if (!this.tournament || this.tournament.phase !== 'ready') return;
+    this.stopTournamentTimer();
+    this.tournament = startCurrentRound(this.tournament);
+
+    if (!motionAllowed()) {
+      this.tournament = skipSetReveal(this.tournament);
+      this.render();
+      return;
+    }
+
+    // 1세트를 즉시 공개한 뒤, 이후 세트를 일정 간격으로 순차 공개
+    this.tournament = revealNextSet(this.tournament);
+    this.render();
+    if (this.tournament.phase !== 'playing') return;
+
+    this.tournamentTimer = window.setInterval(() => {
+      if (!this.tournament || this.tournament.phase !== 'playing') {
+        this.stopTournamentTimer();
+        return;
+      }
+      this.tournament = revealNextSet(this.tournament);
+      this.render();
+      if (this.tournament.phase !== 'playing') {
+        this.stopTournamentTimer();
+      }
+    }, SET_REVEAL_INTERVAL_MS);
   }
 
   private async capture(kind: 'save' | 'share'): Promise<void> {

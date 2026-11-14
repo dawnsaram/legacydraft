@@ -288,11 +288,12 @@ export function renderGame(
       </div>
     </header>
 
-    <nav aria-label="드래프트 조작" class="order-2 grid ${finished ? 'grid-cols-3' : 'grid-cols-2'} gap-2 lg:order-3 lg:flex lg:flex-wrap lg:justify-center lg:gap-3">
+    <nav aria-label="드래프트 조작" class="order-2 grid ${finished ? 'grid-cols-2 sm:grid-cols-4' : 'grid-cols-2'} gap-2 lg:order-3 lg:flex lg:flex-wrap lg:justify-center lg:gap-3">
       ${
         finished
           ? `
-        <button data-action="save" class="btn-primary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">이미지 저장</button>
+        <button data-action="tournament-start" class="btn-primary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">🏆 8강 토너먼트</button>
+        <button data-action="save" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">이미지 저장</button>
         <button data-action="share" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">링크 공유</button>
         <button data-action="start" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">${isSharedView ? '나도 드래프트' : '다시 드래프트'}</button>`
           : `
