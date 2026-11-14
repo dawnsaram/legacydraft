@@ -1,6 +1,6 @@
 import { ALL_GALLERY_ENTRIES, type GalleryEntry } from '../data/gallery';
 import type { Card, Position, SynergyResult } from '../types';
-import { evaluateSynergy, finalTier, teamScore } from './synergy';
+import { DEFAULT_TIER_CAP, evaluateSynergy, finalTier, teamScore } from './synergy';
 
 export interface TournamentTeam {
   id: string;
@@ -50,7 +50,7 @@ export const ROUND_LABELS = ['8강', '4강', '결승'] as const;
 const SET_PLAY_BY_PLAY: Record<Position, readonly string[]> = {
   TOP: ['사이드 스플릿 압박으로 포탑을 밀어내며 승리', '탑 다이브 설계로 초반 주도권을 완전히 장악'],
   JGL: ['오브젝트 스틸과 날카로운 갱킹으로 협곡을 지배', '바론 교전 완벽한 강타 싸움으로 역전승'],
-  MID: ['미드 한타 대폭발로 상대 진영을 붕괴', '클러치 로밍과 암살로 경기 흐름을 뒤집음'],
+  MID: ['미드 슈퍼 플레이로 상대 진영을 붕괴', '클러치 로밍과 암살로 경기 흐름을 뒤집음'],
   BOT: ['후반 한타 폭딜로 펜타급 캐리를 선보임', '라인전 완승 후 드래곤 영혼을 손쉽게 확보'],
   SUP: ['결정적인 이니시에이팅으로 한타 대승을 견인', '시야 장악과 슈퍼 세이브로 팀을 구원'],
 };
@@ -64,8 +64,16 @@ function pickRandom<T>(arr: readonly T[], count: number): T[] {
   return copy.slice(0, count);
 }
 
+const OPPONENT_NO_SYNERGY: SynergyResult = {
+  type: 'none',
+  label: '시너지 미적용',
+  description: '',
+  tierBonus: 0,
+  tierCap: DEFAULT_TIER_CAP,
+  partial: null,
+};
+
 function makeGalleryTeam(entry: GalleryEntry): TournamentTeam {
-  const synergy = evaluateSynergy(entry.cards);
   return {
     id: entry.id,
     name: `${entry.season} ${entry.team}`,
@@ -74,8 +82,8 @@ function makeGalleryTeam(entry: GalleryEntry): TournamentTeam {
     league: entry.league,
     heroUrl: entry.heroUrl,
     cards: entry.cards,
-    synergy,
-    score: teamScore(entry.cards, synergy),
+    synergy: OPPONENT_NO_SYNERGY,
+    score: teamScore(entry.cards, OPPONENT_NO_SYNERGY),
     isPlayer: false,
   };
 }
