@@ -68,7 +68,7 @@ const SINGLE_TEAM_TITLES: Record<string, string> = {
   JDG: '징동의 성장이 두렵습니까?',
   WE: '월드 엘리트',
   OMG: '오. 마이. 갓.',
-  AHQ: '대만의 붉은 말',
+  AHQ: '대만의 적토마',
   LNG: '기린의 도약',
   KC: '바게트!',
   AL: '전설을 향한 전진',
