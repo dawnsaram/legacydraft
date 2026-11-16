@@ -184,7 +184,7 @@ export function renderCard(
 // ─────────────────────────────────────────────
 
 export function renderHome(owned: Set<string>): string {
-  const ownedCount = owned.size;
+  const ownedCount = ALL_CARDS.filter((c) => owned.has(c.id)).length;
   const completedGalleryCount = ALL_GALLERY_ENTRIES.filter((entry) =>
     entry.cards.every((c) => owned.has(c.id)),
   ).length;

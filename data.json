@@ -3222,8 +3222,8 @@
     "baseTier": 3
   },
   {
-    "id": "LPL_2019_MSI_IG_BOT_JackeyLoce",
-    "playerName": "JackeyLoce",
+    "id": "LPL_2019_MSI_IG_BOT_JackeyLove",
+    "playerName": "JackeyLove",
     "position": "BOT",
     "team": "IG",
     "league": "LPL",
@@ -6480,7 +6480,7 @@
     "baseTier": 3
   },
   {
-    "id": "LPL_2025_MSI_AL_SUP_ON",
+    "id": "LPL_2025_MSI_AL_TOP_Flandre",
     "playerName": "Flandre",
     "position": "TOP",
     "team": "AL",
@@ -6489,7 +6489,7 @@
     "baseTier": 3
   },
   {
-    "id": "LPL_2025_MSI_AL_SUP_ON",
+    "id": "LPL_2025_MSI_AL_JGL_Tarzan",
     "playerName": "Tarzan",
     "position": "JGL",
     "team": "AL",
@@ -6498,7 +6498,7 @@
     "baseTier": 3
   },
   {
-    "id": "LPL_2025_MSI_AL_SUP_ON",
+    "id": "LPL_2025_MSI_AL_MID_Shanks",
     "playerName": "Shanks",
     "position": "MID",
     "team": "AL",
@@ -6507,7 +6507,7 @@
     "baseTier": 3
   },
   {
-    "id": "LPL_2025_MSI_AL_SUP_ON",
+    "id": "LPL_2025_MSI_AL_BOT_Hope",
     "playerName": "Hope",
     "position": "BOT",
     "team": "AL",
@@ -6516,7 +6516,7 @@
     "baseTier": 3
   },
   {
-    "id": "LPL_2025_MSI_AL_SUP_ON",
+    "id": "LPL_2025_MSI_AL_SUP_Kael",
     "playerName": "Kael",
     "position": "SUP",
     "team": "AL",
@@ -7161,6 +7161,366 @@
     "team": "LYON",
     "league": "LCS",
     "season": "2026 MSI",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2026_Worlds_GEN_TOP_Kiin",
+    "playerName": "Kiin",
+    "position": "TOP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_GEN_JGL_Canyon",
+    "playerName": "Canyon",
+    "position": "JGL",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_GEN_MID_Chovy",
+    "playerName": "Chovy",
+    "position": "MID",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_GEN_BOT_Ruler",
+    "playerName": "Ruler",
+    "position": "BOT",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_GEN_SUP_Duro",
+    "playerName": "Duro",
+    "position": "SUP",
+    "team": "GEN",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_DK_TOP_Siwoo",
+    "playerName": "Siwoo",
+    "position": "TOP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2026_Worlds_DK_JGL_Lucid",
+    "playerName": "Lucid",
+    "position": "JGL",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2026_Worlds_DK_MID_ShowMaker",
+    "playerName": "ShowMaker",
+    "position": "MID",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2026_Worlds_DK_BOT_Smash",
+    "playerName": "Smash",
+    "position": "BOT",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2026_Worlds_DK_SUP_Career",
+    "playerName": "Career",
+    "position": "SUP",
+    "team": "DK",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCK_2026_Worlds_T1_TOP_Doran",
+    "playerName": "Doran",
+    "position": "TOP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_T1_JGL_Oner",
+    "playerName": "Oner",
+    "position": "JGL",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_T1_MID_Faker",
+    "playerName": "Faker",
+    "position": "MID",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2025 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_T1_BOT_Gumayusi",
+    "playerName": "Gumayusi",
+    "position": "BOT",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LCK_2026_Worlds_T1_SUP_Keria",
+    "playerName": "Keria",
+    "position": "SUP",
+    "team": "T1",
+    "league": "LCK",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_Worlds_TES_TOP_369",
+    "playerName": "369",
+    "position": "TOP",
+    "league": "LPL",
+    "team": "TES",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2026_Worlds_TES_JGL_Tian",
+    "playerName": "Tian",
+    "position": "JGL",
+    "league": "LPL",
+    "team": "TES",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2026_Worlds_TES_MID_Creme",
+    "playerName": "Creme",
+    "position": "MID",
+    "league": "LPL",
+    "team": "TES",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2026_Worlds_TES_BOT_JackeyLove",
+    "playerName": "JackeyLove",
+    "position": "BOT",
+    "league": "LPL",
+    "team": "TES",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2026_Worlds_TES_SUP_Zhuo",
+    "playerName": "Zhuo",
+    "position": "SUP",
+    "league": "LPL",
+    "team": "TES",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LPL_2026_Worlds_IG_TOP_TheShy",
+    "playerName": "TheShy",
+    "position": "TOP",
+    "league": "LPL",
+    "team": "IG",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_Worlds_IG_JGL_Wei",
+    "playerName": "Wei",
+    "position": "JGL",
+    "league": "LPL",
+    "team": "IG",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_Worlds_IG_MID_Rookie",
+    "playerName": "Rookie",
+    "position": "MID",
+    "league": "LPL",
+    "team": "IG",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_Worlds_IG_BOT_JiaQi",
+    "playerName": "JiaQi",
+    "position": "BOT",
+    "league": "LPL",
+    "team": "IG",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_Worlds_IG_SUP_Meiko",
+    "playerName": "Meiko",
+    "position": "SUP",
+    "league": "LPL",
+    "team": "IG",
+    "season": "2026 Worlds",
+    "baseTier": 4
+  },
+  {
+    "id": "LPL_2026_Worlds_BLG_TOP_Bin",
+    "playerName": "Bin",
+    "position": "TOP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2026_Worlds_BLG_JGL_Xun",
+    "playerName": "Xun",
+    "position": "JGL",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2026_Worlds_BLG_MID_Knight",
+    "playerName": "Knight",
+    "position": "MID",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2026_Worlds_BLG_BOT_Viper",
+    "playerName": "Viper",
+    "position": "BOT",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LPL_2026_Worlds_BLG_SUP_ON",
+    "playerName": "ON",
+    "position": "SUP",
+    "team": "BLG",
+    "league": "LPL",
+    "season": "2026 Worlds",
+    "baseTier": 5
+  },
+  {
+    "id": "LCS_2026_Worlds_LYON_TOP_Dhokla",
+    "playerName": "Dhokla",
+    "position": "TOP",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_Worlds_LYON_JGL_Inspired",
+    "playerName": "Inspired",
+    "position": "JGL",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_Worlds_LYON_MID_Saint",
+    "playerName": "Saint",
+    "position": "MID",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_Worlds_LYON_BOT_Berserker",
+    "playerName": "Berserker",
+    "position": "BOT",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LCS_2026_Worlds_LYON_SUP_Isles",
+    "playerName": "Isles",
+    "position": "SUP",
+    "team": "LYON",
+    "league": "LCS",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_Worlds_KC_TOP_Canna",
+    "playerName": "Canna",
+    "position": "TOP",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_Worlds_KC_JGL_Yike",
+    "playerName": "Yike",
+    "position": "JGL",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_Worlds_KC_MID_kyeahoo",
+    "playerName": "kyeahoo",
+    "position": "MID",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_Worlds_KC_BOT_Caliste",
+    "playerName": "Caliste",
+    "position": "BOT",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2026 Worlds",
+    "baseTier": 3
+  },
+  {
+    "id": "LEC_2026_Worlds_KC_SUP_Busio",
+    "playerName": "Busio",
+    "position": "SUP",
+    "team": "KC",
+    "league": "LEC",
+    "season": "2026 Worlds",
     "baseTier": 3
   }
 ]
