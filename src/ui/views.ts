@@ -385,10 +385,12 @@ export function renderGame(
 // 화면: 도감
 // ─────────────────────────────────────────────
 
+export type OwnershipFilter = 'ALL' | 'OWNED' | 'MISSING';
+
 export interface CollectionFilter {
   position: string;
   league: string;
-  ownedOnly: boolean;
+  ownership: OwnershipFilter;
 }
 
 const LEAGUES = [...new Set(ALL_CARDS.map((c) => c.league).filter(Boolean))].sort();
@@ -397,13 +399,44 @@ function option(value: string, label: string, selected: string): string {
   return `<option value="${esc(value)}" ${value === selected ? 'selected' : ''}>${esc(label)}</option>`;
 }
 
+function renderOwnershipToggle(
+  target: 'collection' | 'gallery',
+  current: OwnershipFilter,
+  ownedLabel = '보유',
+  missingLabel = '미보유',
+): string {
+  const opts: [OwnershipFilter, string][] = [
+    ['ALL', '전체'],
+    ['OWNED', ownedLabel],
+    ['MISSING', missingLabel],
+  ];
+  return `
+  <div class="inline-flex rounded-lg border border-slate-700 bg-slate-900 p-0.5 text-xs font-bold" role="group" aria-label="보유 여부 필터">
+    ${opts
+      .map(
+        ([val, label]) => `
+      <button type="button" data-action="set-ownership" data-target="${target}" data-value="${val}"
+        class="rounded-md px-2.5 py-1.5 transition ${
+          current === val ? 'bg-amber-500 text-slate-950' : 'text-slate-300 hover:text-white'
+        }">${label}</button>`,
+      )
+      .join('')}
+  </div>`;
+}
+
 export function renderCollection(owned: Set<string>, filter: CollectionFilter): string {
-  const list = ALL_CARDS.filter(
-    (c) =>
+  const list = ALL_CARDS.filter((c) => {
+    const has = owned.has(c.id);
+    const matchOwnership =
+      filter.ownership === 'ALL' ||
+      (filter.ownership === 'OWNED' && has) ||
+      (filter.ownership === 'MISSING' && !has);
+    return (
       (filter.position === 'ALL' || c.position === filter.position) &&
       (filter.league === 'ALL' || c.league === filter.league) &&
-      (!filter.ownedOnly || owned.has(c.id)),
-  );
+      matchOwnership
+    );
+  });
   const ownedTotal = ALL_CARDS.filter((c) => owned.has(c.id)).length;
   const pct = ((ownedTotal / ALL_CARDS.length) * 100).toFixed(1);
 
@@ -422,8 +455,9 @@ export function renderCollection(owned: Set<string>, filter: CollectionFilter): 
         : `<div class="dex-item is-unknown">
             <div class="card-art"><div class="card-art-fallback">?</div></div>
             <div class="p-2 text-left">
-              <div class="text-sm font-bold text-slate-600">???</div>
-              <div class="truncate text-[10px] text-slate-600">${c.position} · ${esc(c.season)}</div>
+              <div class="truncate text-sm font-bold text-slate-300">${esc(c.playerName)}</div>
+              <div class="truncate text-[10px] text-slate-400">${c.position} · ${esc(c.team)} · ${esc(c.season)}</div>
+              <div class="opacity-50">${stars(c.baseTier)}</div>
             </div>
           </div>`;
     })
@@ -450,9 +484,7 @@ export function renderCollection(owned: Set<string>, filter: CollectionFilter): 
         ${option('ALL', '전체 리그', filter.league)}
         ${LEAGUES.map((l) => option(l, l, filter.league)).join('')}
       </select>
-      <label class="flex items-center gap-2 text-slate-300">
-        <input type="checkbox" data-filter="ownedOnly" ${filter.ownedOnly ? 'checked' : ''} /> 보유 카드만
-      </label>
+      ${renderOwnershipToggle('collection', filter.ownership)}
       <span class="ml-auto text-slate-500">${list.length}장 표시</span>
     </div>
 
@@ -467,7 +499,7 @@ export function renderCollection(owned: Set<string>, filter: CollectionFilter): 
 export interface GalleryFilter {
   league: string;
   tier: string;
-  completedOnly: boolean;
+  ownership: OwnershipFilter;
 }
 
 function renderGalleryEntry(entry: GalleryEntry, owned: Set<string>): string {
@@ -536,10 +568,14 @@ function renderGalleryEntry(entry: GalleryEntry, owned: Set<string>): string {
 export function renderGallery(owned: Set<string>, filter: GalleryFilter): string {
   const list = ALL_GALLERY_ENTRIES.filter((entry) => {
     const isComplete = entry.cards.length > 0 && entry.cards.every((c) => owned.has(c.id));
+    const matchOwnership =
+      filter.ownership === 'ALL' ||
+      (filter.ownership === 'OWNED' && isComplete) ||
+      (filter.ownership === 'MISSING' && !isComplete);
     return (
       (filter.league === 'ALL' || entry.league === filter.league) &&
       (filter.tier === 'ALL' || String(entry.baseTier) === filter.tier) &&
-      (!filter.completedOnly || isComplete)
+      matchOwnership
     );
   });
 
@@ -576,9 +612,7 @@ export function renderGallery(owned: Set<string>, filter: GalleryFilter): string
         ${option('4', '★★★★ (4성)', filter.tier)}
         ${option('3', '★★★ (3성)', filter.tier)}
       </select>
-      <label class="flex items-center gap-2 text-slate-300">
-        <input type="checkbox" data-gallery-filter="completedOnly" ${filter.completedOnly ? 'checked' : ''} /> 5인 수집 완료만
-      </label>
+      ${renderOwnershipToggle('gallery', filter.ownership, '보유 (완성)', '미보유')}
       <span class="ml-auto text-slate-500">${list.length}개 팀 표시</span>
     </div>
 

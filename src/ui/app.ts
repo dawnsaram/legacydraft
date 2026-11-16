@@ -44,6 +44,7 @@ import {
   type CollectionFilter,
   type FlipState,
   type GalleryFilter,
+  type OwnershipFilter,
 } from './views';
 
 type Screen = 'home' | 'game' | 'collection' | 'gallery' | 'tournament' | 'notices' | 'bugs' | 'achievements';
@@ -60,8 +61,8 @@ export class App {
   private isSharedView = false;
   private newCardIds = new Set<string>();
   private flip: FlipState | undefined;
-  private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownedOnly: false };
-  private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', completedOnly: false };
+  private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownership: 'ALL' };
+  private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', ownership: 'ALL' };
   private achievementFilter: AchievementFilter = { category: 'ALL', unlockedOnly: false };
   private user: AuthUser | null = null;
   private authBusy = false;
@@ -364,6 +365,14 @@ export class App {
       case 'achievements':
         this.go('achievements');
         break;
+      case 'set-ownership': {
+        const val = el.dataset.value as OwnershipFilter | undefined;
+        if (!val) break;
+        if (el.dataset.target === 'collection') this.filter.ownership = val;
+        else if (el.dataset.target === 'gallery') this.galleryFilter.ownership = val;
+        this.render();
+        break;
+      }
     }
   }
 
@@ -530,15 +539,13 @@ export class App {
     const t = e.target as HTMLInputElement | HTMLSelectElement;
     const key = t.dataset.filter;
     if (key) {
-      if (key === 'ownedOnly') this.filter.ownedOnly = (t as HTMLInputElement).checked;
-      else if (key === 'position' || key === 'league') this.filter[key] = t.value;
+      if (key === 'position' || key === 'league') this.filter[key] = t.value;
       this.render();
       return;
     }
     const galleryKey = t.dataset.galleryFilter;
     if (galleryKey) {
-      if (galleryKey === 'completedOnly') this.galleryFilter.completedOnly = (t as HTMLInputElement).checked;
-      else if (galleryKey === 'league' || galleryKey === 'tier') this.galleryFilter[galleryKey] = t.value;
+      if (galleryKey === 'league' || galleryKey === 'tier') this.galleryFilter[galleryKey] = t.value;
       this.render();
       return;
     }
