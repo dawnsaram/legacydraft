@@ -7259,7 +7259,7 @@
     "position": "TOP",
     "team": "T1",
     "league": "LCK",
-    "season": "2025 Worlds",
+    "season": "2026 Worlds",
     "baseTier": 4
   },
   {
@@ -7268,7 +7268,7 @@
     "position": "JGL",
     "team": "T1",
     "league": "LCK",
-    "season": "2025 Worlds",
+    "season": "2026 Worlds",
     "baseTier": 4
   },
   {
@@ -7277,12 +7277,12 @@
     "position": "MID",
     "team": "T1",
     "league": "LCK",
-    "season": "2025 Worlds",
+    "season": "2026 Worlds",
     "baseTier": 4
   },
   {
-    "id": "LCK_2026_Worlds_T1_BOT_Gumayusi",
-    "playerName": "Gumayusi",
+    "id": "LCK_2026_Worlds_T1_BOT_Peyz",
+    "playerName": "Peyz",
     "position": "BOT",
     "team": "T1",
     "league": "LCK",
