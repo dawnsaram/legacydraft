@@ -64,6 +64,8 @@ export class App {
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownership: 'ALL' };
   private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', ownership: 'ALL' };
   private achievementFilter: AchievementFilter = { category: 'ALL', unlockedOnly: false };
+  private homeCarouselIndex = 0;
+  private touchStartX: number | null = null;
   private user: AuthUser | null = null;
   private authBusy = false;
   private notices: NoticeItem[] = [];
@@ -97,6 +99,29 @@ export class App {
     // 레전더리 카드: 마우스 위치에 따른 빛반사/틸트
     root.addEventListener('pointermove', (e) => this.onPointerMove(e));
     root.addEventListener('pointerleave', (e) => this.onPointerLeave(e), true);
+    // 홈 캐러셀 모바일 스와이프
+    root.addEventListener(
+      'touchstart',
+      (e) => {
+        if ((e.target as HTMLElement).closest('[data-home-carousel]')) {
+          this.touchStartX = e.touches[0]?.clientX ?? null;
+        }
+      },
+      { passive: true },
+    );
+    root.addEventListener(
+      'touchend',
+      (e) => {
+        if (this.touchStartX === null) return;
+        const endX = e.changedTouches[0]?.clientX;
+        const diff = endX !== undefined ? endX - this.touchStartX : 0;
+        this.touchStartX = null;
+        if (Math.abs(diff) >= 40) {
+          this.setHomeCarousel(this.homeCarouselIndex + (diff < 0 ? 1 : -1));
+        }
+      },
+      { passive: true },
+    );
   }
 
   start(): void {
@@ -144,7 +169,13 @@ export class App {
   private render(): void {
     switch (this.screen) {
       case 'home':
-        this.root.innerHTML = renderHome(loadCollection(), this.user, this.authBusy, loadStats());
+        this.root.innerHTML = renderHome(
+          loadCollection(),
+          this.user,
+          this.authBusy,
+          loadStats(),
+          this.homeCarouselIndex,
+        );
         break;
       case 'game':
         if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView, this.newCardIds);
@@ -373,6 +404,29 @@ export class App {
         this.render();
         break;
       }
+      case 'home-carousel-prev':
+        this.setHomeCarousel(this.homeCarouselIndex - 1);
+        break;
+      case 'home-carousel-next':
+        this.setHomeCarousel(this.homeCarouselIndex + 1);
+        break;
+      case 'home-carousel-dot':
+        this.setHomeCarousel(Number(el.dataset.index ?? 0));
+        break;
+    }
+  }
+
+  private setHomeCarousel(nextIndex: number): void {
+    const count = 3;
+    this.homeCarouselIndex = ((nextIndex % count) + count) % count;
+    const track = this.root.querySelector<HTMLElement>('.home-carousel-track');
+    if (track) {
+      track.style.transform = `translateX(-${this.homeCarouselIndex * 100}%)`;
+      this.root.querySelectorAll<HTMLElement>('.home-carousel-dot').forEach((dot, idx) => {
+        dot.classList.toggle('is-active', idx === this.homeCarouselIndex);
+      });
+    } else if (this.screen === 'home') {
+      this.render();
     }
   }
 

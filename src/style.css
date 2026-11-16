@@ -41,6 +41,62 @@
   box-shadow: 0 0 8px #fbbf24;
 }
 
+/* ─────────────── 홈 메뉴 캐러셀 ─────────────── */
+
+.home-carousel-track {
+  display: flex;
+  transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.home-carousel-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.home-carousel-slide:hover {
+  background: rgb(30 41 59 / 0.65);
+}
+
+.home-carousel-arrow {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  border: 1px solid rgb(51 65 85 / 0.85);
+  background: rgb(15 23 42 / 0.85);
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1;
+  transition: border-color 0.15s, color 0.15s, background-color 0.15s;
+}
+
+.home-carousel-arrow:hover {
+  border-color: rgb(251 191 36 / 0.6);
+  background: rgb(30 41 59 / 0.9);
+  color: #fff;
+}
+
+.home-carousel-dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 9999px;
+  background: rgb(71 85 105 / 0.8);
+  transition: width 0.2s ease, background-color 0.2s ease;
+}
+
+.home-carousel-dot.is-active {
+  width: 1.25rem;
+  background: #fbbf24;
+}
+
 /* ─────────────── 카드 기본 ─────────────── */
 
 /*

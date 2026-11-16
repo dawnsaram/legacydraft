@@ -223,6 +223,7 @@ export function renderHome(
   user: AuthUser | null = null,
   authBusy = false,
   stats?: PlayerStats,
+  carouselIndex = 0,
 ): string {
   const ownedCount = ALL_CARDS.filter((c) => owned.has(c.id)).length;
   const completedGalleryCount = ALL_GALLERY_ENTRIES.filter((entry) =>
@@ -232,34 +233,101 @@ export function renderHome(
     ? evaluateAchievements(owned, stats).filter((a) => a.unlocked).length
     : 0;
   const pct = (w: Record<number, number>) => `3성 ${w[3]}% · 4성 ${w[4]}% · 5성 ${w[5]}%`;
+
+  const slides = [
+    {
+      action: 'collection',
+      icon: '📖',
+      title: '도감',
+      subtitle: '수집한 선수 카드 목록',
+      current: ownedCount,
+      total: ALL_CARDS.length,
+    },
+    {
+      action: 'gallery',
+      icon: '🖼️',
+      title: '갤러리',
+      subtitle: '시즌·팀별 5인 시너지 스토리',
+      current: completedGalleryCount,
+      total: ALL_GALLERY_ENTRIES.length,
+    },
+    {
+      action: 'achievements',
+      icon: '🏆',
+      title: '업적',
+      subtitle: '도감 · 토너먼트 도전과제',
+      current: unlockedAchievementCount,
+      total: ALL_ACHIEVEMENTS.length,
+    },
+  ];
+  const activeIdx = ((carouselIndex % slides.length) + slides.length) % slides.length;
+
   return `
   <main class="mx-auto flex min-h-screen max-w-4xl flex-col px-4 py-4 sm:px-6 sm:py-6">
-    <nav aria-label="계정 및 게시판" class="flex flex-col items-start gap-2">
-      <div class="flex flex-wrap items-center gap-2">
-        ${renderAuthBar(user, authBusy)}
-        <button type="button" data-action="notices" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-sky-400/60 hover:text-white">
-          📢 공지사항
-        </button>
-        <button type="button" data-action="bugs" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-rose-400/60 hover:text-white">
-          🐞 버그 제보
-        </button>
-      </div>
-      <button type="button" data-action="achievements" class="rounded-full border border-amber-500/40 bg-slate-900/80 px-3 py-1.5 text-xs font-bold text-amber-200 transition hover:border-amber-400 hover:text-white">
-        🏆 업적 (${unlockedAchievementCount} / ${ALL_ACHIEVEMENTS.length})
+    <nav aria-label="계정 및 게시판" class="flex flex-wrap items-center gap-2">
+      ${renderAuthBar(user, authBusy)}
+      <button type="button" data-action="notices" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-sky-400/60 hover:text-white">
+        📢 공지사항
+      </button>
+      <button type="button" data-action="bugs" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-rose-400/60 hover:text-white">
+        🐞 버그 제보
       </button>
     </nav>
 
-    <div class="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-10 py-10 text-center">
+    <div class="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-8 py-8 text-center">
       <div>
         <p class="mb-2 text-sm font-semibold tracking-[0.3em] text-amber-400">LoL ESPORTS CARD DRAFT</p>
         <h1 class="title-glow text-5xl font-black tracking-tight sm:text-7xl">LEGACY DRAFT</h1>
         <p class="mt-4 text-slate-400">역대 레전드를 뽑아 5인 드림팀을 완성하세요.</p>
       </div>
 
-      <div class="flex w-full max-w-xs flex-col gap-3">
-        <button data-action="start" class="btn-primary">드래프트 시작</button>
-        <button data-action="collection" class="btn-secondary">도감 (${ownedCount} / ${ALL_CARDS.length})</button>
-        <button data-action="gallery" class="btn-secondary">갤러리 (${completedGalleryCount} / ${ALL_GALLERY_ENTRIES.length})</button>
+      <div class="flex w-full max-w-sm flex-col gap-3">
+        <button data-action="start" class="btn-primary w-full py-3.5 text-base">드래프트 시작</button>
+
+        <div class="home-carousel" data-home-carousel>
+          <div class="flex items-center gap-1.5">
+            <button type="button" data-action="home-carousel-prev" class="home-carousel-arrow" aria-label="이전 메뉴">‹</button>
+            <div class="min-w-0 flex-1 overflow-hidden rounded-xl border border-slate-700/80 bg-slate-900/80">
+              <div class="home-carousel-track" style="transform:translateX(-${activeIdx * 100}%)">
+                ${slides
+                  .map((s) => {
+                    const barPct = Math.round((s.current / Math.max(1, s.total)) * 100);
+                    return `
+                  <button type="button" data-action="${s.action}" class="home-carousel-slide">
+                    <div class="flex items-center justify-between gap-2">
+                      <div class="flex min-w-0 items-center gap-2.5 text-left">
+                        <span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-slate-700 bg-slate-800/80 text-lg">${s.icon}</span>
+                        <div class="min-w-0">
+                          <div class="text-sm font-black text-slate-100">${s.title}</div>
+                          <div class="truncate text-[11px] text-slate-400">${s.subtitle}</div>
+                        </div>
+                      </div>
+                      <div class="shrink-0 text-right">
+                        <div class="text-xs font-extrabold text-amber-300">${s.current} / ${s.total}</div>
+                        <div class="text-[10px] text-slate-500">${barPct}%</div>
+                      </div>
+                    </div>
+                    <div class="mt-2.5 h-1.5 overflow-hidden rounded-full bg-slate-800">
+                      <div class="h-full bg-gradient-to-r from-amber-500 to-fuchsia-500" style="width:${barPct}%"></div>
+                    </div>
+                  </button>`;
+                  })
+                  .join('')}
+              </div>
+            </div>
+            <button type="button" data-action="home-carousel-next" class="home-carousel-arrow" aria-label="다음 메뉴">›</button>
+          </div>
+
+          <div class="mt-2 flex items-center justify-center gap-1.5">
+            ${slides
+              .map(
+                (s, i) => `
+              <button type="button" data-action="home-carousel-dot" data-index="${i}" aria-label="${s.title}"
+                class="home-carousel-dot ${i === activeIdx ? 'is-active' : ''}"></button>`,
+              )
+              .join('')}
+          </div>
+        </div>
       </div>
 
       <section class="grid w-full gap-3 text-left text-sm text-slate-300 sm:grid-cols-3">
