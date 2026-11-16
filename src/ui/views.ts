@@ -185,26 +185,34 @@ export function renderCard(
 // 화면: 홈
 // ─────────────────────────────────────────────
 
+export const GOOGLE_LOGO_SVG = `<svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+  <path fill="#EA4335" d="M12 10.2v3.9h5.5c-.2 1.3-1.5 3.8-5.5 3.8-3.3 0-6-2.7-6-6s2.7-6 6-6c1.9 0 3.1.8 3.9 1.5l2.7-2.6C16.9 3.2 14.7 2.2 12 2.2 6.6 2.2 2.2 6.6 2.2 12S6.6 21.8 12 21.8c6.9 0 9.6-4.8 9.6-7.3 0-.5-.1-.9-.1-1.3H12z"/>
+  <path fill="#34A853" d="M3.3 7.3l3.2 2.3C7.4 7.4 9.5 5.9 12 5.9c1.9 0 3.1.8 3.9 1.5l2.7-2.6C16.9 3.2 14.7 2.2 12 2.2c-3.8 0-7.1 2.1-8.7 5.1z"/>
+  <path fill="#FBBC05" d="M12 21.8c2.6 0 4.9-.9 6.5-2.4l-3-2.5c-.8.6-1.9 1-3.5 1-2.7 0-5-1.8-5.8-4.3l-3.2 2.5c1.6 3.3 5 5.7 9 5.7z"/>
+  <path fill="#4285F4" d="M21.6 14.5c.1-.5.2-1 .2-1.7 0-.6-.1-1.1-.2-1.6H12v3.9h5.5c-.3 1.3-1 2.3-2 3l3 2.5c1.8-1.7 3.1-4.1 3.1-6.1z"/>
+</svg>`;
+
 function renderAuthBar(user: AuthUser | null, authBusy: boolean): string {
   if (user) {
     const label = esc(user.displayName || user.email || '플레이어');
     const avatar = user.photoURL
-      ? `<img src="${esc(user.photoURL)}" alt="" class="h-6 w-6 rounded-full border border-amber-400/50 object-cover" referrerpolicy="no-referrer" />`
-      : `<span class="grid h-6 w-6 place-items-center rounded-full bg-amber-500/20 text-xs font-black text-amber-300">${label[0] ?? 'U'}</span>`;
+      ? `<img src="${esc(user.photoURL)}" alt="" class="h-5 w-5 rounded-full border border-amber-400/50 object-cover" referrerpolicy="no-referrer" />`
+      : `<span class="grid h-5 w-5 place-items-center rounded-full bg-amber-500/20 text-[10px] font-black text-amber-300">${label[0] ?? 'U'}</span>`;
     return `
-    <div class="flex items-center gap-2.5 rounded-full border border-slate-700/80 bg-slate-900/80 px-3 py-1.5 text-xs">
+    <div class="flex items-center gap-2 rounded-full border border-slate-700/80 bg-slate-900/85 px-2.5 py-1 text-xs">
       ${avatar}
-      <span class="max-w-[9rem] truncate font-bold text-slate-100">${label}</span>
-      <span class="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold text-emerald-300">동기화됨</span>
-      <button type="button" data-action="logout" class="ml-1 text-slate-400 transition hover:text-white" ${authBusy ? 'disabled' : ''}>로그아웃</button>
+      <span class="max-w-[7.5rem] truncate font-bold text-slate-100">${label}</span>
+      <span class="rounded-full bg-emerald-500/15 px-1.5 py-0.5 text-[10px] font-bold text-emerald-300">동기화</span>
+      <button type="button" data-action="logout" class="ml-0.5 text-slate-400 transition hover:text-white" ${authBusy ? 'disabled' : ''}>로그아웃</button>
     </div>`;
   }
 
   return `
   <button type="button" data-action="login"
-    class="flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-4 py-1.5 text-xs font-bold text-slate-200 transition hover:border-amber-400/60 hover:text-white disabled:opacity-50"
+    class="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/85 px-3 py-1.5 text-xs font-bold text-slate-100 transition hover:border-amber-400/60 hover:bg-slate-800 disabled:opacity-50"
     ${authBusy ? 'disabled' : ''}>
-    <span>${authBusy ? '로그인 중...' : 'Google 로그인 · 도감 동기화'}</span>
+    ${GOOGLE_LOGO_SVG}
+    <span>${authBusy ? '로그인 중...' : 'Google 로그인'}</span>
     ${!isFirebaseConfigured ? '<span class="text-[10px] text-amber-400">(설정 필요)</span>' : ''}
   </button>`;
 }
@@ -216,28 +224,36 @@ export function renderHome(owned: Set<string>, user: AuthUser | null = null, aut
   ).length;
   const pct = (w: Record<number, number>) => `3성 ${w[3]}% · 4성 ${w[4]}% · 5성 ${w[5]}%`;
   return `
-  <main class="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-8 px-6 py-12 text-center">
-    <div class="flex justify-center">
+  <main class="mx-auto flex min-h-screen max-w-4xl flex-col px-4 py-4 sm:px-6 sm:py-6">
+    <nav aria-label="계정 및 게시판" class="flex flex-wrap items-center gap-2">
       ${renderAuthBar(user, authBusy)}
-    </div>
+      <button type="button" data-action="notices" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-sky-400/60 hover:text-white">
+        📢 공지사항
+      </button>
+      <button type="button" data-action="bugs" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-rose-400/60 hover:text-white">
+        🐞 버그 제보
+      </button>
+    </nav>
 
-    <div>
-      <p class="mb-2 text-sm font-semibold tracking-[0.3em] text-amber-400">LoL ESPORTS CARD DRAFT</p>
-      <h1 class="title-glow text-5xl font-black tracking-tight sm:text-7xl">LEGACY DRAFT</h1>
-      <p class="mt-4 text-slate-400">역대 레전드를 뽑아 5인 드림팀을 완성하세요.</p>
-    </div>
+    <div class="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-10 py-10 text-center">
+      <div>
+        <p class="mb-2 text-sm font-semibold tracking-[0.3em] text-amber-400">LoL ESPORTS CARD DRAFT</p>
+        <h1 class="title-glow text-5xl font-black tracking-tight sm:text-7xl">LEGACY DRAFT</h1>
+        <p class="mt-4 text-slate-400">역대 레전드를 뽑아 5인 드림팀을 완성하세요.</p>
+      </div>
 
-    <div class="flex w-full max-w-xs flex-col gap-3">
-      <button data-action="start" class="btn-primary">드래프트 시작</button>
-      <button data-action="collection" class="btn-secondary">도감 (${ownedCount} / ${ALL_CARDS.length})</button>
-      <button data-action="gallery" class="btn-secondary">갤러리 (${completedGalleryCount} / ${ALL_GALLERY_ENTRIES.length})</button>
-    </div>
+      <div class="flex w-full max-w-xs flex-col gap-3">
+        <button data-action="start" class="btn-primary">드래프트 시작</button>
+        <button data-action="collection" class="btn-secondary">도감 (${ownedCount} / ${ALL_CARDS.length})</button>
+        <button data-action="gallery" class="btn-secondary">갤러리 (${completedGalleryCount} / ${ALL_GALLERY_ENTRIES.length})</button>
+      </div>
 
-    <section class="grid w-full gap-3 text-left text-sm text-slate-300 sm:grid-cols-3">
-      <div class="panel"><b class="text-slate-100">1. 드래프트</b><br/>5개 포지션에 카드가 1장씩 배치됩니다.<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.initial)}</span></div>
-      <div class="panel"><b class="text-slate-100">2. 홀드 &amp; 리롤</b><br/>카드를 클릭해 고정하고, 나머지를 최대 ${MAX_REROLLS}회 다시 뽑습니다. 리롤할수록 같은 팀·시즌 확률 ↑ (${ANCHOR_CHANCE_BY_REROLL.map((p) => `${p * 100}%`).join('→')}, ${ANCHOR_BOOST_MIN_COUNT}명 모이면 +${Math.round(ANCHOR_BOOST_BONUS * 100)}%p)<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.reroll)}</span></div>
-      <div class="panel"><b class="text-slate-100">3. 시너지</b><br/>같은 팀 <span class="text-emerald-300">3~4장</span> 해당 카드 +1, 같은 리그/시즌 +1, 같은 팀 <span class="text-amber-300">프레스티지</span> +1, 같은 팀+시즌 <span class="text-fuchsia-300">레전더리</span> +2</div>
-    </section>
+      <section class="grid w-full gap-3 text-left text-sm text-slate-300 sm:grid-cols-3">
+        <div class="panel"><b class="text-slate-100">1. 드래프트</b><br/>5개 포지션에 카드가 1장씩 배치됩니다.<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.initial)}</span></div>
+        <div class="panel"><b class="text-slate-100">2. 홀드 &amp; 리롤</b><br/>카드를 클릭해 고정하고, 나머지를 최대 ${MAX_REROLLS}회 다시 뽑습니다. 리롤할수록 같은 팀·시즌 확률 ↑ (${ANCHOR_CHANCE_BY_REROLL.map((p) => `${p * 100}%`).join('→')}, ${ANCHOR_BOOST_MIN_COUNT}명 모이면 +${Math.round(ANCHOR_BOOST_BONUS * 100)}%p)<br/><span class="text-xs text-slate-500">${pct(TIER_WEIGHTS.reroll)}</span></div>
+        <div class="panel"><b class="text-slate-100">3. 시너지</b><br/>같은 팀 <span class="text-emerald-300">3~4장</span> 해당 카드 +1, 같은 리그/시즌 +1, 같은 팀 <span class="text-amber-300">프레스티지</span> +1, 같은 팀+시즌 <span class="text-fuchsia-300">레전더리</span> +2</div>
+      </section>
+    </div>
   </main>`;
 }
 

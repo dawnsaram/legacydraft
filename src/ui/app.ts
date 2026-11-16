@@ -1,5 +1,13 @@
 import { findNewlyCompletedGalleryEntries } from '../data/gallery';
 import { signInWithGoogle, signOutUser, subscribeAuth, type AuthUser } from '../firebase/auth';
+import {
+  deleteBugReport,
+  fetchBugReports,
+  fetchNotices,
+  submitBugReport,
+  type BugReportItem,
+  type NoticeItem,
+} from '../firebase/boards';
 import { canReroll, cardsOf, createGame, createSharedGame, finalize, reroll, toggleLock } from '../game/draft';
 import {
   advanceToNextRound,
@@ -11,6 +19,7 @@ import {
 } from '../game/tournament';
 import { addToCollection, loadCollection, setCollectionUser, syncCollectionWithCloud } from '../storage/collection';
 import type { GameState } from '../types';
+import { renderBugReports, renderNotices } from './boardView';
 import { clearShareUrlParam, parseSharedCardsFromUrl, saveTeamImage, shareTeamLink } from './share';
 import { showGalleryUnlockToast } from './toast';
 import { renderTournament } from './tournamentView';
@@ -28,7 +37,7 @@ import {
   type GalleryFilter,
 } from './views';
 
-type Screen = 'home' | 'game' | 'collection' | 'gallery' | 'tournament';
+type Screen = 'home' | 'game' | 'collection' | 'gallery' | 'tournament' | 'notices' | 'bugs';
 
 const wait = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 const motionAllowed = () => !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -46,11 +55,19 @@ export class App {
   private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', completedOnly: false };
   private user: AuthUser | null = null;
   private authBusy = false;
+  private notices: NoticeItem[] = [];
+  private noticesLoading = false;
+  private noticesError: string | null = null;
+  private bugReports: BugReportItem[] = [];
+  private bugsLoading = false;
+  private bugsSubmitting = false;
+  private bugsError: string | null = null;
   private busy = false;
 
   constructor(private readonly root: HTMLElement) {
     root.addEventListener('click', (e) => this.onClick(e));
     root.addEventListener('change', (e) => this.onFilterChange(e));
+    root.addEventListener('submit', (e) => void this.onSubmit(e));
     // 유니폼 아이콘이 없는 시즌·팀이면 fallback.svg로 대체, 히어로 이미지 로드 실패 시 숨김 처리
     root.addEventListener(
       'error',
@@ -100,7 +117,12 @@ export class App {
         console.warn('[auth] 클라우드 도감 동기화 실패', err);
       }
     }
-    if (this.screen === 'home' || this.screen === 'collection' || this.screen === 'gallery') {
+    if (
+      this.screen === 'home' ||
+      this.screen === 'collection' ||
+      this.screen === 'gallery' ||
+      this.screen === 'bugs'
+    ) {
       this.render();
     }
   }
@@ -121,6 +143,18 @@ export class App {
         break;
       case 'tournament':
         if (this.tournament) this.root.innerHTML = renderTournament(this.tournament);
+        break;
+      case 'notices':
+        this.root.innerHTML = renderNotices(this.notices, this.noticesLoading, this.noticesError);
+        break;
+      case 'bugs':
+        this.root.innerHTML = renderBugReports(
+          this.bugReports,
+          this.user,
+          this.bugsLoading,
+          this.bugsSubmitting,
+          this.bugsError,
+        );
         break;
     }
     // 뒤집기 연출은 직후 1회 렌더에만 적용
@@ -280,6 +314,89 @@ export class App {
       case 'logout':
         await this.handleLogout();
         break;
+      case 'notices':
+        this.go('notices');
+        await this.loadNotices();
+        break;
+      case 'notices-refresh':
+        await this.loadNotices();
+        break;
+      case 'bugs':
+        this.go('bugs');
+        await this.loadBugReports();
+        break;
+      case 'bugs-refresh':
+        await this.loadBugReports();
+        break;
+      case 'bug-delete':
+        if (el.dataset.id) await this.handleDeleteBug(el.dataset.id);
+        break;
+    }
+  }
+
+  private async loadNotices(): Promise<void> {
+    this.noticesLoading = true;
+    this.noticesError = null;
+    if (this.screen === 'notices') this.render();
+    try {
+      this.notices = await fetchNotices();
+    } catch (err) {
+      console.error('[notices] 로드 실패', err);
+      this.noticesError = '공지사항을 불러오지 못했습니다. Firestore 규칙을 확인해주세요.';
+    } finally {
+      this.noticesLoading = false;
+      if (this.screen === 'notices') this.render();
+    }
+  }
+
+  private async loadBugReports(): Promise<void> {
+    this.bugsLoading = true;
+    this.bugsError = null;
+    if (this.screen === 'bugs') this.render();
+    try {
+      this.bugReports = await fetchBugReports();
+    } catch (err) {
+      console.error('[bugs] 로드 실패', err);
+      this.bugsError = '버그 제보 목록을 불러오지 못했습니다. Firestore 규칙을 확인해주세요.';
+    } finally {
+      this.bugsLoading = false;
+      if (this.screen === 'bugs') this.render();
+    }
+  }
+
+  private async onSubmit(e: Event): Promise<void> {
+    const form = e.target;
+    if (!(form instanceof HTMLFormElement) || form.dataset.form !== 'bug-report') return;
+    e.preventDefault();
+    if (!this.user || this.bugsSubmitting) return;
+
+    const fd = new FormData(form);
+    const title = String(fd.get('title') ?? '').trim();
+    const content = String(fd.get('content') ?? '').trim();
+    if (!title || !content) return;
+
+    this.bugsSubmitting = true;
+    this.render();
+    try {
+      await submitBugReport(this.user, title, content);
+      await this.loadBugReports();
+    } catch (err) {
+      console.error('[bugs] 등록 실패', err);
+      alert('버그 제보 등록에 실패했습니다. 잠시 후 다시 시도해주세요.');
+    } finally {
+      this.bugsSubmitting = false;
+      if (this.screen === 'bugs') this.render();
+    }
+  }
+
+  private async handleDeleteBug(id: string): Promise<void> {
+    if (!confirm('이 버그 제보를 삭제할까요?')) return;
+    try {
+      await deleteBugReport(id);
+      await this.loadBugReports();
+    } catch (err) {
+      console.error('[bugs] 삭제 실패', err);
+      alert('삭제에 실패했습니다.');
     }
   }
 
