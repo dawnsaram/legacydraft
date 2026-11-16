@@ -8,6 +8,7 @@ import {
   type BugReportItem,
   type NoticeItem,
 } from '../firebase/boards';
+import type { AchievementCategory, AchievementDef } from '../game/achievements';
 import { canReroll, cardsOf, createGame, createSharedGame, finalize, reroll, toggleLock } from '../game/draft';
 import {
   advanceToNextRound,
@@ -17,11 +18,19 @@ import {
   startCurrentRound,
   type TournamentState,
 } from '../game/tournament';
+import {
+  checkAndUnlockAchievements,
+  loadStats,
+  recordTournamentWin,
+  setStatsUser,
+  syncStatsWithCloud,
+} from '../storage/achievements';
 import { addToCollection, loadCollection, setCollectionUser, syncCollectionWithCloud } from '../storage/collection';
 import type { GameState } from '../types';
+import { renderAchievements, type AchievementFilter } from './achievementView';
 import { renderBugReports, renderNotices } from './boardView';
 import { clearShareUrlParam, parseSharedCardsFromUrl, saveTeamImage, shareTeamLink } from './share';
-import { showGalleryUnlockToast } from './toast';
+import { showAchievementToast, showGalleryUnlockToast } from './toast';
 import { renderTournament } from './tournamentView';
 import {
   FLIP_STAGGER_MS,
@@ -37,7 +46,7 @@ import {
   type GalleryFilter,
 } from './views';
 
-type Screen = 'home' | 'game' | 'collection' | 'gallery' | 'tournament' | 'notices' | 'bugs';
+type Screen = 'home' | 'game' | 'collection' | 'gallery' | 'tournament' | 'notices' | 'bugs' | 'achievements';
 
 const wait = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 const motionAllowed = () => !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -53,6 +62,7 @@ export class App {
   private flip: FlipState | undefined;
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownedOnly: false };
   private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', completedOnly: false };
+  private achievementFilter: AchievementFilter = { category: 'ALL', unlockedOnly: false };
   private user: AuthUser | null = null;
   private authBusy = false;
   private notices: NoticeItem[] = [];
@@ -110,9 +120,11 @@ export class App {
   private async onAuthChanged(user: AuthUser | null): Promise<void> {
     this.user = user;
     setCollectionUser(user?.uid ?? null);
+    setStatsUser(user?.uid ?? null);
     if (user) {
       try {
-        await syncCollectionWithCloud(user.uid);
+        const mergedOwned = await syncCollectionWithCloud(user.uid);
+        await syncStatsWithCloud(user.uid, mergedOwned);
       } catch (err) {
         console.warn('[auth] 클라우드 도감 동기화 실패', err);
       }
@@ -121,6 +133,7 @@ export class App {
       this.screen === 'home' ||
       this.screen === 'collection' ||
       this.screen === 'gallery' ||
+      this.screen === 'achievements' ||
       this.screen === 'bugs'
     ) {
       this.render();
@@ -130,7 +143,7 @@ export class App {
   private render(): void {
     switch (this.screen) {
       case 'home':
-        this.root.innerHTML = renderHome(loadCollection(), this.user, this.authBusy);
+        this.root.innerHTML = renderHome(loadCollection(), this.user, this.authBusy, loadStats());
         break;
       case 'game':
         if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView, this.newCardIds);
@@ -155,6 +168,9 @@ export class App {
           this.bugsSubmitting,
           this.bugsError,
         );
+        break;
+      case 'achievements':
+        this.root.innerHTML = renderAchievements(loadCollection(), loadStats(), this.achievementFilter);
         break;
     }
     // 뒤집기 연출은 직후 1회 렌더에만 적용
@@ -183,22 +199,34 @@ export class App {
     this.game = next;
     const added = addToCollection(cardsOf(next).map((c) => c.id));
     added.forEach((id) => this.newCardIds.add(id));
-    const unlockedEntries = findNewlyCompletedGalleryEntries(added, loadCollection());
+    const ownedAfter = loadCollection();
+    const unlockedEntries = findNewlyCompletedGalleryEntries(added, ownedAfter);
+    const unlockedAchievements = added.length > 0 ? checkAndUnlockAchievements(ownedAfter) : [];
     const hasFlip = Boolean(flipIndices?.length && motionAllowed());
     if (hasFlip) this.flip = { mode: 'in', indices: new Set(flipIndices) };
     this.render();
 
-    if (unlockedEntries.length > 0) {
-      const delayMs = hasFlip ? flipDurationMs(flipIndices!.length, 'in') : 0;
-      unlockedEntries.forEach((entry, idx) => {
-        showGalleryUnlockToast(entry, {
-          delayMs: delayMs + idx * 250,
-          onOpenGallery: () => {
-            if (!this.busy) this.go('gallery');
-          },
-        });
+    const baseDelay = hasFlip ? flipDurationMs(flipIndices!.length, 'in') : 0;
+    unlockedEntries.forEach((entry, idx) => {
+      showGalleryUnlockToast(entry, {
+        delayMs: baseDelay + idx * 250,
+        onOpenGallery: () => {
+          if (!this.busy) this.go('gallery');
+        },
       });
-    }
+    });
+    this.notifyAchievements(unlockedAchievements, baseDelay + unlockedEntries.length * 250);
+  }
+
+  private notifyAchievements(list: readonly AchievementDef[], baseDelay = 0): void {
+    list.forEach((ach, idx) => {
+      showAchievementToast(ach, {
+        delayMs: baseDelay + idx * 250,
+        onOpenAchievements: () => {
+          if (!this.busy) this.go('achievements');
+        },
+      });
+    });
   }
 
   /** 연출 중에는 입력을 막는다 */
@@ -295,7 +323,9 @@ export class App {
       case 'tournament-skip':
         this.stopTournamentTimer();
         if (this.tournament) {
+          const prevPhase = this.tournament.phase;
           this.tournament = skipSetReveal(this.tournament);
+          this.handleTournamentResult(prevPhase);
           this.render();
         }
         break;
@@ -330,6 +360,9 @@ export class App {
         break;
       case 'bug-delete':
         if (el.dataset.id) await this.handleDeleteBug(el.dataset.id);
+        break;
+      case 'achievements':
+        this.go('achievements');
         break;
     }
   }
@@ -432,19 +465,31 @@ export class App {
     }
   }
 
+  private handleTournamentResult(prevPhase: TournamentState['phase']): void {
+    if (!this.tournament || prevPhase === 'champion' || this.tournament.phase !== 'champion') return;
+    const playerTeam = this.tournament.teams.find((t) => t.isPlayer);
+    if (!playerTeam) return;
+    const newly = recordTournamentWin(playerTeam.cards, playerTeam.synergy, loadCollection());
+    this.notifyAchievements(newly, 200);
+  }
+
   private playTournamentRound(): void {
     if (!this.tournament || this.tournament.phase !== 'ready') return;
     this.stopTournamentTimer();
     this.tournament = startCurrentRound(this.tournament);
 
     if (!motionAllowed()) {
+      const prevPhase = this.tournament.phase;
       this.tournament = skipSetReveal(this.tournament);
+      this.handleTournamentResult(prevPhase);
       this.render();
       return;
     }
 
     // 1세트를 즉시 공개한 뒤, 이후 세트를 일정 간격으로 순차 공개
+    const prevPhase = this.tournament.phase;
     this.tournament = revealNextSet(this.tournament);
+    this.handleTournamentResult(prevPhase);
     this.render();
     if (this.tournament.phase !== 'playing') return;
 
@@ -453,7 +498,9 @@ export class App {
         this.stopTournamentTimer();
         return;
       }
+      const prev = this.tournament.phase;
       this.tournament = revealNextSet(this.tournament);
+      this.handleTournamentResult(prev);
       this.render();
       if (this.tournament.phase !== 'playing') {
         this.stopTournamentTimer();
@@ -492,6 +539,13 @@ export class App {
     if (galleryKey) {
       if (galleryKey === 'completedOnly') this.galleryFilter.completedOnly = (t as HTMLInputElement).checked;
       else if (galleryKey === 'league' || galleryKey === 'tier') this.galleryFilter[galleryKey] = t.value;
+      this.render();
+      return;
+    }
+    const achKey = t.dataset.achievementFilter;
+    if (achKey) {
+      if (achKey === 'unlockedOnly') this.achievementFilter.unlockedOnly = (t as HTMLInputElement).checked;
+      else if (achKey === 'category') this.achievementFilter.category = t.value as 'ALL' | AchievementCategory;
       this.render();
     }
   }

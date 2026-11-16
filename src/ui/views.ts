@@ -2,6 +2,7 @@ import { ALL_CARDS } from '../data/cards';
 import { ALL_GALLERY_ENTRIES, type GalleryEntry } from '../data/gallery';
 import type { AuthUser } from '../firebase/auth';
 import { isFirebaseConfigured } from '../firebase/client';
+import { ALL_ACHIEVEMENTS, evaluateAchievements, type PlayerStats } from '../game/achievements';
 import { MAX_REROLLS, canReroll, cardsOf, findAnchor, rerollsLeft } from '../game/draft';
 import { ANCHOR_BOOST_BONUS, ANCHOR_BOOST_MIN_COUNT, ANCHOR_CHANCE_BY_REROLL, TIER_WEIGHTS, anchorChance } from '../game/probability';
 import { evaluateSynergy, finalTier, teamScore, topMatch } from '../game/synergy';
@@ -217,21 +218,34 @@ function renderAuthBar(user: AuthUser | null, authBusy: boolean): string {
   </button>`;
 }
 
-export function renderHome(owned: Set<string>, user: AuthUser | null = null, authBusy = false): string {
+export function renderHome(
+  owned: Set<string>,
+  user: AuthUser | null = null,
+  authBusy = false,
+  stats?: PlayerStats,
+): string {
   const ownedCount = ALL_CARDS.filter((c) => owned.has(c.id)).length;
   const completedGalleryCount = ALL_GALLERY_ENTRIES.filter((entry) =>
     entry.cards.every((c) => owned.has(c.id)),
   ).length;
+  const unlockedAchievementCount = stats
+    ? evaluateAchievements(owned, stats).filter((a) => a.unlocked).length
+    : 0;
   const pct = (w: Record<number, number>) => `3성 ${w[3]}% · 4성 ${w[4]}% · 5성 ${w[5]}%`;
   return `
   <main class="mx-auto flex min-h-screen max-w-4xl flex-col px-4 py-4 sm:px-6 sm:py-6">
-    <nav aria-label="계정 및 게시판" class="flex flex-wrap items-center gap-2">
-      ${renderAuthBar(user, authBusy)}
-      <button type="button" data-action="notices" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-sky-400/60 hover:text-white">
-        📢 공지사항
-      </button>
-      <button type="button" data-action="bugs" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-rose-400/60 hover:text-white">
-        🐞 버그 제보
+    <nav aria-label="계정 및 게시판" class="flex flex-col items-start gap-2">
+      <div class="flex flex-wrap items-center gap-2">
+        ${renderAuthBar(user, authBusy)}
+        <button type="button" data-action="notices" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-sky-400/60 hover:text-white">
+          📢 공지사항
+        </button>
+        <button type="button" data-action="bugs" class="rounded-full border border-slate-700/80 bg-slate-900/75 px-3 py-1.5 text-xs font-bold text-slate-200 transition hover:border-rose-400/60 hover:text-white">
+          🐞 버그 제보
+        </button>
+      </div>
+      <button type="button" data-action="achievements" class="rounded-full border border-amber-500/40 bg-slate-900/80 px-3 py-1.5 text-xs font-bold text-amber-200 transition hover:border-amber-400 hover:text-white">
+        🏆 업적 (${unlockedAchievementCount} / ${ALL_ACHIEVEMENTS.length})
       </button>
     </nav>
 

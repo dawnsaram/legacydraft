@@ -1,4 +1,5 @@
 import type { GalleryEntry } from '../data/gallery';
+import type { AchievementDef } from '../game/achievements';
 import { KIT_FALLBACK_URL, esc, kitUrl } from './views';
 
 const AUTO_DISMISS_MS = 6000;
@@ -80,6 +81,74 @@ export function showGalleryUnlockToast(entry: GalleryEntry, options: GalleryToas
       e.stopPropagation();
       dismissToast(toast);
       onOpenGallery?.();
+    });
+
+    stack.appendChild(toast);
+
+    let timer = window.setTimeout(() => dismissToast(toast), AUTO_DISMISS_MS);
+    toast.addEventListener('mouseenter', () => window.clearTimeout(timer));
+    toast.addEventListener('mouseleave', () => {
+      if (toast.dataset.dismissed !== '1') {
+        timer = window.setTimeout(() => dismissToast(toast), 2500);
+      }
+    });
+  };
+
+  if (delayMs > 0) {
+    window.setTimeout(spawn, delayMs);
+  } else {
+    spawn();
+  }
+}
+
+export interface AchievementToastOptions {
+  delayMs?: number;
+  onOpenAchievements?: () => void;
+}
+
+/** 업적 첫 달성 시 우측 상단(모바일은 상단 중앙)에 알림 표시 */
+export function showAchievementToast(
+  achievement: AchievementDef,
+  options: AchievementToastOptions = {},
+): void {
+  const { delayMs = 0, onOpenAchievements } = options;
+
+  const spawn = () => {
+    const stack = ensureToastStack();
+    const toast = document.createElement('aside');
+    toast.className = 'gallery-toast';
+    toast.setAttribute('role', 'status');
+    toast.innerHTML = `
+      <div class="grid w-14 shrink-0 place-items-center bg-gradient-to-br from-amber-500/25 via-slate-900 to-fuchsia-500/20 text-2xl">
+        ${achievement.icon}
+      </div>
+      <div class="gallery-toast-body">
+        <div class="flex items-center justify-between gap-1.5">
+          <span class="gallery-toast-badge">🏆 업적 달성</span>
+          <button type="button" class="gallery-toast-close" aria-label="알림 닫기">✕</button>
+        </div>
+        <div class="mt-0.5 flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="truncate text-xs font-black text-white">${esc(achievement.title)}</div>
+          </div>
+          ${
+            onOpenAchievements
+              ? '<button type="button" class="gallery-toast-action">업적 →</button>'
+              : ''
+          }
+        </div>
+      </div>
+    `;
+
+    toast.querySelector('.gallery-toast-close')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dismissToast(toast);
+    });
+
+    toast.querySelector('.gallery-toast-action')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dismissToast(toast);
+      onOpenAchievements?.();
     });
 
     stack.appendChild(toast);
