@@ -1,4 +1,5 @@
 import { findNewlyCompletedGalleryEntries } from '../data/gallery';
+import { signInWithGoogle, signOutUser, subscribeAuth, type AuthUser } from '../firebase/auth';
 import { canReroll, cardsOf, createGame, createSharedGame, finalize, reroll, toggleLock } from '../game/draft';
 import {
   advanceToNextRound,
@@ -8,7 +9,7 @@ import {
   startCurrentRound,
   type TournamentState,
 } from '../game/tournament';
-import { addToCollection, loadCollection } from '../storage/collection';
+import { addToCollection, loadCollection, setCollectionUser, syncCollectionWithCloud } from '../storage/collection';
 import type { GameState } from '../types';
 import { clearShareUrlParam, parseSharedCardsFromUrl, saveTeamImage, shareTeamLink } from './share';
 import { showGalleryUnlockToast } from './toast';
@@ -43,6 +44,8 @@ export class App {
   private flip: FlipState | undefined;
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownedOnly: false };
   private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', completedOnly: false };
+  private user: AuthUser | null = null;
+  private authBusy = false;
   private busy = false;
 
   constructor(private readonly root: HTMLElement) {
@@ -81,12 +84,31 @@ export class App {
       this.game = createSharedGame(sharedCards);
     }
     this.render();
+
+    subscribeAuth((user) => {
+      void this.onAuthChanged(user);
+    });
+  }
+
+  private async onAuthChanged(user: AuthUser | null): Promise<void> {
+    this.user = user;
+    setCollectionUser(user?.uid ?? null);
+    if (user) {
+      try {
+        await syncCollectionWithCloud(user.uid);
+      } catch (err) {
+        console.warn('[auth] 클라우드 도감 동기화 실패', err);
+      }
+    }
+    if (this.screen === 'home' || this.screen === 'collection' || this.screen === 'gallery') {
+      this.render();
+    }
   }
 
   private render(): void {
     switch (this.screen) {
       case 'home':
-        this.root.innerHTML = renderHome(loadCollection());
+        this.root.innerHTML = renderHome(loadCollection(), this.user, this.authBusy);
         break;
       case 'game':
         if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView, this.newCardIds);
@@ -252,6 +274,44 @@ export class App {
       case 'tournament-back':
         this.go('game');
         break;
+      case 'login':
+        await this.handleLogin();
+        break;
+      case 'logout':
+        await this.handleLogout();
+        break;
+    }
+  }
+
+  private async handleLogin(): Promise<void> {
+    if (this.authBusy) return;
+    this.authBusy = true;
+    if (this.screen === 'home') this.render();
+    try {
+      await signInWithGoogle();
+    } catch (err) {
+      const code = err instanceof Error ? err.message : '';
+      if (code === 'FIREBASE_NOT_CONFIGURED') {
+        alert('Firebase 환경변수(.env)가 설정되지 않아 로그인할 수 없습니다.');
+      } else {
+        console.error('[auth] 로그인 실패', err);
+        alert('로그인에 실패했습니다. 잠시 후 다시 시도해주세요.');
+      }
+    } finally {
+      this.authBusy = false;
+      if (this.screen === 'home') this.render();
+    }
+  }
+
+  private async handleLogout(): Promise<void> {
+    if (this.authBusy) return;
+    this.authBusy = true;
+    if (this.screen === 'home') this.render();
+    try {
+      await signOutUser();
+    } finally {
+      this.authBusy = false;
+      if (this.screen === 'home') this.render();
     }
   }
 

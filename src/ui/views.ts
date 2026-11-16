@@ -1,5 +1,7 @@
 import { ALL_CARDS } from '../data/cards';
 import { ALL_GALLERY_ENTRIES, type GalleryEntry } from '../data/gallery';
+import type { AuthUser } from '../firebase/auth';
+import { isFirebaseConfigured } from '../firebase/client';
 import { MAX_REROLLS, canReroll, cardsOf, findAnchor, rerollsLeft } from '../game/draft';
 import { ANCHOR_BOOST_BONUS, ANCHOR_BOOST_MIN_COUNT, ANCHOR_CHANCE_BY_REROLL, TIER_WEIGHTS, anchorChance } from '../game/probability';
 import { evaluateSynergy, finalTier, teamScore, topMatch } from '../game/synergy';
@@ -183,14 +185,42 @@ export function renderCard(
 // 화면: 홈
 // ─────────────────────────────────────────────
 
-export function renderHome(owned: Set<string>): string {
+function renderAuthBar(user: AuthUser | null, authBusy: boolean): string {
+  if (user) {
+    const label = esc(user.displayName || user.email || '플레이어');
+    const avatar = user.photoURL
+      ? `<img src="${esc(user.photoURL)}" alt="" class="h-6 w-6 rounded-full border border-amber-400/50 object-cover" referrerpolicy="no-referrer" />`
+      : `<span class="grid h-6 w-6 place-items-center rounded-full bg-amber-500/20 text-xs font-black text-amber-300">${label[0] ?? 'U'}</span>`;
+    return `
+    <div class="flex items-center gap-2.5 rounded-full border border-slate-700/80 bg-slate-900/80 px-3 py-1.5 text-xs">
+      ${avatar}
+      <span class="max-w-[9rem] truncate font-bold text-slate-100">${label}</span>
+      <span class="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold text-emerald-300">동기화됨</span>
+      <button type="button" data-action="logout" class="ml-1 text-slate-400 transition hover:text-white" ${authBusy ? 'disabled' : ''}>로그아웃</button>
+    </div>`;
+  }
+
+  return `
+  <button type="button" data-action="login"
+    class="flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-4 py-1.5 text-xs font-bold text-slate-200 transition hover:border-amber-400/60 hover:text-white disabled:opacity-50"
+    ${authBusy ? 'disabled' : ''}>
+    <span>${authBusy ? '로그인 중...' : 'Google 로그인 · 도감 동기화'}</span>
+    ${!isFirebaseConfigured ? '<span class="text-[10px] text-amber-400">(설정 필요)</span>' : ''}
+  </button>`;
+}
+
+export function renderHome(owned: Set<string>, user: AuthUser | null = null, authBusy = false): string {
   const ownedCount = ALL_CARDS.filter((c) => owned.has(c.id)).length;
   const completedGalleryCount = ALL_GALLERY_ENTRIES.filter((entry) =>
     entry.cards.every((c) => owned.has(c.id)),
   ).length;
   const pct = (w: Record<number, number>) => `3성 ${w[3]}% · 4성 ${w[4]}% · 5성 ${w[5]}%`;
   return `
-  <main class="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-10 px-6 py-16 text-center">
+  <main class="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-8 px-6 py-12 text-center">
+    <div class="flex justify-center">
+      ${renderAuthBar(user, authBusy)}
+    </div>
+
     <div>
       <p class="mb-2 text-sm font-semibold tracking-[0.3em] text-amber-400">LoL ESPORTS CARD DRAFT</p>
       <h1 class="title-glow text-5xl font-black tracking-tight sm:text-7xl">LEGACY DRAFT</h1>
