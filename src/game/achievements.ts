@@ -47,7 +47,7 @@ const FRANCHISE_ACHIEVEMENTS: AchievementDef[] = TEAM_SYNERGY_GROUPS.map((group)
   return {
     id: `franchise_${group.join('_')}`,
     category: 'collection',
-    icon: '🏅',
+    icon: '🚩',
     title: FRANCHISE_TITLES[label] ?? `${label} 프랜차이즈 완성`,
     description: `${label} 계보의 모든 카드(${groupCards.length}장)를 도감에 해금했습니다.`,
     target: groupCards.length,
@@ -73,7 +73,25 @@ const SINGLE_TEAM_TITLES: Record<string, string> = {
   KC: '프랑스의 희망',
   AL: '전설을 향한 전진',
   LYON: '사자의 질주',
-  AZF: '에욱'
+  AZF: '에욱',
+  AAA: '최초의 도전자',
+  TPA: '최초의 언더독',
+  GMB: '모스크바의 5인',
+  GAB: '아오자이의 투혼',
+  TSM: '그시절 우리가 사랑한 북미 팀',
+  OG: '백도어의 전설',
+  H2K: '유럽의 4강 신화',
+  ANX: '와일드카드의 기적',
+  MSF: '토끼단의 대반란',
+  AF: '광주의 투혼',
+  TL: '백마는 날고 싶다',
+  GRF: '천재들이 모였다',
+  FPX: '불사조의 비상',
+  PSG: '태평양의 강호',
+  EG: '악마, 그리고 천재',
+  RGE: '유럽의 마지막 보루',
+  FLY: '조커픽의 마법',
+  CFO: '굴이 날고 있어요',
 };
 
 const GROUPED_TEAMS = new Set(TEAM_SYNERGY_GROUPS.flat());
@@ -92,7 +110,6 @@ const SINGLE_TEAM_ACHIEVEMENTS: AchievementDef[] = (() => {
   }
 
   return [...byTeam.entries()]
-    .filter(([, v]) => v.seasons.size >= 2)
     .sort((a, b) => b[1].seasons.size - a[1].seasons.size || b[1].cards.length - a[1].cards.length)
     .map(([team, { cards, seasons }]) => ({
       id: `team_${team}`,
