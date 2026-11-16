@@ -73,7 +73,33 @@ const OPPONENT_NO_SYNERGY: SynergyResult = {
   partial: null,
 };
 
-function makeGalleryTeam(entry: GalleryEntry): TournamentTeam {
+const OPPONENT_SEMIFINAL_SYNERGY: SynergyResult = {
+  type: 'prestige',
+  label: '4강 시너지',
+  description: '4강 진출 시너지 +1성',
+  tierBonus: 1,
+  tierCap: DEFAULT_TIER_CAP,
+  partial: null,
+};
+
+function synergyForRound(cards: readonly Card[], round: 0 | 1 | 2): SynergyResult {
+  if (round === 0) return OPPONENT_NO_SYNERGY;
+  if (round === 1) return OPPONENT_SEMIFINAL_SYNERGY;
+  return evaluateSynergy(cards);
+}
+
+function applyRoundSynergy(team: TournamentTeam | null, round: 0 | 1 | 2): TournamentTeam | null {
+  if (!team || team.isPlayer) return team;
+  const synergy = synergyForRound(team.cards, round);
+  return {
+    ...team,
+    synergy,
+    score: teamScore(team.cards, synergy),
+  };
+}
+
+function makeGalleryTeam(entry: GalleryEntry, round: 0 | 1 | 2 = 0): TournamentTeam {
+  const synergy = synergyForRound(entry.cards, round);
   return {
     id: entry.id,
     name: `${entry.season} ${entry.team}`,
@@ -82,8 +108,8 @@ function makeGalleryTeam(entry: GalleryEntry): TournamentTeam {
     league: entry.league,
     heroUrl: entry.heroUrl,
     cards: entry.cards,
-    synergy: OPPONENT_NO_SYNERGY,
-    score: teamScore(entry.cards, OPPONENT_NO_SYNERGY),
+    synergy,
+    score: teamScore(entry.cards, synergy),
     isPlayer: false,
   };
 }
@@ -154,8 +180,22 @@ export function createTournament(playerCards: readonly Card[]): TournamentState 
   };
 
   const candidates = ALL_GALLERY_ENTRIES.filter((e) => e.cards.length === 5);
-  const opponents = pickRandom(candidates, 7).map(makeGalleryTeam);
-  const teams = [playerTeam, ...opponents];
+  const usedIds = new Set<string>();
+  const drawTier = (minTier: number, count: number): GalleryEntry[] => {
+    const pool = candidates.filter((e) => e.baseTier >= minTier && !usedIds.has(e.id));
+    const picked = pickRandom(pool, count);
+    picked.forEach((e) => usedIds.add(e.id));
+    return picked;
+  };
+
+  // 라운드별 최소 티어 보장:
+  //  - 결승 반대편 브래킷(qf-2, qf-3): 5성 이상 → 결승 상대는 반드시 5성+
+  //  - 4강 맞대결 브래킷(qf-1): 4성 이상 → 4강 상대는 반드시 4성+
+  //  - 8강 첫 상대(qf-0): 3성 이상
+  const finalsBracket = drawTier(5, 4).map((e) => makeGalleryTeam(e, 0));
+  const semiBracket = drawTier(4, 2).map((e) => makeGalleryTeam(e, 0));
+  const qfOpponent = drawTier(3, 1).map((e) => makeGalleryTeam(e, 0));
+  const teams = [playerTeam, ...qfOpponent, ...semiBracket, ...finalsBracket];
 
   const matches: TournamentMatch[] = [
     // 8강 (QF 0~3)
@@ -230,17 +270,35 @@ function finalizeRoundState(state: TournamentState, matches: TournamentMatch[]):
   );
   const playerWon = playerMatch?.winnerId === state.playerTeamId;
 
-  // 다음 라운드 대진표에 승자 배치
+  // 다음 라운드 대진표에 승자 배치 (라운드별 상대 시너지 단계적 적용)
   let updatedMatches = matches;
   if (state.currentRound === 0) {
     updatedMatches = matches.map((m) => {
-      if (m.id === 'sf-0') return { ...m, teamA: getWinnerTeam(matches[0]), teamB: getWinnerTeam(matches[1]) };
-      if (m.id === 'sf-1') return { ...m, teamA: getWinnerTeam(matches[2]), teamB: getWinnerTeam(matches[3]) };
+      if (m.id === 'sf-0') {
+        return {
+          ...m,
+          teamA: applyRoundSynergy(getWinnerTeam(matches[0]), 1),
+          teamB: applyRoundSynergy(getWinnerTeam(matches[1]), 1),
+        };
+      }
+      if (m.id === 'sf-1') {
+        return {
+          ...m,
+          teamA: applyRoundSynergy(getWinnerTeam(matches[2]), 1),
+          teamB: applyRoundSynergy(getWinnerTeam(matches[3]), 1),
+        };
+      }
       return m;
     });
   } else if (state.currentRound === 1) {
     updatedMatches = matches.map((m) => {
-      if (m.id === 'final') return { ...m, teamA: getWinnerTeam(matches[4]), teamB: getWinnerTeam(matches[5]) };
+      if (m.id === 'final') {
+        return {
+          ...m,
+          teamA: applyRoundSynergy(getWinnerTeam(matches[4]), 2),
+          teamB: applyRoundSynergy(getWinnerTeam(matches[5]), 2),
+        };
+      }
       return m;
     });
   }
