@@ -284,48 +284,48 @@ export function renderHome(
       <div class="flex w-full max-w-sm flex-col gap-3">
         <button data-action="start" class="btn-primary w-full py-3.5 text-base">드래프트 시작</button>
 
-        <div class="home-carousel" data-home-carousel>
-          <div class="flex items-center gap-1.5">
-            <button type="button" data-action="home-carousel-prev" class="home-carousel-arrow" aria-label="이전 메뉴">‹</button>
-            <div class="min-w-0 flex-1 overflow-hidden rounded-xl border border-slate-700/80 bg-slate-900/80">
-              <div class="home-carousel-track" style="transform:translateX(-${activeIdx * 100}%)">
-                ${slides
-                  .map((s) => {
-                    const barPct = Math.round((s.current / Math.max(1, s.total)) * 100);
-                    return `
-                  <button type="button" data-action="${s.action}" class="home-carousel-slide">
-                    <div class="flex items-center justify-between gap-2">
-                      <div class="flex min-w-0 items-center gap-2.5 text-left">
-                        <span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-slate-700 bg-slate-800/80 text-lg">${s.icon}</span>
-                        <div class="min-w-0">
-                          <div class="text-sm font-black text-slate-100">${s.title}</div>
-                          <div class="truncate text-[11px] text-slate-400">${s.subtitle}</div>
-                        </div>
-                      </div>
-                      <div class="shrink-0 text-right">
-                        <div class="text-xs font-extrabold text-amber-300">${s.current} / ${s.total}</div>
-                        <div class="text-[10px] text-slate-500">${barPct}%</div>
+        <div class="home-carousel w-full" data-home-carousel>
+          <div class="w-full overflow-hidden rounded-xl border border-slate-700/80 bg-slate-900/80">
+            <div class="home-carousel-track" style="transform:translateX(-${activeIdx * 100}%)">
+              ${slides
+                .map((s) => {
+                  const barPct = Math.round((s.current / Math.max(1, s.total)) * 100);
+                  return `
+                <button type="button" data-action="${s.action}" class="home-carousel-slide">
+                  <div class="flex items-center justify-between gap-2">
+                    <div class="flex min-w-0 items-center gap-2.5 text-left">
+                      <span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-slate-700 bg-slate-800/80 text-lg">${s.icon}</span>
+                      <div class="min-w-0">
+                        <div class="text-sm font-black text-slate-100">${s.title}</div>
+                        <div class="truncate text-[11px] text-slate-400">${s.subtitle}</div>
                       </div>
                     </div>
-                    <div class="mt-2.5 h-1.5 overflow-hidden rounded-full bg-slate-800">
-                      <div class="h-full bg-gradient-to-r from-amber-500 to-fuchsia-500" style="width:${barPct}%"></div>
+                    <div class="shrink-0 text-right">
+                      <div class="text-xs font-extrabold text-amber-300">${s.current} / ${s.total}</div>
+                      <div class="text-[10px] text-slate-500">${barPct}%</div>
                     </div>
-                  </button>`;
-                  })
-                  .join('')}
-              </div>
+                  </div>
+                  <div class="mt-2.5 h-1.5 overflow-hidden rounded-full bg-slate-800">
+                    <div class="h-full bg-gradient-to-r from-amber-500 to-fuchsia-500" style="width:${barPct}%"></div>
+                  </div>
+                </button>`;
+                })
+                .join('')}
             </div>
-            <button type="button" data-action="home-carousel-next" class="home-carousel-arrow" aria-label="다음 메뉴">›</button>
           </div>
 
-          <div class="mt-2 flex items-center justify-center gap-1.5">
-            ${slides
-              .map(
-                (s, i) => `
-              <button type="button" data-action="home-carousel-dot" data-index="${i}" aria-label="${s.title}"
-                class="home-carousel-dot ${i === activeIdx ? 'is-active' : ''}"></button>`,
-              )
-              .join('')}
+          <div class="mt-2.5 flex items-center justify-between">
+            <button type="button" data-action="home-carousel-prev" class="home-carousel-arrow" aria-label="이전 메뉴">‹</button>
+            <div class="flex items-center justify-center gap-1.5">
+              ${slides
+                .map(
+                  (s, i) => `
+                <button type="button" data-action="home-carousel-dot" data-index="${i}" aria-label="${s.title}"
+                  class="home-carousel-dot ${i === activeIdx ? 'is-active' : ''}"></button>`,
+                )
+                .join('')}
+            </div>
+            <button type="button" data-action="home-carousel-next" class="home-carousel-arrow" aria-label="다음 메뉴">›</button>
           </div>
         </div>
       </div>
