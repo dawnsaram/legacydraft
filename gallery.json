@@ -1095,7 +1095,7 @@
     "id": "2026_Worlds_BLG",
     "season": "2026 Worlds",
     "team": "BLG",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_blg.webp",
     "description": "LCK 4팀을 모두 쓰러뜨리며 LPL에게 5년 만의 소환사의 컵을 안겨주었습니다."
   },
   {
@@ -1109,42 +1109,42 @@
     "id": "2026_Worlds_IG",
     "season": "2026 Worlds",
     "team": "IG",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_ig.webp",
     "description": "베테랑과 신예가 조화를 이룬 과감한 교전력으로 팬들에게 강렬한 인상을 남겼습니다."
   },
   {
     "id": "2026_Worlds_T1",
     "season": "2026 Worlds",
     "team": "T1",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_t1.webp",
     "description": "국제전 명가다운 노련함과 끈끈한 팀워크로 세계 무대에서 존재감을 발휘했습니다."
   },
   {
     "id": "2026_Worlds_DK",
     "season": "2026 Worlds",
     "team": "DK",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_dk.webp",
     "description": "패기 넘치는 경기력으로 2년 만에 돌아온 국제전에서 경쟁력을 증명했습니다."
   },
   {
     "id": "2026_Worlds_TES",
     "season": "2026 Worlds",
     "team": "TES",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_tes.webp",
     "description": "외부 이슈에도 좋은 경기력으로 만회하며 기대 이상의 성적을 기록했습니다."
   },
   {
     "id": "2026_Worlds_KC",
     "season": "2026 Worlds",
     "team": "KC",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_kc.webp",
     "description": "열정적인 팬들의 응원 속에 유럽의 새로운 강호로서 첫 월즈에서 플레이-인을 거쳐 8강 진출에 성공했습니다."
   },
   {
     "id": "2026_Worlds_LYON",
     "season": "2026 Worlds",
     "team": "LYON",
-    "heroUrl": "",
+    "heroUrl": "assets/heroes/2026_worlds_lyon.webp",
     "description": "과감한 플레이 스타일로 아메리카 지역의 저력을 보여주며 의미 있는 발자취를 남겼습니다."
   }
 ]
