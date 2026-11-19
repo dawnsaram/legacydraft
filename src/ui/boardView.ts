@@ -1,5 +1,6 @@
 import type { AuthUser } from '../firebase/auth';
 import type { BugReportItem, NoticeItem } from '../firebase/boards';
+import { renderMarkdown } from './markdown';
 import { GOOGLE_LOGO_SVG, esc } from './views';
 
 function formatDate(ms: number): string {
@@ -33,7 +34,7 @@ export function renderNotices(
               </div>
               <span class="text-xs text-slate-500">${formatDate(n.createdAtMs)}</span>
             </div>
-            <p class="whitespace-pre-line text-sm leading-relaxed text-slate-300">${esc(n.content)}</p>
+            <div class="pt-1">${renderMarkdown(n.content)}</div>
           </article>`,
             )
             .join('');
