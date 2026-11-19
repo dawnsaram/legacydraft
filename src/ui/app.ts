@@ -63,7 +63,7 @@ export class App {
   private flip: FlipState | undefined;
   private filter: CollectionFilter = { position: 'ALL', league: 'ALL', ownership: 'ALL' };
   private galleryFilter: GalleryFilter = { league: 'ALL', tier: 'ALL', ownership: 'ALL' };
-  private achievementFilter: AchievementFilter = { category: 'ALL', unlockedOnly: false };
+  private achievementFilter: AchievementFilter = { category: 'ALL', ownership: 'ALL' };
   private homeCarouselIndex = 0;
   private touchStartX: number | null = null;
   private user: AuthUser | null = null;
@@ -401,6 +401,7 @@ export class App {
         if (!val) break;
         if (el.dataset.target === 'collection') this.filter.ownership = val;
         else if (el.dataset.target === 'gallery') this.galleryFilter.ownership = val;
+        else if (el.dataset.target === 'achievements') this.achievementFilter.ownership = val;
         this.render();
         break;
       }
@@ -604,9 +605,8 @@ export class App {
       return;
     }
     const achKey = t.dataset.achievementFilter;
-    if (achKey) {
-      if (achKey === 'unlockedOnly') this.achievementFilter.unlockedOnly = (t as HTMLInputElement).checked;
-      else if (achKey === 'category') this.achievementFilter.category = t.value as 'ALL' | AchievementCategory;
+    if (achKey === 'category') {
+      this.achievementFilter.category = t.value as 'ALL' | AchievementCategory;
       this.render();
     }
   }

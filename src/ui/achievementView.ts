@@ -3,11 +3,31 @@ import {
   type AchievementCategory,
   type PlayerStats,
 } from '../game/achievements';
-import { esc } from './views';
+import { esc, type OwnershipFilter } from './views';
 
 export interface AchievementFilter {
   category: 'ALL' | AchievementCategory;
-  unlockedOnly: boolean;
+  ownership: OwnershipFilter;
+}
+
+function renderAchievementStatusToggle(current: OwnershipFilter): string {
+  const opts: [OwnershipFilter, string][] = [
+    ['ALL', '전체'],
+    ['OWNED', '달성'],
+    ['MISSING', '미달성'],
+  ];
+  return `
+  <div class="inline-flex rounded-lg border border-slate-700 bg-slate-900 p-0.5 text-xs font-bold" role="group" aria-label="달성 여부 필터">
+    ${opts
+      .map(
+        ([val, label]) => `
+      <button type="button" data-action="set-ownership" data-target="achievements" data-value="${val}"
+        class="rounded-md px-2.5 py-1.5 transition ${
+          current === val ? 'bg-amber-500 text-slate-950' : 'text-slate-300 hover:text-white'
+        }">${label}</button>`,
+      )
+      .join('')}
+  </div>`;
 }
 
 export function renderAchievements(
@@ -19,11 +39,13 @@ export function renderAchievements(
   const unlockedTotal = all.filter((a) => a.unlocked).length;
   const pct = ((unlockedTotal / Math.max(1, all.length)) * 100).toFixed(1);
 
-  const filtered = all.filter(
-    (a) =>
-      (filter.category === 'ALL' || a.def.category === filter.category) &&
-      (!filter.unlockedOnly || a.unlocked),
-  );
+  const filtered = all.filter((a) => {
+    const matchStatus =
+      filter.ownership === 'ALL' ||
+      (filter.ownership === 'OWNED' && a.unlocked) ||
+      (filter.ownership === 'MISSING' && !a.unlocked);
+    return (filter.category === 'ALL' || a.def.category === filter.category) && matchStatus;
+  });
 
   // 달성 완료된 업적을 위쪽에, 미달성 업적은 진행률 높은 순으로 정렬
   const sorted = [...filtered].sort((a, b) => {
@@ -88,9 +110,7 @@ export function renderAchievements(
         <option value="collection" ${filter.category === 'collection' ? 'selected' : ''}>도감 수집</option>
         <option value="tournament" ${filter.category === 'tournament' ? 'selected' : ''}>토너먼트</option>
       </select>
-      <label class="flex items-center gap-2 text-slate-300">
-        <input type="checkbox" data-achievement-filter="unlockedOnly" ${filter.unlockedOnly ? 'checked' : ''} /> 달성한 업적만
-      </label>
+      ${renderAchievementStatusToggle(filter.ownership)}
       <span class="ml-auto text-slate-500">${sorted.length}개 표시</span>
     </div>
 
