@@ -3,6 +3,7 @@ import type { BugReportItem, NoticeItem } from '../firebase/boards';
 import { GOOGLE_LOGO_SVG, esc } from './views';
 
 function formatDate(ms: number): string {
+  if (!ms) return '';
   return new Date(ms).toLocaleDateString('ko-KR', {
     year: 'numeric',
     month: 'short',

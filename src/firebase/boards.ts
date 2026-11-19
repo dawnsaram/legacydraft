@@ -4,9 +4,6 @@ import {
   deleteDoc,
   doc,
   getDocs,
-  limit,
-  orderBy,
-  query,
   serverTimestamp,
   Timestamp,
 } from 'firebase/firestore';
@@ -33,43 +30,56 @@ export interface BugReportItem {
 
 function toMillis(v: unknown): number {
   if (v instanceof Timestamp) return v.toMillis();
-  if (typeof v === 'number') return v;
-  return Date.now();
+  if (typeof v === 'number' && Number.isFinite(v)) return v;
+  if (typeof v === 'string') {
+    const parsed = Date.parse(v);
+    if (!Number.isNaN(parsed)) return parsed;
+  }
+  if (typeof v === 'object' && v !== null && 'seconds' in v && typeof (v as { seconds: unknown }).seconds === 'number') {
+    return (v as { seconds: number }).seconds * 1000;
+  }
+  return 0;
+}
+
+function normalizeMultiline(text: unknown): string {
+  return typeof text === 'string' ? text.replace(/\\n/g, '\n') : '';
 }
 
 export async function fetchNotices(): Promise<NoticeItem[]> {
   if (!isFirebaseConfigured || !db) return [];
-  const q = query(collection(db, 'notices'), orderBy('createdAt', 'desc'), limit(30));
-  const snap = await getDocs(q);
+  // createdAt 필드가 없거나 타입이 달라도 문서가 누락되지 않도록 전체 조회 후 클라이언트 정렬
+  const snap = await getDocs(collection(db, 'notices'));
   const list: NoticeItem[] = snap.docs.map((d) => {
     const data = d.data();
     return {
       id: d.id,
-      title: typeof data.title === 'string' ? data.title : '공지사항',
-      content: typeof data.content === 'string' ? data.content : '',
+      title: typeof data.title === 'string' && data.title.trim() ? data.title : '공지사항',
+      content: normalizeMultiline(data.content),
       pinned: Boolean(data.pinned),
-      createdAtMs: toMillis(data.createdAt),
+      createdAtMs: toMillis(data.createdAt ?? data.created_at ?? data.date),
     };
   });
-  return list.sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.createdAtMs - a.createdAtMs);
+  return list
+    .sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.createdAtMs - a.createdAtMs)
+    .slice(0, 30);
 }
 
 export async function fetchBugReports(): Promise<BugReportItem[]> {
   if (!isFirebaseConfigured || !db) return [];
-  const q = query(collection(db, 'bugReports'), orderBy('createdAt', 'desc'), limit(50));
-  const snap = await getDocs(q);
-  return snap.docs.map((d) => {
+  const snap = await getDocs(collection(db, 'bugReports'));
+  const list: BugReportItem[] = snap.docs.map((d) => {
     const data = d.data();
     return {
       id: d.id,
-      title: typeof data.title === 'string' ? data.title : '제목 없음',
-      content: typeof data.content === 'string' ? data.content : '',
+      title: typeof data.title === 'string' && data.title.trim() ? data.title : '제목 없음',
+      content: normalizeMultiline(data.content),
       authorUid: typeof data.authorUid === 'string' ? data.authorUid : '',
       authorName: typeof data.authorName === 'string' ? data.authorName : '익명',
       status: data.status === 'resolved' ? 'resolved' : 'open',
-      createdAtMs: toMillis(data.createdAt),
+      createdAtMs: toMillis(data.createdAt ?? data.created_at),
     };
   });
+  return list.sort((a, b) => b.createdAtMs - a.createdAtMs).slice(0, 50);
 }
 
 export async function submitBugReport(
