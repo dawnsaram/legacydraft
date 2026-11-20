@@ -393,6 +393,7 @@ export function renderGame(
   flip?: FlipState,
   isSharedView = false,
   newCardIds?: ReadonlySet<string>,
+  tournamentPlayed = false,
 ): string {
   const cards = cardsOf(state);
   const synergy = evaluateSynergy(cards);
@@ -420,7 +421,7 @@ export function renderGame(
       ${
         finished
           ? `
-        <button data-action="tournament-start" class="btn-primary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">🏆 8강 토너먼트</button>
+        <button data-action="tournament-start" class="btn-primary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base" ${tournamentPlayed ? 'disabled' : ''}>${tournamentPlayed ? '토너먼트 완료' : '🏆 8강 토너먼트'}</button>
         <button data-action="save" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">이미지 저장</button>
         <button data-action="share" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">링크 공유</button>
         <button data-action="start" class="btn-secondary !rounded-lg !px-2.5 !py-2 text-xs sm:!rounded-xl sm:!px-6 sm:!py-3 sm:text-base">${isSharedView ? '나도 드래프트' : '다시 드래프트'}</button>`

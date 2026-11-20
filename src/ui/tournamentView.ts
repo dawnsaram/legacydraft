@@ -124,9 +124,7 @@ function renderArena(state: TournamentState): string {
         return `<button data-action="tournament-next" class="btn-primary w-full sm:w-auto">${ROUND_LABELS[state.currentRound + 1]} 진출! 다음 라운드 →</button>`;
       case 'champion':
       case 'eliminated':
-        return `
-          <button data-action="start" class="btn-primary flex-1 sm:flex-initial">다시 드래프트</button>
-          <button data-action="tournament-back" class="btn-secondary flex-1 sm:flex-initial">← 내 로스터로</button>`;
+        return `<button data-action="start" class="btn-primary w-full sm:w-auto">다시 드래프트하기</button>`;
     }
   })();
 
@@ -209,10 +207,12 @@ export function renderTournament(state: TournamentState): string {
   const sf = state.matches.filter((m) => m.round === 1);
   const finalMatch = state.matches.filter((m) => m.round === 2);
 
+  const isEnded = state.phase === 'champion' || state.phase === 'eliminated';
+
   return `
   <main class="mx-auto flex min-h-screen max-w-6xl flex-col gap-5 px-3 py-4 sm:px-4 sm:py-6">
     <header class="flex items-center justify-between">
-      <button data-action="tournament-back" class="text-xs text-slate-400 hover:text-white sm:text-sm">← 로스터</button>
+      <button data-action="${isEnded ? 'home' : 'tournament-back'}" class="text-xs text-slate-400 hover:text-white sm:text-sm">${isEnded ? '← 메인' : '← 로스터'}</button>
       <h1 class="text-base font-black tracking-tight sm:text-xl">LEGACY CUP · 8강 토너먼트</h1>
       <span class="rounded-full bg-slate-800 px-2.5 py-0.5 text-xs font-bold text-amber-300">${ROUND_LABELS[state.currentRound]}</span>
     </header>

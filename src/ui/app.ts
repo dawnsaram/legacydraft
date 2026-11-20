@@ -58,6 +58,7 @@ export class App {
   private game: GameState | null = null;
   private tournament: TournamentState | null = null;
   private tournamentTimer: number | null = null;
+  private tournamentPlayed = false;
   private isSharedView = false;
   private newCardIds = new Set<string>();
   private flip: FlipState | undefined;
@@ -178,7 +179,15 @@ export class App {
         );
         break;
       case 'game':
-        if (this.game) this.root.innerHTML = renderGame(this.game, this.flip, this.isSharedView, this.newCardIds);
+        if (this.game) {
+          this.root.innerHTML = renderGame(
+            this.game,
+            this.flip,
+            this.isSharedView,
+            this.newCardIds,
+            this.tournamentPlayed,
+          );
+        }
         break;
       case 'collection':
         this.root.innerHTML = renderCollection(loadCollection(), this.filter);
@@ -274,6 +283,7 @@ export class App {
   private startGame(): Promise<void> {
     this.stopTournamentTimer();
     this.tournament = null;
+    this.tournamentPlayed = false;
     clearShareUrlParam();
     this.newCardIds.clear();
     return this.animate(async () => {
@@ -341,8 +351,9 @@ export class App {
         await this.capture(el.dataset.action);
         break;
       case 'tournament-start':
-        if (this.game) {
+        if (this.game && !this.tournamentPlayed) {
           this.stopTournamentTimer();
+          this.tournamentPlayed = true;
           this.tournament = createTournament(cardsOf(this.game));
           this.screen = 'tournament';
           this.render();
