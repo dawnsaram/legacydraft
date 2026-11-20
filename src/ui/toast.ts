@@ -50,12 +50,12 @@ export function showGalleryUnlockToast(entry: GalleryEntry, options: GalleryToas
         <div class="gallery-toast-hero-overlay"></div>
       </div>
       <div class="gallery-toast-body">
-        <div class="flex items-center justify-between gap-1.5">
+        <div class="gallery-toast-top">
           <span class="gallery-toast-badge">★ UNLOCKED</span>
           <button type="button" class="gallery-toast-close" aria-label="알림 닫기">✕</button>
         </div>
-        <div class="mt-0.5 flex items-center justify-between gap-2">
-          <div class="min-w-0">
+        <div class="gallery-toast-main">
+          <div class="min-w-0 flex-1">
             <div class="truncate text-xs font-black text-white">${esc(entry.season)} ${esc(entry.team)}</div>
           </div>
           ${
@@ -119,16 +119,16 @@ export function showAchievementToast(
     toast.className = 'gallery-toast';
     toast.setAttribute('role', 'status');
     toast.innerHTML = `
-      <div class="grid w-14 shrink-0 place-items-center bg-gradient-to-br from-amber-500/25 via-slate-900 to-fuchsia-500/20 text-2xl">
+      <div class="gallery-toast-icon">
         ${achievement.icon}
       </div>
       <div class="gallery-toast-body">
-        <div class="flex items-center justify-between gap-1.5">
+        <div class="gallery-toast-top">
           <span class="gallery-toast-badge">🏆 업적 달성</span>
           <button type="button" class="gallery-toast-close" aria-label="알림 닫기">✕</button>
         </div>
-        <div class="mt-0.5 flex items-center justify-between gap-2">
-          <div class="min-w-0">
+        <div class="gallery-toast-main">
+          <div class="min-w-0 flex-1">
             <div class="truncate text-xs font-black text-white">${esc(achievement.title)}</div>
           </div>
           ${
