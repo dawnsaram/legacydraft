@@ -26,16 +26,19 @@ export function renderNotices(
         : notices
             .map(
               (n) => `
-          <article class="panel flex flex-col gap-2 text-left ${n.pinned ? 'border-amber-400/50 bg-amber-500/5' : ''}">
-            <div class="flex flex-wrap items-center justify-between gap-2">
-              <div class="flex items-center gap-2">
-                ${n.pinned ? '<span class="rounded bg-amber-500/20 px-1.5 py-0.5 text-[10px] font-black text-amber-300">공지</span>' : ''}
-                <h2 class="text-base font-extrabold text-slate-100">${esc(n.title)}</h2>
+          <details class="group panel text-left ${n.pinned ? 'border-amber-400/50 bg-amber-500/5' : ''}">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-3 select-none [&::-webkit-details-marker]:hidden">
+              <div class="flex min-w-0 items-center gap-2">
+                ${n.pinned ? '<span class="shrink-0 rounded bg-amber-500/20 px-1.5 py-0.5 text-[10px] font-black text-amber-300">공지</span>' : ''}
+                <h2 class="truncate text-sm font-extrabold text-slate-100 transition group-hover:text-amber-300 sm:text-base">${esc(n.title)}</h2>
               </div>
-              <span class="text-xs text-slate-500">${formatDate(n.createdAtMs)}</span>
-            </div>
-            <div class="pt-1">${renderMarkdown(n.content)}</div>
-          </article>`,
+              <div class="flex shrink-0 items-center gap-2 text-xs text-slate-500">
+                <span>${formatDate(n.createdAtMs)}</span>
+                <span class="inline-block text-[10px] transition-transform duration-200 group-open:rotate-180">▼</span>
+              </div>
+            </summary>
+            <div class="mt-3 border-t border-slate-800/80 pt-3">${renderMarkdown(n.content)}</div>
+          </details>`,
             )
             .join('');
 
