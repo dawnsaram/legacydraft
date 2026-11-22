@@ -73,9 +73,20 @@ function allSameExact(cards: readonly Card[], key: 'team' | 'league' | 'season')
   return v !== '' && cards.every((c) => c[key] === v);
 }
 
+export function seasonYear(season: string): string {
+  const match = /\b\d{4}\b/.exec(season);
+  return match ? match[0] : season.trim();
+}
+
+function allSameYear(cards: readonly Card[]): boolean {
+  if (cards.length === 0) return false;
+  const year = seasonYear(cards[0].season);
+  return year !== '' && cards.every((c) => seasonYear(c.season) === year);
+}
+
 /**
  * 5장 전체 시너지: 가장 높은 단계 1개만 적용 (중첩 X)
- *  - 레전더리: 정확히 같은 단일 팀 + 같은 시즌 → +2 (최대 6성)
+ *  - 레전더리: 정확히 같은 단일 팀 + 같은 연도(대회 무관) → +2 (최대 6성)
  *  - 프레스티지: 같은 팀(계보 포함) → +1
  *  - 기본 보상: 같은 시즌 or 같은 리그 → +1
  */
@@ -83,13 +94,15 @@ function evaluateFull(cards: readonly Card[]): FullSynergy {
   const sameExactTeam = allSameExact(cards, 'team');
   const sameTeamGroup = allSame(cards, 'team');
   const sameSeason = allSameExact(cards, 'season');
+  const sameYear = allSameYear(cards);
   const sameLeague = allSameExact(cards, 'league');
 
-  if (sameExactTeam && sameSeason) {
+  if (sameExactTeam && sameYear) {
+    const labelPrefix = sameSeason ? cards[0].season : seasonYear(cards[0].season);
     return {
       type: 'legendary',
       label: 'LEGENDARY',
-      description: `${cards[0].season} ${cards[0].team} 완전체! 전 카드 +2성 (6성 한계 돌파)`,
+      description: `${labelPrefix} ${cards[0].team} 완전체! 전 카드 +2성 (6성 한계 돌파)`,
       tierBonus: 2,
       tierCap: LEGENDARY_TIER_CAP,
     };
