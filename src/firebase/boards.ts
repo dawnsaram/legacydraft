@@ -45,8 +45,17 @@ function normalizeMultiline(text: unknown): string {
   return typeof text === 'string' ? text.replace(/\\n/g, '\n') : '';
 }
 
-export async function fetchNotices(): Promise<NoticeItem[]> {
+const NOTICES_CACHE_TTL_MS = 10 * 60 * 1000;
+const BUGS_CACHE_TTL_MS = 3 * 60 * 1000;
+
+let noticesCache: { data: NoticeItem[]; fetchedAt: number } | null = null;
+let bugsCache: { data: BugReportItem[]; fetchedAt: number } | null = null;
+
+export async function fetchNotices(force = false): Promise<NoticeItem[]> {
   if (!isFirebaseConfigured || !db) return [];
+  if (!force && noticesCache && Date.now() - noticesCache.fetchedAt < NOTICES_CACHE_TTL_MS) {
+    return noticesCache.data;
+  }
   // createdAt 필드가 없거나 타입이 달라도 문서가 누락되지 않도록 전체 조회 후 클라이언트 정렬
   const snap = await getDocs(collection(db, 'notices'));
   const list: NoticeItem[] = snap.docs.map((d) => {
@@ -59,13 +68,18 @@ export async function fetchNotices(): Promise<NoticeItem[]> {
       createdAtMs: toMillis(data.createdAt ?? data.created_at ?? data.date),
     };
   });
-  return list
+  const sorted = list
     .sort((a, b) => Number(b.pinned) - Number(a.pinned) || b.createdAtMs - a.createdAtMs)
     .slice(0, 30);
+  noticesCache = { data: sorted, fetchedAt: Date.now() };
+  return sorted;
 }
 
-export async function fetchBugReports(): Promise<BugReportItem[]> {
+export async function fetchBugReports(force = false): Promise<BugReportItem[]> {
   if (!isFirebaseConfigured || !db) return [];
+  if (!force && bugsCache && Date.now() - bugsCache.fetchedAt < BUGS_CACHE_TTL_MS) {
+    return bugsCache.data;
+  }
   const snap = await getDocs(collection(db, 'bugReports'));
   const list: BugReportItem[] = snap.docs.map((d) => {
     const data = d.data();
@@ -79,7 +93,9 @@ export async function fetchBugReports(): Promise<BugReportItem[]> {
       createdAtMs: toMillis(data.createdAt ?? data.created_at),
     };
   });
-  return list.sort((a, b) => b.createdAtMs - a.createdAtMs).slice(0, 50);
+  const sorted = list.sort((a, b) => b.createdAtMs - a.createdAtMs).slice(0, 50);
+  bugsCache = { data: sorted, fetchedAt: Date.now() };
+  return sorted;
 }
 
 export async function submitBugReport(
@@ -96,9 +112,11 @@ export async function submitBugReport(
     status: 'open',
     createdAt: serverTimestamp(),
   });
+  bugsCache = null;
 }
 
 export async function deleteBugReport(id: string): Promise<void> {
   if (!isFirebaseConfigured || !db) throw new Error('FIREBASE_NOT_CONFIGURED');
   await deleteDoc(doc(db, 'bugReports', id));
+  bugsCache = null;
 }

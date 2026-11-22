@@ -22,10 +22,9 @@ import {
   checkAndUnlockAchievements,
   loadStats,
   recordTournamentWin,
-  setStatsUser,
-  syncStatsWithCloud,
 } from '../storage/achievements';
-import { addToCollection, loadCollection, setCollectionUser, syncCollectionWithCloud } from '../storage/collection';
+import { clearCloudSyncUser, flushCloudSync, syncUserDataOnLogin } from '../storage/cloudSync';
+import { addToCollection, loadCollection } from '../storage/collection';
 import type { GameState } from '../types';
 import { renderAchievements, type AchievementFilter } from './achievementView';
 import { renderBugReports, renderNotices } from './boardView';
@@ -146,15 +145,14 @@ export class App {
 
   private async onAuthChanged(user: AuthUser | null): Promise<void> {
     this.user = user;
-    setCollectionUser(user?.uid ?? null);
-    setStatsUser(user?.uid ?? null);
     if (user) {
       try {
-        const mergedOwned = await syncCollectionWithCloud(user.uid);
-        await syncStatsWithCloud(user.uid, mergedOwned);
+        await syncUserDataOnLogin(user.uid);
       } catch (err) {
         console.warn('[auth] 클라우드 도감 동기화 실패', err);
       }
+    } else {
+      await clearCloudSyncUser();
     }
     if (
       this.screen === 'home' ||
@@ -389,17 +387,17 @@ export class App {
         break;
       case 'notices':
         this.go('notices');
-        await this.loadNotices();
+        await this.loadNotices(false);
         break;
       case 'notices-refresh':
-        await this.loadNotices();
+        await this.loadNotices(true);
         break;
       case 'bugs':
         this.go('bugs');
-        await this.loadBugReports();
+        await this.loadBugReports(false);
         break;
       case 'bugs-refresh':
-        await this.loadBugReports();
+        await this.loadBugReports(true);
         break;
       case 'bug-delete':
         if (el.dataset.id) await this.handleDeleteBug(el.dataset.id);
@@ -442,12 +440,12 @@ export class App {
     }
   }
 
-  private async loadNotices(): Promise<void> {
+  private async loadNotices(force = false): Promise<void> {
     this.noticesLoading = true;
     this.noticesError = null;
     if (this.screen === 'notices') this.render();
     try {
-      this.notices = await fetchNotices();
+      this.notices = await fetchNotices(force);
     } catch (err) {
       console.error('[notices] 로드 실패', err);
       this.noticesError = '공지사항을 불러오지 못했습니다. Firestore 규칙을 확인해주세요.';
@@ -457,12 +455,12 @@ export class App {
     }
   }
 
-  private async loadBugReports(): Promise<void> {
+  private async loadBugReports(force = false): Promise<void> {
     this.bugsLoading = true;
     this.bugsError = null;
     if (this.screen === 'bugs') this.render();
     try {
-      this.bugReports = await fetchBugReports();
+      this.bugReports = await fetchBugReports(force);
     } catch (err) {
       console.error('[bugs] 로드 실패', err);
       this.bugsError = '버그 제보 목록을 불러오지 못했습니다. Firestore 규칙을 확인해주세요.';
@@ -533,6 +531,7 @@ export class App {
     this.authBusy = true;
     if (this.screen === 'home') this.render();
     try {
+      await flushCloudSync();
       await signOutUser();
     } finally {
       this.authBusy = false;

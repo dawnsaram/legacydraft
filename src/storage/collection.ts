@@ -1,15 +1,8 @@
-import { arrayUnion, doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
-import { db } from '../firebase/client';
+import { scheduleCardSync } from './cloudSync';
 
 const STORAGE_KEY = 'legacydraft:collection:v1';
 
-let activeUid: string | null = null;
-
-export function setCollectionUser(uid: string | null): void {
-  activeUid = uid;
-}
-
-function saveLocalCollection(owned: ReadonlySet<string>): void {
+export function saveLocalCollection(owned: ReadonlySet<string>): void {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify([...owned]));
   } catch (e) {
@@ -29,61 +22,15 @@ export function loadCollection(): Set<string> {
   }
 }
 
-/** 새로 해금된 id 목록을 반환 (로그인 중이면 Firestore에도 비동기 동기화) */
+/** 새로 해금된 id 목록을 반환 (로컬 즉시 저장 + Firestore 배치 동기화 예약) */
 export function addToCollection(ids: readonly string[]): string[] {
   const owned = loadCollection();
   const added = ids.filter((id) => !owned.has(id));
   if (added.length === 0) return [];
   added.forEach((id) => owned.add(id));
   saveLocalCollection(owned);
-
-  if (activeUid && db) {
-    const userRef = doc(db, 'users', activeUid);
-    void setDoc(
-      userRef,
-      {
-        ownedCardIds: arrayUnion(...added),
-        updatedAt: serverTimestamp(),
-      },
-      { merge: true },
-    ).catch((e) => {
-      console.warn('[collection] Firestore 동기화 실패', e);
-    });
-  }
-
+  scheduleCardSync(added);
   return added;
-}
-
-/** 로그인 시 로컬 도감과 Firestore 도감을 병합 */
-export async function syncCollectionWithCloud(uid: string): Promise<Set<string>> {
-  activeUid = uid;
-  const local = loadCollection();
-  if (!db) return local;
-
-  const userRef = doc(db, 'users', uid);
-  const snap = await getDoc(userRef);
-  const remoteRaw = snap.exists() ? snap.data()?.ownedCardIds : undefined;
-  const remote = Array.isArray(remoteRaw)
-    ? remoteRaw.filter((v): v is string => typeof v === 'string')
-    : [];
-
-  const merged = new Set<string>([...remote, ...local]);
-  saveLocalCollection(merged);
-
-  const remoteSet = new Set(remote);
-  const needsUpload = [...local].some((id) => !remoteSet.has(id));
-  if (!snap.exists() || needsUpload) {
-    await setDoc(
-      userRef,
-      {
-        ownedCardIds: [...merged],
-        updatedAt: serverTimestamp(),
-      },
-      { merge: true },
-    );
-  }
-
-  return merged;
 }
 
 export function resetCollection(): void {
